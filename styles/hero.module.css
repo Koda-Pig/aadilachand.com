@@ -2,8 +2,14 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  place-content: start center;
+  place-items: center;
+  justify-content: center;
   background: url(../public/background.png) center center / cover no-repeat;
+}
+
+.heroText {
+  max-width: 1140px;
+  width: 100%;
 }
 
 .heading {

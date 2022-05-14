@@ -46,36 +46,32 @@ export default function Navbar() {
           hamburgerOpen ? style.open : style.closed
         }`}
       >
-        <Link href="/" passHref>
-          <a className={style.link} onClick={toggleHamburger}>
-            <span className={style.emoji}>🏠</span> Home
-          </a>
-        </Link>
-        <Link href="#weather-app" passHref>
-          <a className={style.link} onClick={toggleHamburger}>
-            <span className={style.emoji}>⛅</span> Weather App
-          </a>
-        </Link>
-        <Link href="#audio-visualiser" passHref>
-          <a className={style.link} onClick={toggleHamburger}>
-            <span className={style.emoji}>🎵</span> Audio Visualiser
-          </a>
-        </Link>
-        <Link href="#when-pigs-fly" passHref>
-          <a className={style.link} onClick={toggleHamburger}>
-            <span className={style.emoji}>🐷</span> When Pigs Fly
-          </a>
-        </Link>
-        <Link href="#knight-of-cups" passHref>
-          <a className={style.link} onClick={toggleHamburger}>
-            <span className={style.emoji}>☕</span> Knight of Cups
-          </a>
-        </Link>
-        <Link href="#contact" passHref>
-          <a className={style.callToAction} onClick={toggleHamburger}>
-            Contact
-          </a>
-        </Link>
+        <div className={style.innerNav}>
+          <div className={style.home}>
+            <Link href="#home" passHref>
+              <a className={style.link} onClick={toggleHamburger}>
+                home
+              </a>
+            </Link>
+          </div>
+          <div className={style.menu}>
+            <Link href="#work" passHref>
+              <a className={style.link} onClick={toggleHamburger}>
+                work
+              </a>
+            </Link>
+            <Link href="#about" passHref>
+              <a className={style.link} onClick={toggleHamburger}>
+                about
+              </a>
+            </Link>
+            <Link href="#contact" passHref>
+              <a className={style.link} onClick={toggleHamburger}>
+                contact
+              </a>
+            </Link>
+          </div>
+        </div>
       </nav>
     </>
   )

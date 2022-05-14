@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
+import Work from '../components/Work'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>aadila chand - multidisciplinary artist</title>
         <meta
@@ -14,8 +14,10 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Hero />
-    </div>
+      <div className={styles.container}>
+        <Hero className={styles.page} />
+        <Work className={styles.page} />
+      </div>
+    </>
   )
 }

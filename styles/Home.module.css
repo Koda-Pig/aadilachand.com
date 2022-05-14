@@ -1,0 +1,11 @@
+.container {
+  /* this isn't working */
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.container > div {
+  scroll-snap-align: center;
+}

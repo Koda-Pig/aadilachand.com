@@ -22,6 +22,21 @@ a {
   text-decoration: none;
 }
 
-* {
+html,
+body {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #2d333b;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #848484;
+  border-radius: 20px;
 }
