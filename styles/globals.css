@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+:root {
+  --dark: #181a1d;
+  --light: #696666;
+  --lightest: #848484;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  /* for Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--lightest) var(--dark);
 }
 
 h1,
@@ -22,21 +31,16 @@ a {
   text-decoration: none;
 }
 
-html,
-body {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
 *::-webkit-scrollbar {
   width: 12px;
 }
 
 *::-webkit-scrollbar-track {
-  background: #2d333b;
+  background: var(--lightest);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #848484;
+  background-color: var(--dark);
   border-radius: 20px;
+  border: 1px solid rgb(102, 102, 102);
 }
