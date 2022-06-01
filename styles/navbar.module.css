@@ -8,12 +8,13 @@
 }
 
 .innerNav {
-  width: 1512px;
+  width: 1460px;
   max-width: 100vw;
   display: flex;
   justify-content: space-between;
+  margin-top: 6rem;
   align-items: center;
-  height: 80px;
+  vertical-align: TOP;
 }
 
 .link {
@@ -21,10 +22,31 @@
   margin: 0 1rem;
   padding: 0 1rem;
   transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+  border: 45px solid transparent;
+  border-width: 45px 45px 0 0;
+  padding: 15px;
+  border-image: url(../public/star.png) 45 stretch;
+  border-offset: 200px;
 }
 
 .link:hover {
   transform: scale(1.2);
+}
+
+/* .link::after {
+  content: '';
+  background: url(../public/star.png) no-repeat center;
+  width: 32px;
+  height: 45px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -40px;
+  margin-left: -50px;
+} */
+
+.homelink {
+  font-family: 'Rosie Brown', serif;
+  font-size: 3rem;
 }
 
 .hamburger {

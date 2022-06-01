@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+@font-face {
+  font-family: 'Rosie Brown';
+  src: url(./fonts/Rosiebrown.woff2) format('woff2'),
+    url(./fonts/Rosiebrown.woff) format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --dark: #181a1d;
   --light: #696666;
@@ -23,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Bellefair', serif;
+  font-family: 'Rosie Brown', serif;
 }
 
 a {

@@ -4,21 +4,23 @@
   flex-direction: column;
   place-items: center;
   justify-content: center;
-  background: url(../public/background.png) center center / cover no-repeat;
+  background: url(../public/background-home.png) center center / cover no-repeat;
 }
 
 .heroText {
   max-width: 1140px;
   width: 100%;
+  text-align: center;
 }
 
 .heading {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 400;
+  margin-bottom: 24px;
 }
 
 .subheading {
-  font-family: Poppins, sans-serif;
+  font-family: 'Bellefair', sans-serif;
   font-size: 2.25rem;
   font-weight: 400;
 }
