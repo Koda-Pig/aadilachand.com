@@ -12,41 +12,36 @@
   max-width: 100vw;
   display: flex;
   justify-content: space-between;
-  margin-top: 6rem;
+  margin-top: 3.625rem;
   align-items: center;
-  vertical-align: TOP;
+  vertical-align: top;
 }
 
 .link {
   font-size: 1.5rem;
   margin: 0 1rem;
   padding: 0 1rem;
-  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
-  border: 45px solid transparent;
-  border-width: 45px 45px 0 0;
-  padding: 15px;
-  border-image: url(../public/star.png) 45 stretch;
-  border-offset: 200px;
+  transition: color 0.2s ease-in-out;
 }
 
 .link:hover {
-  transform: scale(1.2);
+  color: #5e5b50;
 }
 
-/* .link::after {
+.homelink {
+  font-family: 'Cigra', serif;
+  font-size: 3.5rem;
+}
+
+.homelink::after {
   content: '';
   background: url(../public/star.png) no-repeat center;
-  width: 32px;
+  background-size: contain;
+  width: 22px;
   height: 45px;
-  display: inline-block;
   position: fixed;
-  margin-top: -40px;
-  margin-left: -50px;
-} */
-
-.homelink {
-  font-family: 'Rosie Brown', serif;
-  font-size: 3rem;
+  margin-top: -10px;
+  margin-left: -36px;
 }
 
 .hamburger {

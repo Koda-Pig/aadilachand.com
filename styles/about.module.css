@@ -1,0 +1,45 @@
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  background: url(../public/background-about.png) center center / cover
+    no-repeat;
+}
+
+.container {
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  place-content: center;
+  gap: 2.5rem;
+}
+
+.section h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: 'Bellefair', sans-serif;
+  width: 420px;
+  line-height: 8.6rem;
+  height: 123px;
+  margin-bottom: 4rem;
+  background: url(../public/about-decor.png) no-repeat left center;
+}
+
+.section h2::before {
+  content: '';
+  display: inline-block;
+  width: 2rem;
+}
+
+.section p {
+  line-height: 36px;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.link {
+  font-size: 1.5rem;
+  color: #464237;
+}

@@ -4,25 +4,21 @@
   flex-direction: column;
   place-items: center;
   justify-content: center;
-  z-index: -5;
-  background: url(../public/work-bg.png) center center / cover no-repeat;
-  backdrop-filter: blur(0.1rem);
-  -webkit-backdrop-filter: blur(0.1rem);
+  background: url(../public/background.png) center center / cover no-repeat;
 }
 
-.work::before {
+/* .work::before {
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
   background: inherit;
   z-index: -1;
-
   filter: blur(0.1rem);
   -moz-filter: blur(0.1rem);
   -webkit-filter: blur(0.1rem);
   -o-filter: blur(0.1rem);
-}
+} */
 
 .container {
   max-width: 1340px;
@@ -39,17 +35,6 @@
 .section h2 {
   font-size: 3rem;
   font-weight: 400;
-  font-family: Poppins, sans-serif;
+  font-family: 'Bellefair', sans-serif;
   margin-top: 2rem;
-}
-
-.heading {
-  font-size: 6rem;
-  font-weight: 400;
-}
-
-.subheading {
-  font-family: Poppins, sans-serif;
-  font-size: 2.25rem;
-  font-weight: 400;
 }

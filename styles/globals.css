@@ -8,6 +8,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Cigra';
+  src: url(./fonts/Cigra.woff2) format('woff2'),
+    url(./fonts/Cigra.woff) format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --dark: #181a1d;
   --light: #696666;
@@ -31,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rosie Brown', serif;
+  font-family: 'Cigra', serif;
 }
 
 a {
