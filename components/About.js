@@ -14,9 +14,9 @@ export default function About() {
           <p>
             given that everything we interactact with seeps into our subconcous
             and ripples outwards into other aspects of our life, it is important
-            to consider the natural world within a digital frame.
+            to consider the natural world within a digital frame.&nbsp;
             <Link href="#" passHref>
-              <a className={style.link}> read more</a>
+              <a className={style.link}>read more</a>
             </Link>
           </p>
         </section>

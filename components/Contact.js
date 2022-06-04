@@ -11,24 +11,16 @@ export default function Contact() {
       <div className={style.container}>
         <section className={style.imageOverlap}>
           <div className={style.illustration}>
-            <Image
-              src={illustrationCircle}
-              alt="ADD DESCRIPTION"
-              className={style.img}
-            />
+            <Image src={illustrationCircle} alt="ADD DESCRIPTION" />
           </div>
           <div className={style.profile}>
-            <Image
-              src={profilePic}
-              alt="ADD DESCRIPTION"
-              className={style.img}
-            />
+            <Image src={profilePic} alt="ADD DESCRIPTION" />
           </div>
           <div className={style.resumeTxt}>
             <Image
               src={resumeTxt}
               alt="ADD DESCRIPTION"
-              className={style.img}
+              className={style.resumeTxtImg}
             />
           </div>
         </section>
@@ -40,7 +32,7 @@ export default function Contact() {
             my approach is a minimalist intergration of styles
           </p>
           <Link href="#" passHref>
-            <a className={style.callToAction}> get in touch</a>
+            <a className={style.callToAction}>get in touch</a>
           </Link>
         </section>
       </div>

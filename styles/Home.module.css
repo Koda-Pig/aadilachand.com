@@ -1,8 +1,8 @@
 .container {
   height: 100vh;
   overflow: auto;
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 .container > div {

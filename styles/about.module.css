@@ -9,28 +9,28 @@
 }
 
 .container {
-  max-width: 540px;
   width: 100%;
-  display: flex;
-  place-content: center;
   gap: 2.5rem;
+  display: flex;
+  max-width: 540px;
+  place-content: center;
 }
 
 .section h2 {
+  width: 420px;
+  height: 123px;
   font-size: 3rem;
   font-weight: 400;
-  font-family: 'Bellefair', sans-serif;
-  width: 420px;
   line-height: 8.6rem;
-  height: 123px;
   margin-bottom: 4rem;
+  font-family: 'Bellefair', sans-serif;
   background: url(../public/about-decor.png) no-repeat left center;
 }
 
 .section h2::before {
   content: '';
-  display: inline-block;
   width: 2rem;
+  display: inline-block;
 }
 
 .section p {
@@ -40,6 +40,7 @@
 }
 
 .link {
-  font-size: 1.5rem;
   color: #464237;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }

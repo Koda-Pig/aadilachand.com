@@ -1,23 +1,23 @@
 .contact {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   place-items: center;
+  flex-direction: column;
   justify-content: center;
   background: url(../public/background.png) center center / cover no-repeat;
 }
 
 .container {
-  max-width: 1200px;
   width: 100%;
   display: flex;
-  place-content: center;
   gap: 3.875rem;
+  max-width: 1200px;
+  place-content: center;
 }
 
 .imageOverlap {
-  max-width: 650px;
   display: grid;
+  max-width: 650px;
   grid-template-rows: 177px 264px 116px 13px;
   grid-template-columns: 227px 43px 77px 94px 209px;
 }
@@ -36,7 +36,26 @@
   grid-row: 3 / 5;
   grid-column: 2 / 4;
 }
+/* rotate 90deg */
+.resumeTxtImg {
+  cursor: pointer;
+  transition: filter 0.2s ease;
+  filter: drop-shadow(0px 0px 0px #fffb);
+  animation: rotation 10s infinite linear;
+}
 
+.resumeTxtImg:hover {
+  filter: drop-shadow(0px 0px 3px #fffb);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
 .connect {
   margin: auto 0;
 }
@@ -44,8 +63,8 @@
 .connect h2 {
   font-size: 3rem;
   font-weight: 400;
-  font-family: 'Bellefair', sans-serif;
   margin-bottom: 2.5rem;
+  font-family: 'Bellefair', sans-serif;
 }
 
 .connect p {
@@ -57,11 +76,11 @@
 .callToAction {
   font-size: 2rem;
   color: #000;
-  background: #ffffff66;
   border-radius: 3rem;
   padding: 0.875rem 2rem;
-  transition: background-color 0.2s ease-in-out;
+  background: #ffffff66;
   font-family: 'Bellefair', sans-serif;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .callToAction:hover {

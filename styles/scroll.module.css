@@ -1,11 +1,11 @@
 .scrollIcon {
-  color: var(--lightest);
-  position: fixed;
-  bottom: 0;
   right: 0;
+  bottom: 0;
+  position: fixed;
   font-size: 2rem;
-  margin: 0.8rem 1.4rem;
   cursor: pointer;
+  margin: 0.8rem 1.4rem;
+  color: var(--lightest);
   transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out,
     transform 0.25s cubic-bezier(0.76, 0.45, 0.19, 1.78);
 }
@@ -16,11 +16,11 @@
 }
 
 .visible {
-  transform: translateY(0);
   opacity: 1;
+  transform: translateY(0);
 }
 
 .invisible {
-  transform: translateY(69px);
   opacity: 0;
+  transform: translateY(69px);
 }
