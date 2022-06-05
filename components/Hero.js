@@ -5,11 +5,12 @@ import Image from 'next/image'
 import star from '../public/star.png'
 
 export default function Hero(elem) {
-  const [isVisible, setVisible] = useState(false)
+  const [isVisible, setVisible] = useState(true)
 
   const toggleVisbility = () => {
-    if (elem.element.current.scrollTop < 50) setVisible(true)
-    else setVisible(false)
+    console.log(elem.element.current.scrollTop)
+    if (elem.element.current.scrollTop > 50) setVisible(false)
+    else setVisible(true)
   }
 
   useEffect(() => {
@@ -19,7 +20,7 @@ export default function Hero(elem) {
     }
   })
 
-  const scrollToTop = () => {
+  const scrollDown = () => {
     elem.element.current.scrollTo({
       top: 500,
       behavior: 'smooth',
@@ -36,7 +37,7 @@ export default function Hero(elem) {
         <h2 className={style.subheading}>conceptual design</h2>
       </div>
       <BsChevronDown
-        onClick={scrollToTop}
+        onClick={scrollDown}
         className={`${style.chevron} ${
           isVisible ? style.visible : style.invisible
         }`}

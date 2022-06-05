@@ -61,8 +61,8 @@
     height: 100%;
     text-align: center;
     align-items: start;
-    backdrop-filter: blur(0.6rem);
     -webkit-backdrop-filter: blur(0.6rem);
+    backdrop-filter: blur(0.6rem);
     background-color: rgb(228 228 228 / 15%);
     transition: transform 0.35s cubic-bezier(1, -0.23, 0.54, 0.61);
   }
