@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Fira';
-  src: local('Fira'), url(./fonts/Fira.ttf) format('truetype');
+  src: local('Fira'), url(../public/fonts/Fira.ttf) format('truetype');
   font-style: normal;
   font-display: swap;
 }
