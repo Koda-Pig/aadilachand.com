@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: 'Rosie Brown';
-  src: url(./fonts/Rosiebrown.woff2) format('woff2'),
-    url(./fonts/Rosiebrown.woff) format('woff');
+  src: url(../public/fonts/Rosiebrown.woff2) format('woff2'),
+    url(../public/fonts/Rosiebrown.woff) format('woff');
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Cigra';
-  src: url(./fonts/Cigra.woff2) format('woff2'),
-    url(./fonts/Cigra.woff) format('woff');
+  src: url(../public/fonts/Cigra.woff2) format('woff2'),
+    url(../public/fonts/Cigra.woff) format('woff');
   font-style: normal;
   font-display: swap;
 }
@@ -42,8 +42,17 @@ h6 {
   font-family: 'Cigra', serif;
 }
 
+h2 {
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 a {
   color: inherit;
+  font-size: 2.25rem;
   text-decoration: none;
 }
 

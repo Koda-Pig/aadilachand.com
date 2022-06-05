@@ -9,13 +9,7 @@ export default function Work() {
     <div className={style.work} id="work">
       <div className={style.container}>
         <section className={style.section}>
-          <Image
-            src={uiCircle}
-            alt="ADD DESCRIPTION"
-            className={style.img}
-            width={420}
-            height={420}
-          />
+          <Image src={uiCircle} alt="ADD DESCRIPTION" className={style.img} />
           <h2>projects</h2>
         </section>
         <section className={style.section}>
@@ -23,8 +17,6 @@ export default function Work() {
             src={illustrationCircle}
             alt="ADD DESCRIPTION"
             className={style.img}
-            width={420}
-            height={420}
           />
           <h2>ui library</h2>
         </section>
@@ -33,8 +25,6 @@ export default function Work() {
             src={fineArtCircle}
             alt="ADD DESCRIPTION"
             className={style.img}
-            width={420}
-            height={420}
           />
           <h2>art</h2>
         </section>

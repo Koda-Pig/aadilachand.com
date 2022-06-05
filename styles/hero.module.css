@@ -14,23 +14,27 @@
 }
 
 .heading {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 400;
-  margin-bottom: 24px;
+  margin-bottom: 0.3rem;
+}
+
+.star {
+  margin-bottom: -2rem;
+  display: block;
 }
 
 .subheading {
   font-weight: 400;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-family: 'Bellefair', sans-serif;
 }
 
 .chevron {
   opacity: 1;
-  bottom: 2rem;
-  z-index: 30000;
+  bottom: 8rem;
   cursor: pointer;
-  font-size: 1.6rem;
+  font-size: 2rem;
   position: absolute;
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
