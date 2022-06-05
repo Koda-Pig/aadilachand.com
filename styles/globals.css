@@ -11,7 +11,8 @@
 }
 
 :root {
-  --dark: #181a1d;
+  --dark: #222;
+  --darker: #464237;
   --light: #696666;
   --lightest: #848484;
 }
@@ -34,6 +35,7 @@ h4,
 h5,
 h6 {
   font-family: 'Cigra', serif;
+  color: var(--dark);
 }
 
 h2 {
@@ -42,6 +44,8 @@ h2 {
 
 p {
   font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--dark);
 }
 
 a {

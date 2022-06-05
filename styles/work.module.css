@@ -11,15 +11,10 @@
   width: 100%;
   gap: 2.5rem;
   display: flex;
-  max-width: 1340px;
+  padding: 0 5rem;
+  max-width: 1176px;
   align-items: center;
   place-content: center;
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
 }
 
 .section {
@@ -31,4 +26,16 @@
   margin-top: 2rem;
   text-align: center;
   font-family: 'Bellefair', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .section {
+    max-width: 50vw;
+  }
+  .section h2 {
+    margin-top: 0.1rem;
+  }
 }

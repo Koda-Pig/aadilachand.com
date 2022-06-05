@@ -1,10 +1,15 @@
 .container {
   height: 100vh;
   overflow: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
 }
 
-.container > div {
-  scroll-snap-align: center;
+@media (min-width: 1000px) {
+  .container {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+
+  .container > div {
+    scroll-snap-align: center;
+  }
 }

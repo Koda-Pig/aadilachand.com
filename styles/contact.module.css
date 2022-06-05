@@ -11,30 +11,27 @@
   width: 100%;
   display: flex;
   gap: 3.875rem;
+  padding: 0 5rem;
   max-width: 1200px;
   place-content: center;
+  background: url(../public/stars.png) no-repeat center center;
+  background-size: 15rem 8rem;
+  background-position: 71% 10%;
 }
 
 .imageOverlap {
   display: grid;
-  max-width: 650px;
-  grid-template-rows: 177px 264px 116px 13px;
-  grid-template-columns: 227px 43px 77px 94px 209px;
+  width: 50vw;
+  align-content: center;
 }
 
-.illustration {
-  grid-row: 1 / 3;
-  grid-column: 1 / 5;
-}
-
-.profile {
-  grid-row: 2 / 4;
-  grid-column: 3 / 6;
+.aboutImgs {
+  width: 650px;
+  max-width: 50vw;
 }
 
 .resumeTxt {
-  grid-row: 3 / 5;
-  grid-column: 2 / 4;
+  margin: -20% 35%;
 }
 
 .resumeTxtImg {
@@ -48,6 +45,11 @@
   filter: drop-shadow(0px 0px 3px #fffb);
 }
 
+.img,
+.resumeTxtImg {
+  max-width: 100px;
+}
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -58,6 +60,7 @@
 }
 .connect {
   margin: auto 0;
+  width: 50vw;
 }
 
 .connect h2 {
@@ -72,8 +75,8 @@
 }
 
 .callToAction {
-  font-size: 1.6rem;
-  color: #000;
+  font-size: 1.4rem;
+  color: var(--darker);
   border-radius: 3rem;
   padding: 0.875rem 2rem;
   background: #ffffff66;
@@ -83,4 +86,16 @@
 
 .callToAction:hover {
   background: #ffffffa8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imageOverlap {
+    width: 90vw;
+  }
 }

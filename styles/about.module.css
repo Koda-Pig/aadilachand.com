@@ -40,7 +40,7 @@
 }
 
 .link {
-  color: #464237;
+  color: var(--darker);
   font-size: 1.2rem;
   text-decoration: underline;
 }
