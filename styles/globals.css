@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: 'Cigra';
-  src: url(../public/fonts/Cigra.ttf) format('truetype'),
-    url(../public/fonts/Cigra.woff2) format('woff2'),
-    url(../public/fonts/Cigra.woff) format('woff');
+  src: url(/public/fonts/Cigra.ttf) format('truetype'),
+    url(/public/fonts/Cigra.woff2) format('woff2'),
+    url(/public/fonts/Cigra.woff) format('woff');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Fira';
-  src: local('Fira'), url(../public/fonts/Fira.ttf) format('truetype');
+  src: local('Fira'), url(/public/fonts/Fira.ttf) format('truetype');
   font-style: normal;
   font-display: swap;
 }
