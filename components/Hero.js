@@ -8,7 +8,6 @@ export default function Hero(elem) {
   const [isVisible, setVisible] = useState(true)
 
   const toggleVisbility = () => {
-    console.log(elem.element.current.scrollTop)
     if (elem.element.current.scrollTop > 50) setVisible(false)
     else setVisible(true)
   }
