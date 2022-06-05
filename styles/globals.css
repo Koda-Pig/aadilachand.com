@@ -1,18 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 @font-face {
-  font-family: 'Rosie Brown';
-  src: url(../public/fonts/Rosiebrown.woff2) format('woff2'),
-    url(../public/fonts/Rosiebrown.woff) format('woff');
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Cigra';
-  src: url(../public/fonts/Cigra.woff2) format('woff2'),
-    url(../public/fonts/Cigra.woff) format('woff'),
-    url(../public/fonts/Cigra.ttf) format('ttf');
+  src: url(../public/fonts/Cigra.ttf) format('ttf'),
+    url(../public/fonts/Cigra.woff2) format('woff2'),
+    url(../public/fonts/Cigra.woff) format('woff');
   font-style: normal;
   font-display: swap;
 }
