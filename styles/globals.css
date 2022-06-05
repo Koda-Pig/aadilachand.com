@@ -1,21 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-@font-face {
-  font-family: 'Cigra';
-  src: url(/public/fonts/Cigra.ttf) format('truetype'),
-    url(/public/fonts/Cigra.woff2) format('woff2'),
-    url(/public/fonts/Cigra.woff) format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira';
-  src: local('Fira'), url(/public/fonts/Fira.ttf) format('truetype');
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --dark: #181a1d;
   --light: #696666;
@@ -39,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Fira', serif;
+  font-family: 'Cigra', serif;
 }
 
 h2 {

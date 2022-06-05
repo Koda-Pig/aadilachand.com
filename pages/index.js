@@ -18,6 +18,7 @@ export default function Home() {
           content="aadila chand | multidisciplinary artist"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link href="./public/fonts/fonts.css" rel="stylesheet" />
       </Head>
       <div className={styles.container} ref={container}>
         <Hero element={container} />
