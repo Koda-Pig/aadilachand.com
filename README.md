@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -12,23 +10,46 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Time used
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+  ~ 28 hours total
 
-## Learn More
+  ~ 6 hours building structure and adding basic styles
 
-To learn more about Next.js, take a look at the following resources:
+  ~ 7 hours getting design as pixel perfect as possible
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  ~ 3 hours rebuilding video controls
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  ~ 3 hours fighting bootstrap
 
-## Deploy on Vercel
+  ~ 3 hours adding animations to components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  ~ 3 hours reading docs, stack overflow posts, or otherwise researching how to use various components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  ~ 3 hours adjusting styling and layout for screen sizes inbetween the provided desktop and mobile style guides. 
+____________________________________________________________________________
+
+## Bugs, issues and ommited
+
+  Font weights - could not find a fully variable font, so I was not able to make smaller adjustments to font weight (only bold or normal, not 100 - 900 values).
+
+  Struggled with Bootstrap - ended up not using it much as it was taking me too long. Things that hindered me were the innacuracy of the positioning, margin, and padding, and also that some components (eg: scroll to top btn) were not working.
+
+  Took a while to rebuild the video player controls and style them - could do with more work. For eg: Volume control is not fully implemented, only mute and unmute.
+
+  What threw me off, is sometimes things looked different to how they were actually listed in the css that the guide provides. Eg: the tags 'basic skills' 'coaching' etc, look transparent or gray in color, but are defined as solid white in the style guide.
+
+  The snapshots section on mobile - are these suppose to be swiped to the side? Wasn't sure, so I stacked them vertically.
+
+  On the menu slide animation, I omitted the having the whole page content slide to the left, as the menu slides in from the right. I simply ran out of time to do this.
+
+  # re the design guide:
+
+    Curious about so many floating point values in project design css (eg: margin: 24.4px), is that intended?
+
+    The letter spacing is listed as 0 (same as 'normal') in a lot of places (eg on the price) but it defintely looks more like 1px. I left it as it is listed in the guide. Am I mistaken here?
+    
+    "Available as snapshot" button/ tag component - it's just an image in the guide, no fontsize listed.
+    
+    On video, on mobile layout - "Watch a trailer" text is gray and basically invisbile. Is this intentional? (I left it out).
