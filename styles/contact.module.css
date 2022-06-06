@@ -4,7 +4,7 @@
   place-items: center;
   flex-direction: column;
   justify-content: center;
-  background: url(../public/background.png) center center / cover no-repeat;
+  background: url(/background.png) center center / cover no-repeat;
 }
 
 .container {
@@ -14,24 +14,24 @@
   padding: 0 5rem;
   max-width: 1200px;
   place-content: center;
-  background: url(../public/stars.png) no-repeat center center;
+  background: url(/stars.png) no-repeat center center;
   background-size: 15rem 8rem;
-  background-position: 71% 10%;
+  background-position: 62% 28%;
 }
 
 .imageOverlap {
   display: grid;
-  width: 50vw;
+  max-width: 487px;
+
   align-content: center;
 }
 
 .aboutImgs {
-  width: 650px;
-  max-width: 50vw;
+  max-width: 100%;
 }
 
 .resumeTxt {
-  margin: -20% 35%;
+  margin: -32% 25%;
 }
 
 .resumeTxtImg {
@@ -59,26 +59,27 @@
   }
 }
 .connect {
-  margin: auto 0;
+  margin: auto 0 0 0;
   width: 50vw;
 }
 
 .connect h2 {
   font-weight: 400;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   font-family: 'Bellefair', sans-serif;
 }
 
 .connect p {
-  line-height: 36px;
+  line-height: normal;
   margin-bottom: 2.875rem;
 }
 
 .callToAction {
-  font-size: 1.4rem;
-  color: var(--darker);
+  font-size: 1.25rem;
   border-radius: 3rem;
-  padding: 0.875rem 2rem;
+  color: var(--darker);
+  display: inline-block;
+  padding: 1.25rem 3.8rem;
   background: #ffffff66;
   font-family: 'Bellefair', sans-serif;
   transition: background-color 0.2s ease-in-out;

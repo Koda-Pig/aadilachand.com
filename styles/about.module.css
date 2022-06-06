@@ -4,8 +4,7 @@
   flex-direction: column;
   place-items: center;
   justify-content: center;
-  background: url(../public/background-about.png) center center / cover
-    no-repeat;
+  background: url(/background-about.png) center center / cover no-repeat;
 }
 
 .container {
@@ -24,7 +23,7 @@
   margin-bottom: 4rem;
   line-height: 8.6rem;
   font-family: 'Bellefair', sans-serif;
-  background: url(../public/about-decor.png) no-repeat left center;
+  background: url(/about-decor.png) no-repeat left center;
 }
 
 .section h2::before {
@@ -34,7 +33,7 @@
 }
 
 .section p {
-  line-height: 36px;
+  line-height: normal;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
