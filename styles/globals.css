@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: 'Cigra';
-  src: url(../public/fonts/Cigra.ttf) format('truetype'),
-    url(../public/fonts/Cigra.woff) format('woff'),
-    url(../public/fonts/Cigra.woff2) format('woff2');
+  src: url(/fonts/Cigra.ttf) format('truetype'),
+    url(/fonts/Cigra.woff) format('woff'),
+    url(/fonts/Cigra.woff2) format('woff2');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
