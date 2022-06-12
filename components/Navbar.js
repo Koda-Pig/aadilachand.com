@@ -12,6 +12,7 @@ export default function Navbar(elem) {
     setHamburgerOpen(!hamburgerOpen)
   }
 
+  // hardcoded values should be replaced with the top offset of the SECTIONS. Not the main container.
   const toggleVisbility = () => {
     const element = elem.element.current.scrollTop
     if (element > 500 && element < 1500) setVisible(() => ['work'])
@@ -20,6 +21,7 @@ export default function Navbar(elem) {
     else setVisible(() => [])
   }
 
+  // move togglevis function inside of useeffect.
   useEffect(() => {
     elem.element.current.addEventListener('scroll', toggleVisbility)
     return () => {
