@@ -1,33 +1,17 @@
 import Link from 'next/link'
-import style from '../styles/navbar.module.css'
-import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import star from '../public/star.png'
+import style from '../styles/navbar.module.css'
+import { menuContext } from './menuContext'
+import { useState, useContext } from 'react'
 
-export default function Navbar(elem) {
+export default function Navbar() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
-  const [isVisible, setVisible] = useState([])
+  const { currentSection } = useContext(menuContext)
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen)
   }
-
-  // hardcoded values should be replaced with the top offset of the SECTIONS. Not the main container.
-  const toggleVisbility = () => {
-    const element = elem.element.current.scrollTop
-    if (element > 500 && element < 1500) setVisible(() => ['work'])
-    else if (element > 1500 && element < 2000) setVisible(() => ['about'])
-    else if (element > 2000) setVisible(() => ['contact'])
-    else setVisible(() => [])
-  }
-
-  // move togglevis function inside of useeffect.
-  useEffect(() => {
-    elem.element.current.addEventListener('scroll', toggleVisbility)
-    return () => {
-      elem.element.current.removeEventListener('scroll', toggleVisbility)
-    }
-  })
 
   return (
     <>
@@ -69,7 +53,9 @@ export default function Navbar(elem) {
                 width={20}
                 height={31}
                 className={`${style.star} ${
-                  isVisible.includes('work') ? style.visible : style.invisible
+                  currentSection.includes('work')
+                    ? style.visible
+                    : style.invisible
                 }`}
                 alt="star"
               />
@@ -89,7 +75,9 @@ export default function Navbar(elem) {
                 width={20}
                 height={31}
                 className={`${style.star} ${
-                  isVisible.includes('about') ? style.visible : style.invisible
+                  currentSection.includes('about')
+                    ? style.visible
+                    : style.invisible
                 }`}
                 alt="star"
               />
@@ -106,7 +94,7 @@ export default function Navbar(elem) {
                 width={20}
                 height={31}
                 className={`${style.star} ${
-                  isVisible.includes('contact')
+                  currentSection.includes('contact')
                     ? style.visible
                     : style.invisible
                 }`}
