@@ -1,30 +1,9 @@
 import style from '../styles/about.module.css'
 import Link from 'next/link'
-import { useRef, useEffect, useContext } from 'react'
-import { MenuContext } from './MenuContext'
 
-export default function About(elem) {
-  const container = useRef(null)
-  const { currentSection, setCurrentSection } = useContext(MenuContext)
-
-  const setCurrent = () => {
-    // console.log(container.current.getBoundingClientRect().top)
-    // console.log(currentSection)
-
-    if (container.current.getBoundingClientRect().top <= 1)
-      setCurrentSection(() => ['about'])
-    else setCurrentSection((arr) => arr.filter((item) => item !== 'about'))
-  }
-
-  useEffect(() => {
-    elem.element.current.addEventListener('scroll', setCurrent)
-    return () => {
-      elem.element.current.removeEventListener('scroll', setCurrent)
-    }
-  })
-
+export default function About() {
   return (
-    <div className={style.about} id="about" ref={container}>
+    <div className={style.about} id="about">
       <div className={style.container}>
         <section className={style.section}>
           <h2>conceptual design</h2>

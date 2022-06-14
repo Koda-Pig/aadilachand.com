@@ -28,8 +28,8 @@ export default function Home() {
         <main ref={container} className={styles.container}>
           <Hero element={container} />
           <Work element={container} />
-          <About element={container} />
-          <Contact element={container} />
+          <About />
+          <Contact />
         </main>
         <ScrollToTop element={container} />
       </MenuContext.Provider>

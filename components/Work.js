@@ -7,16 +7,13 @@ import { useRef, useEffect, useContext } from 'react'
 import { MenuContext } from './MenuContext'
 
 export default function Work(elem) {
-  const container = useRef(null)
   // need to move this navbar stuff to index or navbar component
+  const container = useRef(null)
   const { currentSection, setCurrentSection } = useContext(MenuContext)
 
   const setCurrent = () => {
-    console.log(container.current.getBoundingClientRect().top)
-    console.log(currentSection)
-
     if (
-      container.current.getBoundingClientRect().top <= 1 &&
+      container.current.getBoundingClientRect().top <= 0 &&
       !currentSection.includes('work')
     )
       setCurrentSection((arr) => [...arr, 'work'])
@@ -29,6 +26,7 @@ export default function Work(elem) {
       elem.element.current.removeEventListener('scroll', setCurrent)
     }
   })
+  // END this stuff
 
   return (
     <div className={style.work} id="work" ref={container}>
