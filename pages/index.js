@@ -7,7 +7,7 @@ import About from '../components/About'
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
 import ScrollToTop from '../components/ScrollToTop'
-import { menuContext } from '../components/menuContext'
+import { MenuContext } from '../components/MenuContext'
 
 export default function Home() {
   const container = useRef(null)
@@ -23,7 +23,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <menuContext.Provider value={{ currentSection, setCurrentSection }}>
+      <MenuContext.Provider value={{ currentSection, setCurrentSection }}>
         <Navbar />
         <main ref={container} className={styles.container}>
           <Hero element={container} />
@@ -32,7 +32,7 @@ export default function Home() {
           <Contact element={container} />
         </main>
         <ScrollToTop element={container} />
-      </menuContext.Provider>
+      </MenuContext.Provider>
     </>
   )
 }

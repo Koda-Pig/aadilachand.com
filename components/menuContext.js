@@ -1,4 +1,4 @@
 import { createContext } from 'react'
-const menuContext = createContext(null)
+const MenuContext = createContext(null)
 
-export { menuContext }
+export { MenuContext }

@@ -4,17 +4,23 @@ import uiCircle from '../public/ui-circle.png'
 import illustrationCircle from '../public/illustration-circle.png'
 import fineArtCircle from '../public/fine-art-circle.png'
 import { useRef, useEffect, useContext } from 'react'
-import { menuContext } from './menuContext'
+import { MenuContext } from './MenuContext'
 
 export default function Work(elem) {
-  // need to move this navbar stuff to index or navbar component
   const container = useRef(null)
-  const { setCurrentSection } = useContext(menuContext)
+  // need to move this navbar stuff to index or navbar component
+  const { currentSection, setCurrentSection } = useContext(MenuContext)
 
   const setCurrent = () => {
-    if (container.current.getBoundingClientRect().top <= 0)
-      setCurrentSection(() => ['work'])
-    else setCurrentSection(() => [])
+    console.log(container.current.getBoundingClientRect().top)
+    console.log(currentSection)
+
+    if (
+      container.current.getBoundingClientRect().top <= 1 &&
+      !currentSection.includes('work')
+    )
+      setCurrentSection((arr) => [...arr, 'work'])
+    else setCurrentSection((arr) => arr.filter((item) => item !== 'work'))
   }
 
   useEffect(() => {
