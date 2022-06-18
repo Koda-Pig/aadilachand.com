@@ -1,23 +1,23 @@
 import style from '../styles/about.module.css'
-import Link from 'next/link'
 
 export default function About() {
   return (
     <div className={style.about} id="about">
       <div className={style.container}>
         <section className={style.section}>
-          <h2>conceptual design</h2>
+          <h2>an intentional approach</h2>
           <p>
-            environment contiunues to degrade, there is a need for a more
-            sustainable mindset all-around somethimh somETHINH
+            as the digital age grows, designers hold power in the visionn of our
+            future. it is our responsibility to find solutions that encourages
+            connnnection and for care the world, rather than a disconnect. it is
+            important to create a digital environment that embodies and nutures
+            these values.
           </p>
           <p>
-            given that everything we interactact with seeps into our subconcous
-            and ripples outwards into other aspects of our life, it is important
-            to consider the natural world within a digital frame.&nbsp;
-            <Link href="#" passHref>
-              <a className={style.link}>read more</a>
-            </Link>
+            what we feed into our minds ultimately dictates our reality and
+            perception of the world. every little interaction contributes to
+            this, through clean and intentional design and thinking in
+            incriments, we can design a sustainable future
           </p>
         </section>
       </div>

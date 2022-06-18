@@ -1,6 +1,6 @@
 import style from '../styles/work.module.css'
 import Image from 'next/image'
-import uiCircle from '../public/ui-circle.png'
+import uxUiCircle from '../public/ux-ui-circle.png'
 import illustrationCircle from '../public/illustration-circle.png'
 import fineArtCircle from '../public/fine-art-circle.png'
 import { useRef, useEffect, useContext } from 'react'
@@ -33,24 +33,16 @@ export default function Work(elem) {
     <div className={style.work} id="work" ref={workContainer}>
       <div className={style.container}>
         <section className={style.section}>
-          <Image src={uiCircle} alt="ADD DESCRIPTION" className={style.img} />
-          <h2>projects</h2>
+          <Image src={uxUiCircle} alt="" className={style.img} />
+          <h2>ux/ ui</h2>
         </section>
         <section className={style.section}>
-          <Image
-            src={illustrationCircle}
-            alt="ADD DESCRIPTION"
-            className={style.img}
-          />
-          <h2>ui library</h2>
+          <Image src={illustrationCircle} alt="" className={style.img} />
+          <h2>illustration</h2>
         </section>
         <section className={style.section}>
-          <Image
-            src={fineArtCircle}
-            alt="ADD DESCRIPTION"
-            className={style.img}
-          />
-          <h2>art</h2>
+          <Image src={fineArtCircle} alt="" className={style.img} />
+          <h2>fine art</h2>
         </section>
       </div>
     </div>

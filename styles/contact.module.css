@@ -22,7 +22,6 @@
 .imageOverlap {
   display: grid;
   max-width: 487px;
-
   align-content: center;
 }
 
@@ -75,13 +74,12 @@
 }
 
 .callToAction {
-  font-size: 1.25rem;
+  font-size: 1rem;
   border-radius: 3rem;
   color: var(--darker);
   display: inline-block;
   padding: 1.25rem 3.8rem;
   background: #ffffff66;
-  font-family: 'Bellefair', sans-serif;
   transition: background-color 0.2s ease-in-out;
 }
 
