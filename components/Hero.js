@@ -2,7 +2,7 @@ import style from '../styles/hero.module.css'
 import { BsChevronDown } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import star from '../public/star.png'
+import star from '../public/star.svg'
 
 export default function Hero(elem) {
   const [isVisible, setVisible] = useState(true)
@@ -30,7 +30,7 @@ export default function Hero(elem) {
     <div className={style.hero} id="home">
       <div className={style.heroText}>
         <i className={style.star}>
-          <Image src={star} alt="ADD DESCRIPTION" />
+          <Image src={star} width={21} height={38} alt="ADD DESCRIPTION" />
         </i>
         <h1 className={style.heading}>aadila chand</h1>
         <h2 className={style.subheading}>conceptual design</h2>

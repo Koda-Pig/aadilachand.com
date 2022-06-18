@@ -20,7 +20,7 @@
 }
 
 .star {
-  margin-bottom: -2rem;
+  margin-bottom: -2.1rem;
   display: block;
 }
 
@@ -32,7 +32,7 @@
 
 .chevron {
   opacity: 1;
-  bottom: 8rem;
+  bottom: 4rem;
   cursor: pointer;
   font-size: 2rem;
   position: absolute;

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import star from '../public/star.png'
+import star from '../public/star.svg'
 import style from '../styles/navbar.module.css'
 import { MenuContext } from './MenuContext'
 import { useState, useContext } from 'react'
@@ -50,8 +50,8 @@ export default function Navbar() {
             <div className={style.menuItem}>
               <Image
                 src={star}
-                width={20}
-                height={31}
+                width={17}
+                height={30}
                 className={`${style.star} ${
                   currentSection.includes('work')
                     ? style.visible
@@ -72,8 +72,8 @@ export default function Navbar() {
               {' '}
               <Image
                 src={star}
-                width={20}
-                height={31}
+                width={17}
+                height={30}
                 className={`${style.star} ${
                   currentSection.includes('about')
                     ? style.visible
@@ -91,8 +91,8 @@ export default function Navbar() {
               {' '}
               <Image
                 src={star}
-                width={20}
-                height={31}
+                width={17}
+                height={30}
                 className={`${style.star} ${
                   currentSection.includes('contact')
                     ? style.visible

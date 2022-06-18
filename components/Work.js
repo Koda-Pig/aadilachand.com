@@ -8,16 +8,17 @@ import { MenuContext } from './MenuContext'
 
 export default function Work(elem) {
   // need to move this navbar stuff to index or navbar component
-  const container = useRef(null)
+  const workContainer = useRef(null)
   const { currentSection, setCurrentSection } = useContext(MenuContext)
 
   const setCurrent = () => {
     if (
-      container.current.getBoundingClientRect().top <= 0 &&
+      workContainer.current.getBoundingClientRect().top <= 0 &&
       !currentSection.includes('work')
     )
       setCurrentSection((arr) => [...arr, 'work'])
     else setCurrentSection((arr) => arr.filter((item) => item !== 'work'))
+    // console.log(elem.element.current.getBoundingClientRect())
   }
 
   useEffect(() => {
@@ -29,7 +30,7 @@ export default function Work(elem) {
   // END this stuff
 
   return (
-    <div className={style.work} id="work" ref={container}>
+    <div className={style.work} id="work" ref={workContainer}>
       <div className={style.container}>
         <section className={style.section}>
           <Image src={uiCircle} alt="ADD DESCRIPTION" className={style.img} />
