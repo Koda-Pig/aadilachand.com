@@ -4,7 +4,7 @@
   flex-direction: column;
   place-items: center;
   justify-content: center;
-  background: url(/background-about.png) center center / cover no-repeat;
+  background: url(/background.png) center center / cover no-repeat;
 }
 
 .container {
