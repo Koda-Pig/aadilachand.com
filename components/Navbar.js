@@ -2,12 +2,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import star from '../public/star.svg'
 import style from '../styles/navbar.module.css'
-import { MenuContext } from './MenuContext'
+import MenuCtx from './MenuCtx'
 import { useState, useContext } from 'react'
 
 export default function Navbar() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
-  const { currentSection } = useContext(MenuContext)
+  const { currentSection } = useContext(MenuCtx)
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen)

@@ -4,12 +4,12 @@ import uxUiCircle from '../public/ux-ui-circle.png'
 import illustrationCircle from '../public/illustration-circle.png'
 import fineArtCircle from '../public/fine-art-circle.png'
 import { useRef, useEffect, useContext } from 'react'
-import { MenuContext } from './MenuContext'
+import MenuCtx from './MenuCtx'
 
 export default function Work(elem) {
   // need to move this navbar stuff to index or navbar component
   const workContainer = useRef(null)
-  const { currentSection, setCurrentSection } = useContext(MenuContext)
+  const { currentSection, setCurrentSection } = useContext(MenuCtx)
 
   const setCurrent = () => {
     if (
