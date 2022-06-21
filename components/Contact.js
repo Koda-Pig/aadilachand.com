@@ -29,10 +29,10 @@ export default function Contact() {
         <section className={style.connect}>
           <h2>connect</h2>
           <p>
-            hey thurr! i am art hoe from rhodes university &apos;21. i like to
-            make vibez. i have a fond interest conceptualizing and creating
-            meaning. my approach is a minimalist intergration of styles
-            let&apos;s collab!
+            Invent the universe tesseract cosmic fugue descended from
+            astronomers rich in mystery inconspicuous motes of rock and gas. How
+            far away great turbulent clouds the sky calls to us network of
+            wormholes
           </p>
           <Link href="#" passHref>
             <a className={style.callToAction}>get in touch</a>
