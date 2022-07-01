@@ -4,7 +4,8 @@
   place-items: center;
   flex-direction: column;
   justify-content: center;
-  background: url(/background.png) center center / cover no-repeat;
+  background: url(/contact-highlight.png) center center / contain no-repeat,
+    url(/background.png) center center / cover no-repeat;
 }
 
 .container {
@@ -14,9 +15,6 @@
   padding: 0 5rem;
   max-width: 1200px;
   place-content: center;
-  background: url(/stars.png) no-repeat center center;
-  background-size: 15rem 8rem;
-  background-position: 60% 16%;
 }
 
 .imageOverlap {
@@ -57,14 +55,21 @@
     transform: rotate(-359deg);
   }
 }
+
 .connect {
   width: 50vw;
+  margin: auto 0;
 }
 
 .connect h2 {
   font-weight: 400;
   margin-bottom: 2rem;
   font-family: 'Bellefair', sans-serif;
+}
+
+.connect h2::before {
+  content: url(/white-star.svg);
+  margin: 0 0.5rem 0 -1.7rem;
 }
 
 .connect p {
