@@ -29,6 +29,8 @@
 
 .resumeTxt {
   margin: -32% 25%;
+  height: 120px;
+  width: 120px;
 }
 
 .resumeTxtImg {
@@ -80,15 +82,16 @@
 .callToAction {
   font-size: 1rem;
   border-radius: 3rem;
+  border: 1px solid white;
   color: var(--darker);
   display: inline-block;
-  padding: 0.75rem 2.5rem;
-  background: #ffffff66;
+  padding: 0.7rem 2.5rem;
+  background: transparent;
   transition: background-color 0.2s ease-in-out;
 }
 
 .callToAction:hover {
-  background: #ffffffa8;
+  background-color: #fff4;
 }
 
 @media (max-width: 768px) {

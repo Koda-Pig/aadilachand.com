@@ -1,0 +1,18 @@
+.inOrganic {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: url(/background.png) center center / cover no-repeat;
+}
+
+.container {
+  width: 100%;
+  gap: 2.5rem;
+  display: flex;
+  padding: 0 5rem;
+  max-width: 1176px;
+  align-items: center;
+  place-content: center;
+  min-height: 100vh;
+}

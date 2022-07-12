@@ -37,7 +37,7 @@ export default function Navbar() {
       >
         <div className={style.innerNav}>
           <div className={style.home}>
-            <Link href="#home" passHref>
+            <Link href="/#home" passHref>
               <a
                 className={`${style.link} ${style.homelink}`}
                 onClick={toggleHamburger}
@@ -59,7 +59,7 @@ export default function Navbar() {
                 }`}
                 alt="star"
               />
-              <Link href="#work" passHref>
+              <Link href="/#work" passHref>
                 <a
                   className={`${style.link} ${style.active}`}
                   onClick={toggleHamburger}
@@ -81,7 +81,7 @@ export default function Navbar() {
                 }`}
                 alt="star"
               />
-              <Link href="#about" passHref>
+              <Link href="/#about" passHref>
                 <a className={style.link} onClick={toggleHamburger}>
                   about
                 </a>
@@ -100,7 +100,7 @@ export default function Navbar() {
                 }`}
                 alt="star"
               />
-              <Link href="#contact" passHref>
+              <Link href="/#contact" passHref>
                 <a className={style.link} onClick={toggleHamburger}>
                   contact
                 </a>

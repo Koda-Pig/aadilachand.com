@@ -13,7 +13,7 @@ export default function ScrollToTop(elem) {
   const scrollToTop = () => {
     elem.element.current.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: 'smooth'
     })
   }
 

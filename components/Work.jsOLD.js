@@ -5,7 +5,6 @@ import illustrationCircle from '../public/illustration-circle.png'
 import fineArtCircle from '../public/fine-art-circle.png'
 import { useRef, useEffect, useContext } from 'react'
 import MenuCtx from './MenuCtx'
-import Link from 'next/link'
 
 export default function Work(elem) {
   // need to move this navbar stuff to index or navbar component
@@ -42,11 +41,7 @@ export default function Work(elem) {
           <h2>illustration</h2>
         </section>
         <section className={style.section}>
-          <Link href="/fine-art" passHref>
-            <a>
-              <Image src={fineArtCircle} alt="" className={style.img} />
-            </a>
-          </Link>
+          <Image src={fineArtCircle} alt="" className={style.img} />
           <h2>fine art</h2>
         </section>
       </div>

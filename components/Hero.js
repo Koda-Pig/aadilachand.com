@@ -22,7 +22,7 @@ export default function Hero(elem) {
   const scrollDown = () => {
     elem.element.current.scrollTo({
       top: 500,
-      behavior: 'smooth',
+      behavior: 'smooth'
     })
   }
 
