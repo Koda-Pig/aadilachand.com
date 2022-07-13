@@ -1,18 +1,15 @@
-import style from '../../styles/fine-art/InOrganic.module.css'
 import Image from 'next/image'
-import inorganicImg1 from '../../public/fine-art/inorganic/inorganic-1.png'
-import inorganicImg2 from '../../public/fine-art/inorganic/inorganic-2.png'
-import inorganicImg3 from '../../public/fine-art/inorganic/inorganic-3.png'
-import inorganicImg4 from '../../public/fine-art/inorganic/inorganic-4.png'
-import inorganicImg5 from '../../public/fine-art/inorganic/inorganic-5.png'
-import inorganicImg6 from '../../public/fine-art/inorganic/inorganic-6.png'
-import inorganicImg7 from '../../public/fine-art/inorganic/inorganic-7.png'
-import inorganicImg8 from '../../public/fine-art/inorganic/inorganic-8.png'
-import inorganicImg9 from '../../public/fine-art/inorganic/inorganic-9.png'
+import style from '../../styles/fine-art/holoScene.module.css'
+import holoSceneImg1 from '../../public/fine-art/holoscene/holoscene-1.png'
+import holoSceneImg2 from '../../public/fine-art/holoscene/holoscene-2.png'
+import holoSceneImg3 from '../../public/fine-art/holoscene/holoscene-3.png'
+import holoSceneImg4 from '../../public/fine-art/holoscene/holoscene-4.png'
+import holoSceneImg5 from '../../public/fine-art/holoscene/holoscene-5.png'
+import holoSceneImg6 from '../../public/fine-art/holoscene/holoscene-6.png'
 
-export default function InOrganic() {
+export default function HoloScene() {
   return (
-    <div className={style.inOrganic}>
+    <div className={style.holoScene}>
       <div className={style.container}>
         <section className={style.gallerySection}>
           <div className={style.gallery}>
@@ -22,7 +19,7 @@ export default function InOrganic() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTu8ywnTB_/"
             >
-              <Image className={style.img} src={inorganicImg1} alt="" />
+              <Image className={style.img} src={holoSceneImg1} alt="" />
             </a>
             <a
               className={style.galleryLink}
@@ -30,7 +27,7 @@ export default function InOrganic() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTu24BnvDV/"
             >
-              <Image className={style.img} src={inorganicImg2} alt="" />
+              <Image className={style.img} src={holoSceneImg2} alt="" />
             </a>
             <a
               className={style.galleryLink}
@@ -38,7 +35,7 @@ export default function InOrganic() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTu1SUnP4i/"
             >
-              <Image className={style.img} src={inorganicImg3} alt="" />
+              <Image className={style.img} src={holoSceneImg3} alt="" />
             </a>
             <a
               className={style.galleryLink}
@@ -46,7 +43,7 @@ export default function InOrganic() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTuwAEHGob/"
             >
-              <Image className={style.img} src={inorganicImg4} alt="" />
+              <Image className={style.img} src={holoSceneImg4} alt="" />
             </a>
             <a
               className={style.galleryLink}
@@ -54,7 +51,7 @@ export default function InOrganic() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTugeenIH2/"
             >
-              <Image className={style.img} src={inorganicImg5} alt="" />
+              <Image className={style.img} src={holoSceneImg5} alt="" />
             </a>
             <a
               className={style.galleryLink}
@@ -62,31 +59,7 @@ export default function InOrganic() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTubK5n9ml/"
             >
-              <Image className={style.img} src={inorganicImg6} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTt_GPnwqs/"
-            >
-              <Image className={style.img} src={inorganicImg7} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTt1penyTD/"
-            >
-              <Image className={style.img} src={inorganicImg8} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTtydbna8M/"
-            >
-              <Image className={style.img} src={inorganicImg9} alt="" />
+              <Image className={style.img} src={holoSceneImg6} alt="" />
             </a>
           </div>
           <p className={style.caption}>
