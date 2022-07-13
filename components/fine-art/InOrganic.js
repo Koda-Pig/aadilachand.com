@@ -16,13 +16,7 @@ export default function InOrganic() {
       <div className={style.container}>
         <section className={style.gallerySection}>
           <div className={style.gallery}>
-            <Image
-              className={style.img}
-              src={inorganicImg1}
-              alt=""
-              width={168}
-              height={168}
-            />
+            <Image className={style.img} src={inorganicImg1} alt="" />
             <Image className={style.img} src={inorganicImg2} alt="" />
             <Image className={style.img} src={inorganicImg3} alt="" />
             <Image className={style.img} src={inorganicImg4} alt="" />
@@ -44,11 +38,13 @@ export default function InOrganic() {
             Patterned pathways of interconnectedness exist within us but perhaps
             years of conditioning have rewired our brains a bit too far by
             inadvertently accepting the dismally concrete reality that has
-            become ever-present and normalized. (in) organic explores the
-            complex and intricate relationship between humans and nature,
-            touching on the Anthropocene- the current era we live in whereby
-            humans are the dominant and most influential force on Earth and the
-            workings of the natural world.
+            become ever-present and normalized.
+          </p>
+          <p>
+            (in) organic explores the complex and intricate relationship between
+            humans and nature, touching on the Anthropocene- the current era we
+            live in whereby humans are the dominant and most influential force
+            on Earth and the workings of the natural world.
           </p>
         </section>
       </div>

@@ -6,15 +6,22 @@
   display: flex;
   gap: 2.5rem;
   padding: 2rem;
-  max-width: 933px;
+  max-width: 1000px;
 }
 
 .gallerySection {
-  width: 512px;
+  /* width: 512px; */
 }
 
 .writeUp {
   max-width: 381px;
+}
+
+.writeUp h2,
+.writeUp h3,
+.writeUp h4 {
+  font-family: 'Bellefair', sans-serif;
+  font-weight: 400;
 }
 
 .writeUp h2 {
@@ -22,13 +29,19 @@
   margin-bottom: 1.5rem;
 }
 
-.writeUp h3,
+.writeUp h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
 .writeUp h4 {
   font-size: 1rem;
+  margin-bottom: 2.4rem;
 }
 
 .writeUp p {
   font-size: 18px;
+  margin-bottom: 2rem;
 }
 
 .gallery {
@@ -37,6 +50,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.25rem;
   margin-bottom: 1rem;
+  width: 512px;
 }
 
 .caption {
