@@ -1,17 +1,45 @@
 import style from '../../styles/fine-art/InOrganic.module.css'
-import { InstagramEmbed } from 'react-social-media-embed'
-
-/* https://www.npmjs.com/package/react-social-media-embed 
-https://justinmahar.github.io/react-social-media-embed/?path=/docs/embeds-instagramembed--fluid-width*/
+import Image from 'next/image'
+import inorganicImg1 from '../../public/fine-art/inorganic/inorganic-1.png'
+import inorganicImg2 from '../../public/fine-art/inorganic/inorganic-2.png'
+import inorganicImg3 from '../../public/fine-art/inorganic/inorganic-3.png'
+import inorganicImg4 from '../../public/fine-art/inorganic/inorganic-4.png'
+import inorganicImg5 from '../../public/fine-art/inorganic/inorganic-5.png'
+import inorganicImg6 from '../../public/fine-art/inorganic/inorganic-6.png'
+import inorganicImg7 from '../../public/fine-art/inorganic/inorganic-7.png'
+import inorganicImg8 from '../../public/fine-art/inorganic/inorganic-8.png'
+import inorganicImg9 from '../../public/fine-art/inorganic/inorganic-9.png'
 
 export default function InOrganic() {
   return (
     <div className={style.inOrganic}>
       <div className={style.container}>
-        <section className={style.section}>
+        <section className={style.gallerySection}>
+          <div className={style.gallery}>
+            <Image
+              className={style.img}
+              src={inorganicImg1}
+              alt=""
+              width={168}
+              height={168}
+            />
+            <Image className={style.img} src={inorganicImg2} alt="" />
+            <Image className={style.img} src={inorganicImg3} alt="" />
+            <Image className={style.img} src={inorganicImg4} alt="" />
+            <Image className={style.img} src={inorganicImg5} alt="" />
+            <Image className={style.img} src={inorganicImg6} alt="" />
+            <Image className={style.img} src={inorganicImg7} alt="" />
+            <Image className={style.img} src={inorganicImg8} alt="" />
+            <Image className={style.img} src={inorganicImg9} alt="" />
+          </div>
+          <p className={style.caption}>
+            Gallery in the Round Monument Building Makhanda
+          </p>
+        </section>
+        <section className={style.writeUp}>
           <h2>(in)organic</h2>
-          <h5>installation</h5>
-          <h5>2019</h5>
+          <h3>installation</h3>
+          <h4>2019</h4>
           <p>
             Patterned pathways of interconnectedness exist within us but perhaps
             years of conditioning have rewired our brains a bit too far by
@@ -22,12 +50,6 @@ export default function InOrganic() {
             humans are the dominant and most influential force on Earth and the
             workings of the natural world.
           </p>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <InstagramEmbed
-              url="https://www.instagram.com/p/CDTu8ywnTB_/"
-              width={328}
-            />
-          </div>
         </section>
       </div>
     </div>

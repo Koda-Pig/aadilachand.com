@@ -1,18 +1,45 @@
 .inOrganic {
-  display: flex;
-  place-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background: url(/background.png) center center / cover no-repeat;
 }
 
 .container {
-  width: 100%;
-  gap: 2.5rem;
+  margin-top: 9rem;
   display: flex;
-  padding: 0 5rem;
-  max-width: 1176px;
-  align-items: center;
-  place-content: center;
-  min-height: 100vh;
+  gap: 2.5rem;
+  padding: 2rem;
+  max-width: 933px;
+}
+
+.gallerySection {
+  width: 512px;
+}
+
+.writeUp {
+  max-width: 381px;
+}
+
+.writeUp h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.writeUp h3,
+.writeUp h4 {
+  font-size: 1rem;
+}
+
+.writeUp p {
+  font-size: 18px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.caption {
+  max-width: 173px;
+  font-size: 1rem;
 }

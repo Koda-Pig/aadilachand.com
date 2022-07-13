@@ -4,7 +4,8 @@ import Navbar from '../components/Navbar'
 import InOrganic from '../components/fine-art/InOrganic'
 import ScrollToTop from '../components/ScrollToTop'
 import MenuCtx from '../components/MenuCtx'
-import utilstyles from '../styles/utils.module.css'
+import utilStyles from '../styles/utils.module.css'
+import fineArtStyles from '../styles/fine-art/fineArt.module.css'
 
 export default function FineArt() {
   const container = useRef(null)
@@ -22,8 +23,8 @@ export default function FineArt() {
       </Head>
       <MenuCtx.Provider value={{ currentSection, setCurrentSection }}>
         <Navbar />
-        <main ref={container}>
-          <h1 className={utilstyles.pageHeading}>fine art</h1>
+        <main ref={container} className={fineArtStyles.main}>
+          <h1 className={utilStyles.pageHeading}>fine art</h1>
           <InOrganic />
         </main>
         <ScrollToTop element={container} />
