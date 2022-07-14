@@ -62,25 +62,19 @@ export default function HoloScene() {
               <Image className={style.img} src={holoSceneImg6} alt="" />
             </a>
           </div>
-          <p className={style.caption}>
-            Gallery in the Round Monument Building Makhanda
-          </p>
         </section>
         <section className={style.writeUp}>
-          <h2>(in)organic</h2>
-          <h3>installation</h3>
-          <h4>2019</h4>
+          <div>
+            <h2>holo.scene</h2>
+            <h3>photography</h3>
+            <h4>2019</h4>
+          </div>
           <p>
-            Patterned pathways of interconnectedness exist within us but perhaps
-            years of conditioning have rewired our brains a bit too far by
-            inadvertently accepting the dismally concrete reality that has
-            become ever-present and normalized.
-          </p>
-          <p>
-            (in) organic explores the complex and intricate relationship between
-            humans and nature, touching on the Anthropocene- the current era we
-            live in whereby humans are the dominant and most influential force
-            on Earth and the workings of the natural world.
+            imagines a post anthropscene world where microscopic life start to
+            reclaim the scorched earth.nexplorinng a post anthropscene world
+            where microscopic life start to reclaim the scorched
+            earth.nexplorinng a post anthropscene world where microscopic life
+            start to reclaim the scorched earth.
           </p>
         </section>
       </div>

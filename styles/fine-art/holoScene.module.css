@@ -1,7 +1,5 @@
 .container {
   margin-top: 9rem;
-  display: flex;
-  gap: 2.5rem;
   padding: 2rem;
   max-width: 1000px;
 }
@@ -15,7 +13,9 @@
 }
 
 .writeUp {
-  max-width: 381px;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
 }
 
 .writeUp h2,
@@ -43,15 +43,16 @@
 .writeUp p {
   font-size: 18px;
   margin-bottom: 2rem;
+  max-width: 592px;
 }
 
 .gallery {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.25rem;
-  margin-bottom: 1rem;
-  width: 512px;
+  margin-bottom: 2rem;
+  width: 880px;
 }
 
 .caption {
