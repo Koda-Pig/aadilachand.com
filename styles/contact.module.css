@@ -4,8 +4,9 @@
   place-items: center;
   flex-direction: column;
   justify-content: center;
-  background: url(/contact-highlight.png) center center / contain no-repeat,
-    url(/background.png) center center / cover no-repeat;
+  background: url(/images/home/contact-highlight.png) center center / contain
+      no-repeat,
+    url(/images/home/background.png) center center / cover no-repeat;
 }
 
 .container {
@@ -70,7 +71,7 @@
 }
 
 .connect h2::before {
-  content: url(/white-star.svg);
+  content: url(/images/home/white-star.svg);
   margin: 0 0.5rem 0 -1.7rem;
 }
 

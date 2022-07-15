@@ -1,6 +1,6 @@
 import style from '../styles/work.module.css'
 import Image from 'next/image'
-import fineArtCircle from '../public/fine-art-circle.png'
+import fineArtCircle from '../public/images/home/fine-art-circle.png'
 
 export default function Template() {
   return (

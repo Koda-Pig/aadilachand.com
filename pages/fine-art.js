@@ -7,6 +7,8 @@ import ScrollToTop from '../components/ScrollToTop'
 import HoloScene from '../components/fine-art/HoloScene'
 import InOrganic from '../components/fine-art/InOrganic'
 import fineArtStyles from '../styles/fine-art/fineArt.module.css'
+import Site from '../components/fine-art/Site'
+import HumanNature from '../components/fine-art/HumanNature'
 
 export default function FineArt() {
   const container = useRef(null)
@@ -28,6 +30,8 @@ export default function FineArt() {
           <h1 className={utilStyles.pageHeading}>fine art</h1>
           <InOrganic />
           <HoloScene />
+          <Site />
+          <HumanNature />
         </main>
         <ScrollToTop element={container} />
       </MenuCtx.Provider>

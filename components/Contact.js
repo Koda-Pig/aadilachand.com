@@ -1,8 +1,8 @@
 import style from '../styles/contact.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import aboutImgs from '../public/about-imgs.png'
-import resumeTxt from '../public/resume.svg'
+import aboutImgs from '../public/images/home/about-imgs.png'
+import resumeTxt from '../public/images/home/resume.svg'
 
 export default function Contact() {
   return (

@@ -2,6 +2,6 @@
   display: grid;
   min-height: 100vh;
   place-items: center;
+  background: url(/images/background-latest.png) center center / cover no-repeat;
   background-attachment: fixed;
-  background: url(/background-latest.png) center center / cover no-repeat;
 }

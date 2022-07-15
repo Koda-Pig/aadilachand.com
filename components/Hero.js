@@ -2,7 +2,7 @@ import style from '../styles/hero.module.css'
 import { BsChevronDown } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import star from '../public/star.svg'
+import star from '../public/images/star.svg'
 
 export default function Hero(elem) {
   const [isVisible, setVisible] = useState(true)

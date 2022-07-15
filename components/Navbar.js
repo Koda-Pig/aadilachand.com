@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import star from '../public/star.svg'
+import star from '../public/images/star.svg'
 import style from '../styles/navbar.module.css'
 import MenuCtx from './MenuCtx'
 import { useState, useContext } from 'react'

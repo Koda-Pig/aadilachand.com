@@ -1,14 +1,14 @@
 import style from '../../styles/fine-art/InOrganic.module.css'
 import Image from 'next/image'
-import inorganicImg1 from '../../public/fine-art/inorganic/inorganic-1.png'
-import inorganicImg2 from '../../public/fine-art/inorganic/inorganic-2.png'
-import inorganicImg3 from '../../public/fine-art/inorganic/inorganic-3.png'
-import inorganicImg4 from '../../public/fine-art/inorganic/inorganic-4.png'
-import inorganicImg5 from '../../public/fine-art/inorganic/inorganic-5.png'
-import inorganicImg6 from '../../public/fine-art/inorganic/inorganic-6.png'
-import inorganicImg7 from '../../public/fine-art/inorganic/inorganic-7.png'
-import inorganicImg8 from '../../public/fine-art/inorganic/inorganic-8.png'
-import inorganicImg9 from '../../public/fine-art/inorganic/inorganic-9.png'
+import inorganicImg1 from '../../public/images/fine-art/inorganic/inorganic-1.png'
+import inorganicImg2 from '../../public/images/fine-art/inorganic/inorganic-2.png'
+import inorganicImg3 from '../../public/images/fine-art/inorganic/inorganic-3.png'
+import inorganicImg4 from '../../public/images/fine-art/inorganic/inorganic-4.png'
+import inorganicImg5 from '../../public/images/fine-art/inorganic/inorganic-5.png'
+import inorganicImg6 from '../../public/images/fine-art/inorganic/inorganic-6.png'
+import inorganicImg7 from '../../public/images/fine-art/inorganic/inorganic-7.png'
+import inorganicImg8 from '../../public/images/fine-art/inorganic/inorganic-8.png'
+import inorganicImg9 from '../../public/images/fine-art/inorganic/inorganic-9.png'
 
 export default function InOrganic() {
   return (

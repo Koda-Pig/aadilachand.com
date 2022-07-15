@@ -4,7 +4,8 @@
   place-items: center;
   flex-direction: column;
   justify-content: center;
-  background: url(/background-home.png) center center / cover no-repeat;
+  background: url(/images/home/background-home.png) center center / cover
+    no-repeat;
 }
 
 .heroText {
