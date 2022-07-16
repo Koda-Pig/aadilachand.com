@@ -1,0 +1,38 @@
+.container {
+  margin-top: 9rem;
+  padding: 2rem;
+  max-width: 1144px;
+}
+
+.galleryLink {
+  font-size: 0;
+}
+
+.writeUp {
+  display: flex;
+  gap: 5rem;
+}
+
+.writeUp h2 {
+  font-family: 'Bellefair', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.writeUp p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+  max-width: 483px;
+}
+
+.writeUp a {
+  font-size: 18px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  margin-bottom: 3.3rem;
+}

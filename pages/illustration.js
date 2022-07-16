@@ -5,33 +5,29 @@ import fineArtStyles from '../styles/fine-art/fineArt.module.css'
 import Navbar from '../components/Navbar'
 import MenuCtx from '../components/MenuCtx'
 import ScrollToTop from '../components/ScrollToTop'
-import HoloScene from '../components/fine-art/HoloScene'
-import InOrganic from '../components/fine-art/InOrganic'
-import Site from '../components/fine-art/Site'
-import HumanNature from '../components/fine-art/HumanNature'
+import Culture from '../components/illustration/Culture'
+import AncientOrbit from '../components/illustration/AncientOrbit'
 
-export default function FineArt() {
+export default function Illustration() {
   const container = useRef(null)
   const [currentSection, setCurrentSection] = useState([])
 
   return (
     <>
       <Head>
-        <title>fine art | aadila chand - multidisciplinary artist</title>
+        <title>illustration | aadila chand - multidisciplinary artist</title>
         <meta
           name="description"
-          content="fine art | aadila chand | multidisciplinary artist"
+          content="illustration | aadila chand | multidisciplinary artist"
         />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <MenuCtx.Provider value={{ currentSection, setCurrentSection }}>
         <Navbar />
         <main ref={container} className={fineArtStyles.main}>
-          <h1 className={utilStyles.pageHeading}>fine art</h1>
-          <InOrganic />
-          <HoloScene />
-          <Site />
-          <HumanNature />
+          <h1 className={utilStyles.pageHeading}>illustration</h1>
+          <Culture />
+          <AncientOrbit />
         </main>
         <ScrollToTop element={container} />
       </MenuCtx.Provider>

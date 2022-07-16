@@ -44,7 +44,6 @@
 
 .gallery {
   display: grid;
-  grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0.25rem;
   margin-bottom: 2rem;

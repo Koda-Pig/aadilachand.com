@@ -21,7 +21,7 @@ export default function Home() {
           name="description"
           content="aadila chand | multidisciplinary artist"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <MenuCtx.Provider value={{ currentSection, setCurrentSection }}>
         <Navbar />

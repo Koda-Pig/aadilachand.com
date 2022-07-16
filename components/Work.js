@@ -38,7 +38,11 @@ export default function Work(elem) {
           <h2>ux/ ui</h2>
         </section>
         <section className={style.section}>
-          <Image src={illustrationCircle} alt="" className={style.img} />
+          <Link href="/illustration" passHref>
+            <a>
+              <Image src={illustrationCircle} alt="" className={style.img} />
+            </a>
+          </Link>
           <h2>illustration</h2>
         </section>
         <section className={style.section}>
