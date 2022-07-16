@@ -20,10 +20,7 @@ export default function Hero(elem) {
   })
 
   const scrollDown = () => {
-    elem.element.current.scrollTo({
-      top: 500,
-      behavior: 'smooth'
-    })
+    elem.element.current.scrollBy(0, window.innerHeight)
   }
 
   return (
