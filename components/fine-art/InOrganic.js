@@ -1,5 +1,6 @@
 import style from '../../styles/fine-art/InOrganic.module.css'
 import Image from 'next/image'
+import ReadMore from '../ReadMore'
 import inorganicImg1 from '../../public/images/fine-art/inorganic/inorganic-1.png'
 import inorganicImg2 from '../../public/images/fine-art/inorganic/inorganic-2.png'
 import inorganicImg3 from '../../public/images/fine-art/inorganic/inorganic-3.png'
@@ -103,12 +104,12 @@ export default function InOrganic() {
             inadvertently accepting the dismally concrete reality that has
             become ever-present and normalized.
           </p>
-          <p>
+          <ReadMore>
             (in) organic explores the complex and intricate relationship between
             humans and nature, touching on the Anthropocene- the current era we
             live in whereby humans are the dominant and most influential force
             on Earth and the workings of the natural world.
-          </p>
+          </ReadMore>
         </section>
       </div>
     </div>
