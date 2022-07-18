@@ -1,16 +1,9 @@
-.inOrganic {
-}
-
 .container {
   margin-top: 9rem;
   display: flex;
   gap: 2.5rem;
   padding: 2rem;
   max-width: 1000px;
-}
-
-.gallerySection {
-  /* width: 512px; */
 }
 
 .galleryLink {

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import style from '../../styles/fine-art/holoScene.module.css'
+import holoSceneImg1 from '../../public/images/fine-art/holoscene/holoscene-5.png'
 import holoSceneImg2 from '../../public/images/fine-art/holoscene/holoscene-2.png'
-import holoSceneImg4 from '../../public/images/fine-art/holoscene/holoscene-4.png'
-import holoSceneImg5 from '../../public/images/fine-art/holoscene/holoscene-5.png'
+import holoSceneImg3 from '../../public/images/fine-art/holoscene/holoscene-4.png'
 
 export default function HoloScene() {
   return (
@@ -16,7 +16,7 @@ export default function HoloScene() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTu8ywnTB_/"
             >
-              <Image className={style.img} src={holoSceneImg5} alt="" />
+              <Image src={holoSceneImg1} alt="" />
             </a>
             <a
               className={style.galleryLink}
@@ -24,7 +24,7 @@ export default function HoloScene() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTu24BnvDV/"
             >
-              <Image className={style.img} src={holoSceneImg2} alt="" />
+              <Image src={holoSceneImg2} alt="" />
             </a>
             <a
               className={style.galleryLink}
@@ -32,7 +32,7 @@ export default function HoloScene() {
               rel="noreferrer"
               href="https://www.instagram.com/p/CDTu1SUnP4i/"
             >
-              <Image className={style.img} src={holoSceneImg4} alt="" />
+              <Image src={holoSceneImg3} alt="" />
             </a>
           </div>
         </section>

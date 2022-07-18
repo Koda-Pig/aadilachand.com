@@ -4,12 +4,10 @@
   max-width: 1000px;
 }
 
-.gallerySection {
-  /* width: 512px; */
-}
-
 .galleryLink {
   font-size: 0;
+  max-width: 289px;
+  max-height: 288px;
 }
 
 .writeUp {
@@ -57,4 +55,27 @@
 .caption {
   max-width: 173px;
   font-size: 1rem;
+}
+
+.galleryLink span {
+  transition: opacity 0.4s ease-in-out;
+}
+
+.galleryLink span:hover {
+  opacity: 0 !important;
+}
+
+.galleryLink:nth-child(1) {
+  background: url(/images/fine-art/holoscene/holoscene-3.png) center center /
+    cover no-repeat;
+}
+
+.galleryLink:nth-child(2) {
+  background: url(/images/fine-art/holoscene/holoscene-1.png) center center /
+    cover no-repeat;
+}
+
+.galleryLink:nth-child(3) {
+  background: url(/images/fine-art/holoscene/holoscene-6.png) center center /
+    cover no-repeat;
 }
