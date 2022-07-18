@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useRef, useState } from 'react'
 import utilStyles from '../styles/utils.module.css'
-import fineArtStyles from '../styles/fine-art/fineArt.module.css'
+import styles from '../styles/fine-art/fineArt.module.css'
 import Navbar from '../components/Navbar'
 import MenuCtx from '../components/MenuCtx'
 import ScrollToTop from '../components/ScrollToTop'
@@ -26,12 +26,12 @@ export default function FineArt() {
       </Head>
       <MenuCtx.Provider value={{ currentSection, setCurrentSection }}>
         <Navbar />
-        <main ref={container} className={fineArtStyles.main}>
+        <main ref={container} className={styles.main}>
           <h1 className={utilStyles.pageHeading}>fine art</h1>
-          <InOrganic />
-          <HoloScene />
-          <Site />
-          <HumanNature />
+          <InOrganic className={styles.section} />
+          <HoloScene className={styles.section} />
+          <Site className={styles.section} />
+          <HumanNature className={styles.section} />
         </main>
         <ScrollToTop element={container} />
       </MenuCtx.Provider>

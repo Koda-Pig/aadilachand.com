@@ -4,3 +4,7 @@
   background: url(/images/background-latest.png) center center / cover no-repeat
     fixed;
 }
+
+.main > div {
+  margin-bottom: 9rem;
+}
