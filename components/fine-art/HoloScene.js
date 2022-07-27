@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/fine-art/holoScene.module.css'
+import style from '../../styles/fine-art/holoScene.module.scss'
 import holoSceneImg1 from '../../public/images/fine-art/holoscene/holoscene-5.png'
 import holoSceneImg2 from '../../public/images/fine-art/holoscene/holoscene-2.png'
 import holoSceneImg3 from '../../public/images/fine-art/holoscene/holoscene-4.png'

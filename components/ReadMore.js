@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import style from '../styles/readMore.module.css'
+import style from '../styles/readMore.module.scss'
 
 export default function ReadMore({ children }) {
   const text = children

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import star from '../public/images/star.svg'
-import style from '../styles/navbar.module.css'
+import style from '../styles/navbar.module.scss'
 import MenuCtx from './MenuCtx'
 import { useState, useContext } from 'react'
 
@@ -35,7 +35,7 @@ export default function Navbar() {
       <nav
         className={`${style.nav} ${hamburgerOpen ? style.open : style.closed}`}
       >
-        <div className={style.innerNav}>
+        <div className={style.navInner}>
           <div className={style.home}>
             <Link href="/#home" passHref>
               <a

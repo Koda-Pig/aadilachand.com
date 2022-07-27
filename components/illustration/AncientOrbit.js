@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/illustration/ancientOrbit.module.css'
+import style from '../../styles/illustration/ancientOrbit.module.scss'
 import ancientOrbit1 from '../../public/images/illustration/ancient-orbit/ancient-orbit-1.png'
 import ancientOrbit2 from '../../public/images/illustration/ancient-orbit/ancient-orbit-2.png'
 import ancientOrbit3 from '../../public/images/illustration/ancient-orbit/ancient-orbit-3.png'

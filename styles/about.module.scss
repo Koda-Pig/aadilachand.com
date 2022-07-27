@@ -1,3 +1,5 @@
+@use 'globals';
+
 .about {
   height: 100vh;
   display: flex;
@@ -40,7 +42,7 @@
 }
 
 .link {
-  color: var(--darker);
+  color: globals.$darker;
   font-size: 1.2rem;
   text-decoration: underline;
 }

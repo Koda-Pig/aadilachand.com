@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/illustration/culture.module.css'
+import style from '../../styles/illustration/culture.module.scss'
 import culture1 from '../../public/images/illustration/culture/culture-1.png'
 import culture2 from '../../public/images/illustration/culture/culture-2.png'
 import culture3 from '../../public/images/illustration/culture/culture-3.png'

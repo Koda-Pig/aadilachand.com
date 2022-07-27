@@ -1,4 +1,4 @@
-import style from '../styles/work.module.css'
+import style from '../styles/work.module.scss'
 import Image from 'next/image'
 import uxUiCircle from '../public/images/home/ux-ui-circle.png'
 import illustrationCircle from '../public/images/home/illustration-circle.png'

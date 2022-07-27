@@ -1,4 +1,4 @@
-import style from '../../styles/fine-art/InOrganic.module.css'
+import style from '../../styles/fine-art/InOrganic.module.scss'
 import Image from 'next/image'
 import ReadMore from '../ReadMore'
 import { BsInstagram } from 'react-icons/bs'

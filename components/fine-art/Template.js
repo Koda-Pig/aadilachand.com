@@ -1,4 +1,4 @@
-import style from '../styles/work.module.css'
+import style from '../styles/work.module.scss'
 import Image from 'next/image'
 import fineArtCircle from '../public/images/home/fine-art-circle.png'
 

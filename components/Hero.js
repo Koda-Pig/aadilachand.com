@@ -1,4 +1,4 @@
-import style from '../styles/hero.module.css'
+import style from '../styles/hero.module.scss'
 import { BsChevronDown } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'

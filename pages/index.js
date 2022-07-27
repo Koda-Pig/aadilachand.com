@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Hero from '../components/Hero'
 import Work from '../components/Work'
 import About from '../components/About'

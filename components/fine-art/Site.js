@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/fine-art/site.module.css'
+import style from '../../styles/fine-art/site.module.scss'
 import site1 from '../../public/images/fine-art/site/site-1.png'
 import site2 from '../../public/images/fine-art/site/site-2.png'
 import site3 from '../../public/images/fine-art/site/site-3.png'

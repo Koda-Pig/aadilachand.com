@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/fine-art/humanNature.module.css'
+import style from '../../styles/fine-art/humanNature.module.scss'
 import humanNature1 from '../../public/images/fine-art/human-nature/human-nature-1.png'
 import humanNature2 from '../../public/images/fine-art/human-nature/human-nature-2.png'
 import humanNature3 from '../../public/images/fine-art/human-nature/human-nature-3.png'
