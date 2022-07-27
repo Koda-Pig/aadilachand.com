@@ -3,42 +3,25 @@
   max-width: 1000px;
 }
 
-.galleryLink {
-  font-size: 0;
-  max-width: 289px;
-  max-height: 288px;
-}
-
 .writeUp {
   display: flex;
   gap: 4rem;
   justify-content: center;
-}
-
-.writeUp h2,
-.writeUp h3,
-.writeUp h4 {
-  font-family: 'Bellefair', sans-serif;
-  font-weight: 400;
-}
-
-.writeUp h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.writeUp h3 {
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
-}
-
-.writeUp h4 {
-  font-size: 1rem;
-}
-
-.writeUp p {
-  font-size: 18px;
-  max-width: 592px;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 18px;
+    max-width: 592px;
+  }
 }
 
 .gallery {
@@ -47,32 +30,29 @@
   grid-gap: 0.25rem;
   margin-bottom: 2.8rem;
   width: 880px;
+  &Link {
+    font-size: 0;
+    max-width: 289px;
+    max-height: 288px;
+    span {
+      transition: opacity 0.4s ease-in-out;
+      &:hover {
+        opacity: 0 !important;
+      }
+    }
+    &:nth-child(1) {
+      background-image: url(/images/fine-art/holoscene/holoscene-3.png);
+    }
+    &:nth-child(2) {
+      background-image: url(/images/fine-art/holoscene/holoscene-1.png);
+    }
+    &:nth-child(3) {
+      background-image: url(/images/fine-art/holoscene/holoscene-6.png);
+    }
+  }
 }
 
 .caption {
   max-width: 173px;
   font-size: 1rem;
-}
-
-.galleryLink span {
-  transition: opacity 0.4s ease-in-out;
-}
-
-.galleryLink span:hover {
-  opacity: 0 !important;
-}
-
-.galleryLink:nth-child(1) {
-  background: url(/images/fine-art/holoscene/holoscene-3.png) center center /
-    cover no-repeat;
-}
-
-.galleryLink:nth-child(2) {
-  background: url(/images/fine-art/holoscene/holoscene-1.png) center center /
-    cover no-repeat;
-}
-
-.galleryLink:nth-child(3) {
-  background: url(/images/fine-art/holoscene/holoscene-6.png) center center /
-    cover no-repeat;
 }

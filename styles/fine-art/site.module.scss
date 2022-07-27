@@ -3,41 +3,26 @@
   max-width: 1000px;
 }
 
-.galleryLink {
-  font-size: 0;
-}
-
 .writeUp {
   display: flex;
   gap: 4rem;
   justify-content: center;
-}
-
-.writeUp h2,
-.writeUp h3,
-.writeUp h4 {
-  font-family: 'Bellefair', sans-serif;
-  font-weight: 400;
-}
-
-.writeUp h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-.writeUp h3 {
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
-}
-
-.writeUp h4 {
-  font-size: 1rem;
-  margin-bottom: 2.4rem;
-}
-
-.writeUp p {
-  font-size: 18px;
-  max-width: 562px;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 2.4rem;
+  }
+  p {
+    font-size: 18px;
+    max-width: 562px;
+  }
 }
 
 .gallery {
@@ -47,6 +32,9 @@
   grid-gap: 0.5rem;
   margin-bottom: 1.5rem;
   width: 880px;
+  &Link {
+    font-size: 0;
+  }
 }
 
 .caption {

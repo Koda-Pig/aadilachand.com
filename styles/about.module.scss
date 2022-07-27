@@ -1,48 +1,39 @@
-@use 'globals';
+@use 'variables';
 
 .about {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  justify-content: center;
+  @include variables.section;
   background: url(/images/home/background-about.png) center center / cover
     no-repeat;
 }
 
 .container {
-  width: 100%;
+  @include variables.inner-container;
   gap: 2.5rem;
-  display: flex;
   max-width: 540px;
-  place-content: center;
 }
 
 .section h2 {
   width: 420px;
   height: 123px;
-  font-weight: 400;
   margin-left: -10rem;
   margin-bottom: 1.6rem;
   line-height: 8.6rem;
   font-family: 'Bellefair', sans-serif;
   background: url(/images/home/about-decor.png) no-repeat left center;
-}
-
-.section h2::before {
-  content: '';
-  width: 2rem;
-  display: inline-block;
-}
-
-.section p {
-  line-height: normal;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  &::before {
+    content: '';
+    width: 2rem;
+    display: inline-block;
+  }
+  p {
+    line-height: normal;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .link {
-  color: globals.$darker;
+  color: variables.$darker;
   font-size: 1.2rem;
   text-decoration: underline;
 }

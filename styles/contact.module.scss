@@ -1,23 +1,17 @@
-@use 'globals';
+@use 'variables';
 
 .contact {
-  height: 100vh;
-  display: flex;
-  place-items: center;
-  flex-direction: column;
-  justify-content: center;
+  @include variables.section;
   background: url(/images/home/contact-highlight.png) center center / contain
       no-repeat,
     url(/images/home/background.png) center center / cover no-repeat;
 }
 
 .container {
-  width: 100%;
-  display: flex;
+  @include variables.inner-container;
   gap: 3.875rem;
   padding: 0 5rem;
   max-width: 1200px;
-  place-content: center;
 }
 
 .imageOverlap {
@@ -34,17 +28,15 @@
   margin: -32% 25%;
   height: 120px;
   width: 120px;
-}
-
-.resumeTxtImg {
-  cursor: pointer;
-  transition: filter 0.2s ease;
-  filter: drop-shadow(0px 0px 0px #fffb);
-  animation: rotation 10s infinite linear;
-}
-
-.resumeTxtImg:hover {
-  filter: drop-shadow(0px 0px 3px #fffb);
+  &Img {
+    cursor: pointer;
+    transition: filter 0.2s ease;
+    filter: drop-shadow(0px 0px 0px white);
+    animation: rotation 10s infinite linear;
+    &:hover {
+      filter: drop-shadow(0px 0px 3px white);
+    }
+  }
 }
 
 .img,
@@ -64,37 +56,31 @@
 .connect {
   width: 50vw;
   margin: auto 0;
-}
-
-.connect h2 {
-  font-weight: 400;
-  margin-bottom: 2rem;
-  font-family: 'Bellefair', sans-serif;
-}
-
-.connect h2::before {
-  content: url(/images/home/white-star.svg);
-  margin: 0 0.5rem 0 -1.7rem;
-}
-
-.connect p {
-  line-height: normal;
-  margin-bottom: 2.875rem;
+  h2 {
+    margin-bottom: 2rem;
+  }
+  h2::before {
+    content: url(/images/home/white-star.svg);
+    margin: 0 0.5rem 0 -1.7rem;
+  }
+  p {
+    line-height: normal;
+    margin-bottom: 2.875rem;
+  }
 }
 
 .callToAction {
   font-size: 1rem;
   border-radius: 3rem;
   border: 1px solid white;
-  color: globals.$darker;
+  color: variables.$darker;
   display: inline-block;
   padding: 0.7rem 2.5rem;
   background: transparent;
   transition: background-color 0.2s ease-in-out;
-}
-
-.callToAction:hover {
-  background-color: #fff4;
+  &:hover {
+    background-color: #fff4;
+  }
 }
 
 @media (max-width: 768px) {

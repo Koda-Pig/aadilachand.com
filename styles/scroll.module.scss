@@ -1,4 +1,4 @@
-@use 'globals';
+@use 'variables';
 
 .scrollIcon {
   right: 0;
@@ -7,14 +7,13 @@
   font-size: 2rem;
   cursor: pointer;
   margin: 0.8rem 1.4rem;
-  color: $lightest;
+  color: variables.$lightest;
   transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out,
     transform 0.25s cubic-bezier(0.76, 0.45, 0.19, 1.78);
-}
-
-.scrollIcon:hover {
-  color: $dark;
-  transform: scale(1.2);
+  &:hover {
+    color: variables.$dark;
+    transform: scale(1.2);
+  }
 }
 
 .visible {

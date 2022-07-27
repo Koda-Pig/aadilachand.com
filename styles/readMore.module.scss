@@ -1,13 +1,12 @@
 .readMore {
   opacity: 1;
   transition: margin 0.3s ease-in-out, opacity 0.4s ease-in-out;
+  &Toggle {
+    cursor: pointer;
+  }
 }
 
 .hide {
   opacity: 0;
   margin-top: -60%;
-}
-
-.readMoreToggle {
-  cursor: pointer;
 }

@@ -1,31 +1,27 @@
+@use 'variables';
+
 .work {
-  height: 100vh;
-  display: flex;
-  place-items: center;
-  flex-direction: column;
-  justify-content: center;
+  @include variables.section;
   background: url(/images/home/background.png) center center / cover no-repeat;
 }
 
 .container {
-  width: 100%;
+  @include variables.inner-container;
   gap: 2.5rem;
-  display: flex;
   padding: 0 5rem;
   max-width: 1176px;
   align-items: center;
-  place-content: center;
 }
 
 .section {
   max-width: 360px;
-}
-
-.section h2 {
-  font-weight: 400;
-  margin-top: 2rem;
-  text-align: center;
-  font-family: 'Bellefair', sans-serif;
+  & a {
+    line-height: 0;
+  }
+  & h2 {
+    margin-top: 2rem;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -34,8 +30,8 @@
   }
   .section {
     max-width: 50vw;
-  }
-  .section h2 {
-    margin-top: 0.1rem;
+    h2 {
+      margin-top: 0.1rem;
+    }
   }
 }

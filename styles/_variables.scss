@@ -1,0 +1,30 @@
+// colors
+$dark: #222;
+$darker: #464237;
+$light: #696666;
+$lightest: #848484;
+
+@mixin section {
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin inner-container {
+  width: 100%;
+  display: flex;
+  place-content: center;
+}
+
+@mixin page-heading {
+  width: 100%;
+  top: 2.5rem;
+  font-size: 2.5rem;
+  position: absolute;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+  font-family: 'Bellefair', sans-serif;
+}
