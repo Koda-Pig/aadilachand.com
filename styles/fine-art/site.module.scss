@@ -3,6 +3,11 @@
   max-width: 1000px;
 }
 
+.caption {
+  max-width: 173px;
+  font-size: 1rem;
+}
+
 .writeUp {
   display: flex;
   gap: 4rem;
@@ -35,9 +40,4 @@
   &Link {
     font-size: 0;
   }
-}
-
-.caption {
-  max-width: 173px;
-  font-size: 1rem;
 }

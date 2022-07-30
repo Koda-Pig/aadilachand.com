@@ -24,8 +24,8 @@ export default function FineArt() {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <MenuCtx.Provider value={{ currentSection, setCurrentSection }}>
-        <Navbar />
-        <main ref={container} className={styles.main}>
+        <Navbar element={container} />
+        <main ref={container} className={styles.container}>
           <h1 className={styles.pageHeading}>fine art</h1>
           <InOrganic className={styles.section} />
           <HoloScene className={styles.section} />

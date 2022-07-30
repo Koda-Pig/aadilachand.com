@@ -1,10 +1,11 @@
 import style from '../styles/work.module.scss'
 import Image from 'next/image'
-import uxUiCircle from '../public/ux-ui-circle.png'
-import illustrationCircle from '../public/illustration-circle.png'
-import fineArtCircle from '../public/fine-art-circle.png'
+import uxUiCircle from '../public/images/home/ux-ui-circle.png'
+import illustrationCircle from '../public/images/home/illustration-circle.png'
+import fineArtCircle from '../public/images/home/fine-art-circle.png'
 import { useRef, useEffect, useContext } from 'react'
 import MenuCtx from './MenuCtx'
+import Link from 'next/link'
 
 export default function Work(elem) {
   // need to move this navbar stuff to index or navbar component
@@ -37,11 +38,19 @@ export default function Work(elem) {
           <h2>ux/ ui</h2>
         </section>
         <section className={style.section}>
-          <Image src={illustrationCircle} alt="" className={style.img} />
+          <Link href="/illustration" passHref>
+            <a>
+              <Image src={illustrationCircle} alt="" className={style.img} />
+            </a>
+          </Link>
           <h2>illustration</h2>
         </section>
         <section className={style.section}>
-          <Image src={fineArtCircle} alt="" className={style.img} />
+          <Link href="/fine-art" passHref>
+            <a>
+              <Image src={fineArtCircle} alt="" className={style.img} />
+            </a>
+          </Link>
           <h2>fine art</h2>
         </section>
       </div>

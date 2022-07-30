@@ -3,18 +3,43 @@ import Image from 'next/image'
 import star from '../public/images/star.svg'
 import style from '../styles/navbar.module.scss'
 import MenuCtx from './MenuCtx'
-import { useState, useContext } from 'react'
+import { useState, useContext, useEffect } from 'react'
 
-export default function Navbar() {
+export default function Navbar(elem) {
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
+  const [burgerfied, setBurgerfication] = useState(false)
+
   const { currentSection } = useContext(MenuCtx)
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen)
   }
 
+  const toggleBurgerfication = () => {
+    // console.log('SCROLLED!')
+
+    if (elem.element.current.scrollTop > 50) {
+      setBurgerfication(true)
+    } else {
+      setBurgerfication(false)
+    }
+  }
+
+  useEffect(() => {
+    console.log(elem.element.current)
+    // console.log(elem.element)
+    // console.log(elem.element.current.scrollY)
+    // console.log(elem.element.current.offsetHeight)
+    // console.log(elem.element.current.innerHeight)
+    // console.log(elem.element.current.scrollTop)
+    elem.element.current.addEventListener('scroll', toggleBurgerfication)
+    return () => {
+      elem.element.current.removeEventListener('scroll', toggleBurgerfication)
+    }
+  })
+
   return (
-    <>
+    <div className={burgerfied ? style.burgerfied : ''}>
       <div className={style.hamburger} onClick={toggleHamburger}>
         <div
           className={`${style.burger} ${style.burger1} ${
@@ -109,6 +134,6 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   )
 }

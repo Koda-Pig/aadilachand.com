@@ -24,10 +24,10 @@ export default function Home() {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <MenuCtx.Provider value={{ currentSection, setCurrentSection }}>
-        <Navbar />
+        <Navbar element={container} />
         <main ref={container} className={styles.container}>
           <Hero element={container} />
-          <Work element={container} />
+          <Work />
           <About />
           <Contact />
         </main>

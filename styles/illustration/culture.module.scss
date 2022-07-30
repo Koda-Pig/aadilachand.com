@@ -1,12 +1,13 @@
 .container {
-  margin-top: 9rem;
   padding: 0 2rem;
+  margin-top: 9rem;
   max-width: 1144px;
 }
 
 .writeUp {
   display: flex;
   gap: 5rem;
+  max-width: 483px;
   h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -15,7 +16,6 @@
     font-size: 18px;
     margin-bottom: 2rem;
   }
-  max-width: 483px;
   a {
     font-size: 18px;
   }
@@ -23,8 +23,8 @@
 
 .gallery {
   display: grid;
+  gap: 2rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2rem;
   margin-bottom: 3.3rem;
   &Link {
     font-size: 0;

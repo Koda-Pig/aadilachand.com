@@ -26,6 +26,11 @@
   }
 }
 
+.caption {
+  max-width: 173px;
+  font-size: 1rem;
+}
+
 .gallery {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -53,9 +58,4 @@
     text-align: center;
     color: white;
   }
-}
-
-.caption {
-  max-width: 173px;
-  font-size: 1rem;
 }
