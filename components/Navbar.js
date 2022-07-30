@@ -2,18 +2,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 import star from '../public/images/star.svg'
 import style from '../styles/navbar.module.scss'
-import MenuCtx from './MenuCtx'
+
 import { useState, useContext, useEffect } from 'react'
 
 export default function Navbar(elem) {
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
   const [burgerfied, setBurgerfication] = useState(false)
 
-  const { currentSection } = useContext(MenuCtx)
-
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen)
   }
+  const closeHamburger = () => setHamburgerOpen(false)
 
   const toggleBurgerfication = () => {
     if (elem.element.current.scrollTop > 50) {
@@ -57,7 +56,7 @@ export default function Navbar(elem) {
             <Link href="/#home" passHref>
               <a
                 className={`${style.link} ${style.homelink}`}
-                onClick={toggleHamburger}
+                onClick={closeHamburger}
               >
                 ac
               </a>
@@ -69,17 +68,14 @@ export default function Navbar(elem) {
                 src={star}
                 width={17}
                 height={30}
-                className={`${style.star} ${
-                  currentSection.includes('work')
-                    ? style.visible
-                    : style.invisible
-                }`}
-                alt="star"
+                className={style.star}
+                aria-hidden="true"
+                alt=""
               />
               <Link href="/#work" passHref>
                 <a
                   className={`${style.link} ${style.active}`}
-                  onClick={toggleHamburger}
+                  onClick={closeHamburger}
                 >
                   work
                 </a>
@@ -91,15 +87,12 @@ export default function Navbar(elem) {
                 src={star}
                 width={17}
                 height={30}
-                className={`${style.star} ${
-                  currentSection.includes('about')
-                    ? style.visible
-                    : style.invisible
-                }`}
-                alt="star"
+                className={style.star}
+                aria-hidden="true"
+                alt=""
               />
               <Link href="/#about" passHref>
-                <a className={style.link} onClick={toggleHamburger}>
+                <a className={style.link} onClick={closeHamburger}>
                   about
                 </a>
               </Link>
@@ -110,15 +103,12 @@ export default function Navbar(elem) {
                 src={star}
                 width={17}
                 height={30}
-                className={`${style.star} ${
-                  currentSection.includes('contact')
-                    ? style.visible
-                    : style.invisible
-                }`}
-                alt="star"
+                className={style.star}
+                aria-hidden="true"
+                alt=""
               />
               <Link href="/#contact" passHref>
-                <a className={style.link} onClick={toggleHamburger}>
+                <a className={style.link} onClick={closeHamburger}>
                   contact
                 </a>
               </Link>

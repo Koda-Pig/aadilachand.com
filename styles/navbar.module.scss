@@ -7,7 +7,7 @@
     align-items: start;
     -webkit-backdrop-filter: blur(0.6rem);
     backdrop-filter: blur(0.6rem);
-    background-color: rgb(228 228 228 / 15%);
+    background-color: rgb(228 228 228 / 50%);
     transition: transform 0.35s cubic-bezier(1, -0.23, 0.54, 0.61);
     &.closed {
       flex-direction: column;
@@ -21,6 +21,18 @@
     &Inner {
       margin-top: 10vh;
       flex-direction: column;
+    }
+    @media (min-width: 768px) {
+      &.open {
+        transform: translateX(0);
+        width: 50%;
+        right: 0;
+      }
+      &Inner {
+        width: auto;
+        margin-top: 10vh;
+        flex-direction: column;
+      }
     }
   }
   .menu {
@@ -58,6 +70,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    &:hover .star {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 
@@ -74,19 +90,9 @@
 
 .star {
   opacity: 0;
-  transform: translateY(0);
+  transform: translateY(1rem);
   transition: opacity 0.3s cubic-bezier(1, -0.74, 0, 1.89),
     transform 0.3s cubic-bezier(1, -0.74, 0, 1.89);
-}
-
-.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.invisible {
-  transform: translateY(1rem);
-  opacity: 0;
 }
 
 .homelink {

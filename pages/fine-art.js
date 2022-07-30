@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { useRef, useState } from 'react'
 import styles from '../styles/fine-art/fineArt.module.scss'
 import Navbar from '../components/Navbar'
-import MenuCtx from '../components/MenuCtx'
 import ScrollToTop from '../components/ScrollToTop'
 import HoloScene from '../components/fine-art/HoloScene'
 import InOrganic from '../components/fine-art/InOrganic'
@@ -11,7 +10,6 @@ import HumanNature from '../components/fine-art/HumanNature'
 
 export default function FineArt() {
   const container = useRef(null)
-  const [currentSection, setCurrentSection] = useState([])
 
   return (
     <>
@@ -23,17 +21,15 @@ export default function FineArt() {
         />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
-      <MenuCtx.Provider value={{ currentSection, setCurrentSection }}>
-        <Navbar element={container} />
-        <main ref={container} className={styles.container}>
-          <h1 className={styles.pageHeading}>fine art</h1>
-          <InOrganic className={styles.section} />
-          <HoloScene className={styles.section} />
-          <Site className={styles.section} />
-          <HumanNature className={styles.section} />
-        </main>
-        <ScrollToTop element={container} />
-      </MenuCtx.Provider>
+      <Navbar element={container} />
+      <main ref={container} className={styles.container}>
+        <h1 className={styles.pageHeading}>fine art</h1>
+        <InOrganic className={styles.section} />
+        <HoloScene className={styles.section} />
+        <Site className={styles.section} />
+        <HumanNature className={styles.section} />
+      </main>
+      <ScrollToTop element={container} />
     </>
   )
 }

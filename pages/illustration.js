@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useRef, useState } from 'react'
 import styles from '../styles/illustration/illustration.module.scss'
 import Navbar from '../components/Navbar'
-import MenuCtx from '../components/MenuCtx'
+
 import ScrollToTop from '../components/ScrollToTop'
 import Culture from '../components/illustration/Culture'
 import AncientOrbit from '../components/illustration/AncientOrbit'
@@ -21,15 +21,13 @@ export default function Illustration() {
         />
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
-      <MenuCtx.Provider value={{ currentSection, setCurrentSection }}>
-        <Navbar element={container} />
-        <main ref={container} className={styles.container}>
-          <h1 className={styles.pageHeading}>illustration</h1>
-          <Culture />
-          <AncientOrbit />
-        </main>
-        {/* <ScrollToTop element={container} /> */}
-      </MenuCtx.Provider>
+      <Navbar element={container} />
+      <main ref={container} className={styles.container}>
+        <h1 className={styles.pageHeading}>illustration</h1>
+        <Culture />
+        <AncientOrbit />
+      </main>
+      {/* <ScrollToTop element={container} /> */}
     </>
   )
 }
