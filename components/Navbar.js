@@ -16,8 +16,6 @@ export default function Navbar(elem) {
   }
 
   const toggleBurgerfication = () => {
-    // console.log('SCROLLED!')
-
     if (elem.element.current.scrollTop > 50) {
       setBurgerfication(true)
     } else {
@@ -26,12 +24,6 @@ export default function Navbar(elem) {
   }
 
   useEffect(() => {
-    console.log(elem.element.current)
-    // console.log(elem.element)
-    // console.log(elem.element.current.scrollY)
-    // console.log(elem.element.current.offsetHeight)
-    // console.log(elem.element.current.innerHeight)
-    // console.log(elem.element.current.scrollTop)
     elem.element.current.addEventListener('scroll', toggleBurgerfication)
     return () => {
       elem.element.current.removeEventListener('scroll', toggleBurgerfication)

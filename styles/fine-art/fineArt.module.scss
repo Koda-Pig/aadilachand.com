@@ -1,10 +1,8 @@
 @use '../variables';
 
-.pageHeading {
-  @include variables.page-heading;
-}
-
 .container {
+  overflow: auto;
+  height: 100vh;
   display: grid;
   place-items: center;
   background: url(/images/background-latest.png) center center / cover no-repeat
@@ -12,4 +10,8 @@
   & > div {
     margin-bottom: 9rem;
   }
+}
+
+.pageHeading {
+  @include variables.page-heading;
 }

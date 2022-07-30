@@ -13,6 +13,7 @@
       flex-direction: column;
       transition-delay: 0.1s;
       transform: translateX(100vw);
+      transition-delay: -0.3s;
     }
     &.open {
       transform: translateX(0);
