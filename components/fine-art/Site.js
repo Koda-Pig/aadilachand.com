@@ -70,10 +70,9 @@ export default function Site() {
             <h4>2018</h4>
           </div>
           <p>
-            exploring hidden microscopic worlds, revealing tiny intricacies to
-            challenge the perspective of the seemingly munndane. using
-            site-specifc common plant life collected in and around Makhanda.
-            Photographed using a Scanning Electron Microscope (SEM)
+            As a patch of light tingling of the spine are creatures of the
+            cosmos stirred by starlight decipherment tendrils of gossamer
+            clouds?
           </p>
         </section>
       </div>

@@ -1,12 +1,14 @@
 @use '../variables';
 
 .container {
-  overflow: auto;
   height: 100vh;
   display: grid;
+  overflow: auto;
   place-items: center;
-  background: url(/images/background-latest.png) center center / cover no-repeat
-    fixed;
+  background: url(/images/background-latest.png) center / cover no-repeat fixed;
+  main > div {
+    margin-bottom: 9rem;
+  }
 }
 
 .pageHeading {

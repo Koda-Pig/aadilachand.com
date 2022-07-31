@@ -52,8 +52,9 @@ export default function Site() {
             <h4>2019</h4>
           </div>
           <p>
-            cross sections of plant cells merged with human eyes to create a new
-            cell. portraying the interconnnection between humans and nature
+            As a patch of light tingling of the spine are creatures of the
+            cosmos stirred by starlight decipherment tendrils of gossamer
+            clouds?
           </p>
         </section>
       </div>

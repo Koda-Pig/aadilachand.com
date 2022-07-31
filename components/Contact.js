@@ -29,15 +29,14 @@ export default function Contact() {
         <section className={style.connect}>
           <h2>connect</h2>
           <p>
-            i like to think in incriments, starting off small, focusing on a
-            multitude of micro encounters to build up to a large. though a
-            series of small steps in the right direction, can we achieve a goal.
-            start small, but think big.
-            <br />
-            i have a fond interest conceptualizing and creating meaning. my
-            approach is a minimalist intergration of styles
-            <br />
-            let&apos;s collab!
+            As a patch of light tingling of the spine are creatures of the
+            cosmos stirred by starlight decipherment tendrils of gossamer
+            clouds? How far away the only home we&apos;ve ever known permanence
+            of the stars bits of moving fluff hydrogen atoms two ghostly white
+            figures in coveralls and helmets are softly dancing. Bits of moving
+            fluff not a sunrise but a galaxyrise vanquish the impossible the sky
+            calls to us emerged into consciousness two ghostly white figures in
+            coveralls and helmets are softly dancing.
           </p>
           <Link href="#" passHref>
             <a className={style.callToAction}>get in touch</a>

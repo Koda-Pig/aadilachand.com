@@ -2,8 +2,7 @@
 
 .about {
   @include variables.section;
-  background: url(/images/home/background-about.png) center center / cover
-    no-repeat;
+  background: url(/images/home/background-about.png) center / cover no-repeat;
 }
 
 .container {
@@ -16,20 +15,15 @@
   h2 {
     width: 420px;
     height: 123px;
+    padding-left: 2rem;
     margin-left: -10rem;
     margin-bottom: 1.6rem;
     line-height: 8.6rem;
-    font-family: 'Bellefair', sans-serif;
     background: url(/images/home/about-decor.png) no-repeat left center;
-    &::before {
-      content: '';
-      width: 2rem;
-      display: inline-block;
-    }
   }
   p {
-    line-height: normal;
     font-size: 1.2rem;
+    line-height: normal;
     margin-bottom: 2rem;
   }
 }

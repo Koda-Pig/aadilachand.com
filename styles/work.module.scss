@@ -2,7 +2,7 @@
 
 .work {
   @include variables.section;
-  background: url(/images/home/background.png) center center / cover no-repeat;
+  background: url(/images/home/background.png) center / cover no-repeat;
 }
 
 .container {

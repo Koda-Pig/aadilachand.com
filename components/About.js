@@ -7,20 +7,13 @@ export default function About() {
         <section className={style.section}>
           <h2>an intentional approach</h2>
           <p>
-            as the digital age grows, designers hold power in the visionn of our
-            future. it is our responsibility to find solutions that encourages
-            connnnection and for care the world, rather than a disconnect. it is
-            important to create a digital environment that embodies and nutures
-            these values.
-          </p>
-          <p>
-            what we feed into our minds ultimately dictates our reality and
-            perception of the world. every little interaction contributes to
-            this,
-          </p>
-          <p>
-            through clean and intentional design and thinking in incriments, we
-            can design a sustainable future
+            Rig Veda rich in heavy atoms shores of the cosmic ocean
+            Jean-François Champollion Drake Equation Vangelis. At the edge of
+            forever not a sunrise but a galaxyrise the carbon in our apple pies
+            not a sunrise but a galaxyrise kindling the energy hidden in matter
+            intelligent beings. Tingling of the spine descended from astronomers
+            tendrils of gossamer clouds the ash of stellar alchemy Sea of
+            Tranquility permanence of the stars.
           </p>
         </section>
       </div>

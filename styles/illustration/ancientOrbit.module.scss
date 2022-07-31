@@ -6,10 +6,15 @@
 
 .writeUp {
   display: flex;
-  gap: 5rem;
+  gap: 2.5rem;
   h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    width: 302px;
+    height: 87px;
+    padding: 2rem 0 0 2rem;
+    background: url(/images/home/about-decor.png) no-repeat left center;
+    background-size: contain;
   }
   p {
     font-size: 18px;
