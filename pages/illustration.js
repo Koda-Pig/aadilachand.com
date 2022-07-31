@@ -1,15 +1,14 @@
 import Head from 'next/head'
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import styles from '../styles/illustration/illustration.module.scss'
 import Navbar from '../components/Navbar'
-
+import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
 import Culture from '../components/illustration/Culture'
 import AncientOrbit from '../components/illustration/AncientOrbit'
 
 export default function Illustration() {
   const container = useRef(null)
-  const [currentSection, setCurrentSection] = useState([])
 
   return (
     <>
@@ -27,7 +26,8 @@ export default function Illustration() {
         <Culture />
         <AncientOrbit />
       </main>
-      {/* <ScrollToTop element={container} /> */}
+      <Footer />
+      <ScrollToTop element={container} />
     </>
   )
 }

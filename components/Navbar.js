@@ -3,23 +3,18 @@ import Image from 'next/image'
 import star from '../public/images/star.svg'
 import style from '../styles/navbar.module.scss'
 
-import { useState, useContext, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Navbar(elem) {
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
   const [burgerfied, setBurgerfication] = useState(false)
 
-  const toggleHamburger = () => {
-    setHamburgerOpen(!hamburgerOpen)
-  }
+  const toggleHamburger = () => setHamburgerOpen(!hamburgerOpen)
   const closeHamburger = () => setHamburgerOpen(false)
 
   const toggleBurgerfication = () => {
-    if (elem.element.current.scrollTop > 50) {
-      setBurgerfication(true)
-    } else {
-      setBurgerfication(false)
-    }
+    if (elem.element.current.scrollTop > 50) setBurgerfication(true)
+    else setBurgerfication(false)
   }
 
   useEffect(() => {
@@ -82,7 +77,6 @@ export default function Navbar(elem) {
               </Link>
             </div>
             <div className={style.menuItem}>
-              {' '}
               <Image
                 src={star}
                 width={17}
@@ -98,7 +92,6 @@ export default function Navbar(elem) {
               </Link>
             </div>
             <div className={style.menuItem}>
-              {' '}
               <Image
                 src={star}
                 width={17}

@@ -12,18 +12,20 @@
   max-width: 540px;
 }
 
-.section h2 {
-  width: 420px;
-  height: 123px;
-  margin-left: -10rem;
-  margin-bottom: 1.6rem;
-  line-height: 8.6rem;
-  font-family: 'Bellefair', sans-serif;
-  background: url(/images/home/about-decor.png) no-repeat left center;
-  &::before {
-    content: '';
-    width: 2rem;
-    display: inline-block;
+.section {
+  h2 {
+    width: 420px;
+    height: 123px;
+    margin-left: -10rem;
+    margin-bottom: 1.6rem;
+    line-height: 8.6rem;
+    font-family: 'Bellefair', sans-serif;
+    background: url(/images/home/about-decor.png) no-repeat left center;
+    &::before {
+      content: '';
+      width: 2rem;
+      display: inline-block;
+    }
   }
   p {
     line-height: normal;

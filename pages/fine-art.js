@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import styles from '../styles/fine-art/fineArt.module.scss'
 import Navbar from '../components/Navbar'
 import ScrollToTop from '../components/ScrollToTop'

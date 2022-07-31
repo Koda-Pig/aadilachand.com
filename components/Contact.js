@@ -29,10 +29,15 @@ export default function Contact() {
         <section className={style.connect}>
           <h2>connect</h2>
           <p>
-            Invent the universe tesseract cosmic fugue descended from
-            astronomers rich in mystery inconspicuous motes of rock and gas. How
-            far away great turbulent clouds the sky calls to us network of
-            wormholes
+            i like to think in incriments, starting off small, focusing on a
+            multitude of micro encounters to build up to a large. though a
+            series of small steps in the right direction, can we achieve a goal.
+            start small, but think big.
+            <br />
+            i have a fond interest conceptualizing and creating meaning. my
+            approach is a minimalist intergration of styles
+            <br />
+            let&apos;s collab!
           </p>
           <Link href="#" passHref>
             <a className={style.callToAction}>get in touch</a>
