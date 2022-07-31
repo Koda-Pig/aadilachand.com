@@ -11,6 +11,7 @@ $lightest: #848484;
   place-items: center;
   flex-direction: column;
   justify-content: center;
+  scroll-snap-align: center;
 }
 
 @mixin inner-container {
