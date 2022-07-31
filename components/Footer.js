@@ -1,27 +1,30 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import star from '../public/images/star.svg'
 import style from '../styles/footer.module.scss'
+import { BsArrowUp } from 'react-icons/bs'
 
-export default function Footer() {
+export default function Footer(elem) {
+  const scrollToTop = () => {
+    elem.element.current.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
-    <footer>
-      <div className={style.home}>
-        <Link href="/#home" passHref>
-          <a className={style.link}>ac</a>
-        </Link>
+    <footer className={style.footer}>
+      <div
+        className={style.backToTop}
+        onClick={scrollToTop}
+        title="back to top"
+      >
+        <BsArrowUp />
+        <span>back to top</span>
       </div>
-      <div className={style.menu}>
-        <Image
-          src={star}
-          width={17}
-          height={30}
-          className={style.star}
-          aria-hidden="true"
-          alt=""
-        />
-        <Link href="/#contact" passHref>
-          <a className={style.link}>contact</a>
+      <div className={style.logo}>
+        <Link href="/#home" passHref>
+          <a className={style.logoLink} title="home">
+            ac
+          </a>
         </Link>
       </div>
     </footer>

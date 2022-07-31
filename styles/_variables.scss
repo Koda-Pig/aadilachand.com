@@ -30,3 +30,40 @@ $lightest: #848484;
   border-bottom: 1px solid white;
   font-family: 'Bellefair', sans-serif;
 }
+
+@mixin logo {
+  line-height: 0.2;
+  font-size: 3.5rem;
+  font-family: 'Cigra', serif;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: $light;
+  }
+  &::before {
+    content: '';
+    opacity: 1;
+    width: 17px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(0);
+    transition: opacity 0.3s ease;
+    background: url(/images/star.svg);
+    background-size: 17px 30px;
+  }
+  &:hover::before {
+    animation: rotation 0.3s 1 cubic-bezier(0.76, 0.45, 0.19, 1.78);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}

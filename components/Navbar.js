@@ -1,6 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import star from '../public/images/star.svg'
 import style from '../styles/navbar.module.scss'
 
 import { useState, useEffect } from 'react'
@@ -59,32 +57,13 @@ export default function Navbar(elem) {
           </div>
           <div className={style.menu}>
             <div className={style.menuItem}>
-              <Image
-                src={star}
-                width={17}
-                height={30}
-                className={style.star}
-                aria-hidden="true"
-                alt=""
-              />
               <Link href="/#work" passHref>
-                <a
-                  className={`${style.link} ${style.active}`}
-                  onClick={closeHamburger}
-                >
+                <a className={style.link} onClick={closeHamburger}>
                   work
                 </a>
               </Link>
             </div>
             <div className={style.menuItem}>
-              <Image
-                src={star}
-                width={17}
-                height={30}
-                className={style.star}
-                aria-hidden="true"
-                alt=""
-              />
               <Link href="/#about" passHref>
                 <a className={style.link} onClick={closeHamburger}>
                   about
@@ -92,14 +71,6 @@ export default function Navbar(elem) {
               </Link>
             </div>
             <div className={style.menuItem}>
-              <Image
-                src={star}
-                width={17}
-                height={30}
-                className={style.star}
-                aria-hidden="true"
-                alt=""
-              />
               <Link href="/#contact" passHref>
                 <a className={style.link} onClick={closeHamburger}>
                   contact

@@ -1,0 +1,41 @@
+@use 'variables';
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1439px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  height: 6rem;
+}
+
+.backToTop {
+  display: flex;
+  gap: 10px;
+  place-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: variables.$light;
+    svg {
+      transform: scale(1.3);
+    }
+  }
+  svg {
+    margin: 0 auto;
+    transition: transform 0.25s cubic-bezier(0.76, 0.45, 0.19, 1.78);
+  }
+}
+
+.logo {
+  @include variables.logo;
+  margin-top: 1.6rem;
+  line-height: 0;
+  &::before {
+    width: 17px;
+    height: 25px;
+    background-size: 17px 25px;
+  }
+}

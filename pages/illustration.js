@@ -21,12 +21,14 @@ export default function Illustration() {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Navbar element={container} />
-      <main ref={container} className={styles.container}>
+      <div className={styles.container} ref={container}>
         <h1 className={styles.pageHeading}>illustration</h1>
-        <Culture />
-        <AncientOrbit />
-      </main>
-      <Footer />
+        <main>
+          <Culture />
+          <AncientOrbit />
+        </main>
+        <Footer element={container} />
+      </div>
       <ScrollToTop element={container} />
     </>
   )

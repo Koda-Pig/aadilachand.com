@@ -27,6 +27,7 @@ export default function ScrollToTop(elem) {
   return (
     <>
       <BsFillArrowUpCircleFill
+        title="back to top"
         onClick={scrollToTop}
         className={`${style.scrollIcon} ${
           isVisible ? style.visible : style.invisible
