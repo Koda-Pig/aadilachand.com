@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import { useRef } from 'react'
-import styles from '../styles/illustration/illustration.module.scss'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
 import Culture from '../components/illustration/Culture'
 import AncientOrbit from '../components/illustration/AncientOrbit'
+import styles from '../styles/illustration/illustration.module.scss'
 
 export default function Illustration() {
   const container = useRef(null)

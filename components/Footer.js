@@ -12,20 +12,22 @@ export default function Footer(elem) {
 
   return (
     <footer className={style.footer}>
-      <div
-        className={style.backToTop}
-        onClick={scrollToTop}
-        title="back to top"
-      >
-        <BsArrowUp />
-        <span>back to top</span>
-      </div>
-      <div className={style.logo}>
-        <Link href="/#home" passHref>
-          <a className={style.logoLink} title="home">
-            ac
-          </a>
-        </Link>
+      <div className={style.footerInner}>
+        <div
+          className={style.backToTop}
+          onClick={scrollToTop}
+          title="back to top"
+        >
+          <BsArrowUp />
+          <span>back to top</span>
+        </div>
+        <div className={style.logo}>
+          <Link href="/#home" passHref>
+            <a className={style.logoLink} title="home">
+              ac
+            </a>
+          </Link>
+        </div>
       </div>
     </footer>
   )

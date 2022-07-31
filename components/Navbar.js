@@ -24,22 +24,26 @@ export default function Navbar(elem) {
 
   return (
     <div className={burgerfied ? style.burgerfied : ''}>
-      <div className={style.hamburger} onClick={toggleHamburger}>
-        <div
-          className={`${style.burger} ${style.burger1} ${
-            hamburgerOpen ? style.open : style.closed
-          }`}
-        />
-        <div
-          className={`${style.burger} ${style.burger2} ${
-            hamburgerOpen ? style.open : style.closed
-          }`}
-        />
-        <div
-          className={`${style.burger} ${style.burger3} ${
-            hamburgerOpen ? style.open : style.closed
-          }`}
-        />
+      <div className={style.hamburgerContainer}>
+        <div className={style.hamburgerContainerInner}>
+          <div className={style.hamburger} onClick={toggleHamburger}>
+            <div
+              className={`${style.burger} ${style.burger1} ${
+                hamburgerOpen ? style.open : style.closed
+              }`}
+            />
+            <div
+              className={`${style.burger} ${style.burger2} ${
+                hamburgerOpen ? style.open : style.closed
+              }`}
+            />
+            <div
+              className={`${style.burger} ${style.burger3} ${
+                hamburgerOpen ? style.open : style.closed
+              }`}
+            />
+          </div>
+        </div>
       </div>
       <nav
         className={`${style.nav} ${hamburgerOpen ? style.open : style.closed}`}

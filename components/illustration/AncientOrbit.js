@@ -64,9 +64,7 @@ export default function AncientOrbit() {
           </div>
         </section>
         <section className={style.writeUp}>
-          <div>
-            <h2>ancient orbit</h2>
-          </div>
+          <h2>ancient orbit</h2>
           <p>an archive of cosmic occurances transcending thru tym n space</p>
         </section>
       </div>

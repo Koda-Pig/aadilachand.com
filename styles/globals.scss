@@ -65,3 +65,8 @@ a {
   background-color: variables.$dark;
   border: 1px solid variables.$lightest;
 }
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: variables.$darker;
+  border: 1px solid variables.$light;
+}

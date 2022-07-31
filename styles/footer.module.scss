@@ -1,13 +1,18 @@
 @use 'variables';
 
 .footer {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
-  max-width: 1439px;
-  margin: 0 auto;
-  padding: 0 5rem;
-  height: 6rem;
+  max-width: 100vw;
+  border-top: 1px solid white;
+  &Inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1439px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    height: 6rem;
+  }
 }
 
 .backToTop {

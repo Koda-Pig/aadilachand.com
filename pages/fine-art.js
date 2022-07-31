@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import { useRef } from 'react'
-import styles from '../styles/fine-art/fineArt.module.scss'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import Site from '../components/fine-art/Site'
 import ScrollToTop from '../components/ScrollToTop'
 import HoloScene from '../components/fine-art/HoloScene'
 import InOrganic from '../components/fine-art/InOrganic'
-import Site from '../components/fine-art/Site'
+import styles from '../styles/fine-art/fineArt.module.scss'
 import HumanNature from '../components/fine-art/HumanNature'
 
 export default function FineArt() {
@@ -22,13 +23,16 @@ export default function FineArt() {
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Navbar element={container} />
-      <main ref={container} className={styles.container}>
+      <div className={styles.container} ref={container}>
         <h1 className={styles.pageHeading}>fine art</h1>
-        <InOrganic className={styles.section} />
-        <HoloScene className={styles.section} />
-        <Site className={styles.section} />
-        <HumanNature className={styles.section} />
-      </main>
+        <main>
+          <InOrganic className={styles.section} />
+          <HoloScene className={styles.section} />
+          <Site className={styles.section} />
+          <HumanNature className={styles.section} />
+        </main>
+        <Footer element={container} />
+      </div>
       <ScrollToTop element={container} />
     </>
   )
