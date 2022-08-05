@@ -69,14 +69,16 @@
     justify-content: space-between;
   }
   &.minimised {
-    background: url(/images/background-latest.png);
-    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
-    top: -5rem;
-    padding-bottom: 2rem;
-    cursor: pointer;
-    &.minimised:hover {
-      top: 0rem;
+    @media (min-width: 769px) {
+      background: url(/images/background-latest.png);
+      box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+      top: -5rem;
       padding-bottom: 2rem;
+      cursor: pointer;
+      &.minimised:hover {
+        top: 0rem;
+        padding-bottom: 2rem;
+      }
     }
   }
 }
