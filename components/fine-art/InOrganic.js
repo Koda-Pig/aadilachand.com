@@ -12,121 +12,47 @@ import inorganicImg7 from '../../public/images/fine-art/inorganic/inorganic-7.pn
 import inorganicImg8 from '../../public/images/fine-art/inorganic/inorganic-8.png'
 import inorganicImg9 from '../../public/images/fine-art/inorganic/inorganic-9.png'
 
+const images = [
+  [inorganicImg1, 'CDTu8ywnTB_'],
+  [inorganicImg2, 'CDTu24BnvDV'],
+  [inorganicImg3, 'CDTu1SUnP4i'],
+  [inorganicImg4, 'CDTuwAEHGob'],
+  [inorganicImg5, 'CDTugeenIH2'],
+  [inorganicImg6, 'CDTubK5n9ml'],
+  [inorganicImg7, 'CDTt_GPnwqs'],
+  [inorganicImg8, 'CDTt1penyTD'],
+  [inorganicImg9, 'CDTtydbna8M']
+]
+const imageGallery = images.map((image, index) => {
+  return (
+    <a
+      key={index}
+      target="_blank"
+      rel="noreferrer"
+      className={style.galleryLink}
+      href={'https://www.instagram.com/p/' + image[1]}
+    >
+      <div className={style.galleryCaption}>
+        <BsInstagram />
+        <caption>more</caption>
+      </div>
+      <Image
+        alt=""
+        priority
+        quality={100}
+        src={image[0]}
+        className={style.img}
+      />
+    </a>
+  )
+})
+
 export default function InOrganic() {
   return (
     <div className={style.inOrganic}>
       <div className={style.container}>
         <section className={style.gallerySection}>
-          <div className={style.gallery}>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg1} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu24BnvDV/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg2} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu1SUnP4i/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg3} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTuwAEHGob/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg4} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTugeenIH2/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg5} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTubK5n9ml/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg6} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTt_GPnwqs/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg7} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTt1penyTD/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg8} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTtydbna8M/"
-            >
-              <div className={style.galleryCaption}>
-                <BsInstagram />
-                <caption>more</caption>
-              </div>
-              <Image className={style.img} src={inorganicImg9} alt="" />
-            </a>
-          </div>
+          <div className={style.gallery}>{imageGallery}</div>
           <p className={style.caption}>
             Gallery in the Round Monument Building Makhanda
           </p>

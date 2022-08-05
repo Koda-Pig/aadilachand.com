@@ -20,7 +20,7 @@
   transform-origin: 1px;
   transition: all 0.3s linear;
   background-color: variables.$dark;
-  &1 {
+  &:first-child {
     &.open {
       transform: rotate(45deg);
     }
@@ -28,7 +28,7 @@
       transform: rotate(0);
     }
   }
-  &2 {
+  &:nth-child(2) {
     &.open {
       opacity: 0;
       transform: translateX(-100%);
@@ -38,7 +38,7 @@
       transform: translateX(0);
     }
   }
-  &3 {
+  &:nth-child(3) {
     &.open {
       transform: rotate(-45deg);
     }
@@ -70,10 +70,10 @@
   }
   &.minimised {
     @media (min-width: 769px) {
-      background: url(/images/background-latest.png);
-      box-shadow: 0 0 10px rgb(0 0 0 / 20%);
       top: -5rem;
       padding-bottom: 2rem;
+      box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+      background: url(/images/background-latest.png);
       cursor: pointer;
       &.minimised:hover {
         top: 0rem;

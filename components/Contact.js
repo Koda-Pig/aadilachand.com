@@ -11,6 +11,7 @@ export default function Contact() {
         <section className={style.imageOverlap}>
           <div className={style.aboutImgs}>
             <Image
+              quality={100}
               className={style.img}
               src={aboutImgs}
               alt="ADD DESCRIPTION"
@@ -18,6 +19,7 @@ export default function Contact() {
           </div>
           <div className={style.resumeTxt}>
             <Image
+              quality={100}
               src={resumeTxt}
               alt="ADD DESCRIPTION"
               className={style.resumeTxtImg}

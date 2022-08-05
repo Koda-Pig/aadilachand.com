@@ -34,8 +34,4 @@
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
   max-width: calc(288px * 3 + 1rem);
-  &Link {
-    font-size: 0;
-    max-width: 288px;
-  }
 }

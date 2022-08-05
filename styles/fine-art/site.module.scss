@@ -31,13 +31,10 @@
 }
 
 .gallery {
+  width: 880px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.5rem;
   margin-bottom: 1.5rem;
-  width: 880px;
-  &Link {
-    font-size: 0;
-  }
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }

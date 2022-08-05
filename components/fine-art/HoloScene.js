@@ -4,37 +4,21 @@ import holoSceneImg1 from '../../public/images/fine-art/holoscene/holoscene-5.pn
 import holoSceneImg2 from '../../public/images/fine-art/holoscene/holoscene-2.png'
 import holoSceneImg3 from '../../public/images/fine-art/holoscene/holoscene-4.png'
 
+const images = [holoSceneImg1, holoSceneImg2, holoSceneImg3]
+const imageGallery = images.map((image, index) => {
+  return (
+    <a key={index} className={style.galleryLink}>
+      <Image src={image} quality={100} alt="" />
+    </a>
+  )
+})
+
 export default function HoloScene() {
   return (
     <div className={style.holoScene}>
       <div className={style.container}>
         <section className={style.gallerySection}>
-          <div className={style.gallery}>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image src={holoSceneImg1} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu24BnvDV/"
-            >
-              <Image src={holoSceneImg2} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu1SUnP4i/"
-            >
-              <Image src={holoSceneImg3} alt="" />
-            </a>
-          </div>
+          <div className={style.gallery}>{imageGallery}</div>
         </section>
         <section className={style.writeUp}>
           <div>

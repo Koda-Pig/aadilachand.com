@@ -7,61 +7,24 @@ import ancientOrbit4 from '../../public/images/illustration/ancient-orbit/ancien
 import ancientOrbit5 from '../../public/images/illustration/ancient-orbit/ancient-orbit-5.png'
 import ancientOrbit6 from '../../public/images/illustration/ancient-orbit/ancient-orbit-6.png'
 
+const images = [
+  ancientOrbit1,
+  ancientOrbit2,
+  ancientOrbit3,
+  ancientOrbit4,
+  ancientOrbit5,
+  ancientOrbit6
+]
+const imageGallery = images.map((image, index) => {
+  return <Image key={index} src={image} quality={100} alt="" />
+})
+
 export default function AncientOrbit() {
   return (
     <div className={style.ancientOrbit}>
       <div className={style.container}>
         <section className={style.gallerySection}>
-          <div className={style.gallery}>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={ancientOrbit1} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={ancientOrbit2} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={ancientOrbit3} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={ancientOrbit4} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={ancientOrbit5} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={ancientOrbit6} alt="" />
-            </a>
-          </div>
+          <div className={style.gallery}>{imageGallery}</div>
         </section>
         <section className={style.writeUp}>
           <h2>ancient orbit</h2>

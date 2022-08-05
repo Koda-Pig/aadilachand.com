@@ -25,13 +25,14 @@
 }
 
 .gallery {
+  width: 880px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.25rem;
   margin-bottom: 2.8rem;
-  width: 880px;
+  grid-template-columns: 1fr 1fr 1fr;
   &Link {
     font-size: 0;
+    cursor: pointer;
     max-width: 289px;
     max-height: 288px;
     span {

@@ -5,45 +5,17 @@ import humanNature2 from '../../public/images/fine-art/human-nature/human-nature
 import humanNature3 from '../../public/images/fine-art/human-nature/human-nature-3.png'
 import humanNature4 from '../../public/images/fine-art/human-nature/human-nature-4.png'
 
-export default function Site() {
+const images = [humanNature1, humanNature2, humanNature3, humanNature4]
+const imageGallery = images.map((image, index) => {
+  return <Image key={index} src={image} quality={100} alt="" />
+})
+
+export default function HumanNature() {
   return (
     <div className={style.holoScene}>
       <div className={style.container}>
         <section className={style.gallerySection}>
-          <div className={style.gallery}>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={humanNature1} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={humanNature2} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={humanNature3} alt="" />
-            </a>
-            <a
-              className={style.galleryLink}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/p/CDTu8ywnTB_/"
-            >
-              <Image className={style.img} src={humanNature4} alt="" />
-            </a>
-          </div>
+          <div className={style.gallery}>{imageGallery}</div>
         </section>
         <section className={style.writeUp}>
           <div>

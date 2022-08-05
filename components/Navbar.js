@@ -1,13 +1,32 @@
 import Link from 'next/link'
 import style from '../styles/navbar.module.scss'
-
 import { useState, useEffect } from 'react'
 
+const sections = ['work', 'about', 'contact']
+
 export default function Navbar(elem) {
+  const toggleHamburger = () => setHamburgerOpen(!hamburgerOpen)
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
   const [isMinimised, setMinimised] = useState(false)
 
-  const toggleHamburger = () => setHamburgerOpen(!hamburgerOpen)
+  const menuItems = sections.map((section, index) => {
+    return (
+      <div className={style.menuItem} key={index}>
+        <Link href={'/#' + section} passHref>
+          <a className={style.link} onClick={toggleHamburger}>
+            {section}
+          </a>
+        </Link>
+      </div>
+    )
+  })
+
+  const burger = (
+    <div
+      className={`${style.burger} ${hamburgerOpen ? style.open : style.closed}`}
+    />
+  )
+  const hamburger = [burger, burger, burger]
 
   const toggleMinimised = () => {
     if (elem.element.current.scrollTop > 50) setMinimised(true)
@@ -24,21 +43,7 @@ export default function Navbar(elem) {
   return (
     <>
       <div className={style.hamburger} onClick={toggleHamburger}>
-        <div
-          className={`${style.burger} ${style.burger1} ${
-            hamburgerOpen ? style.open : style.closed
-          }`}
-        />
-        <div
-          className={`${style.burger} ${style.burger2} ${
-            hamburgerOpen ? style.open : style.closed
-          }`}
-        />
-        <div
-          className={`${style.burger} ${style.burger3} ${
-            hamburgerOpen ? style.open : style.closed
-          }`}
-        />
+        {hamburger}
       </div>
       <nav
         className={`
@@ -58,29 +63,7 @@ export default function Navbar(elem) {
               </a>
             </Link>
           </div>
-          <div className={style.menu}>
-            <div className={style.menuItem}>
-              <Link href="/#work" passHref>
-                <a className={style.link} onClick={toggleHamburger}>
-                  work
-                </a>
-              </Link>
-            </div>
-            <div className={style.menuItem}>
-              <Link href="/#about" passHref>
-                <a className={style.link} onClick={toggleHamburger}>
-                  about
-                </a>
-              </Link>
-            </div>
-            <div className={style.menuItem}>
-              <Link href="/#contact" passHref>
-                <a className={style.link} onClick={toggleHamburger}>
-                  contact
-                </a>
-              </Link>
-            </div>
-          </div>
+          <div className={style.menu}>{menuItems}</div>
         </div>
       </nav>
     </>

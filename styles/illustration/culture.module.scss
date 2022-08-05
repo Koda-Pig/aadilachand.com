@@ -1,7 +1,6 @@
 .container {
   padding: 0 2rem;
   margin-top: 9rem;
-  max-width: 1144px;
 }
 
 .writeUp {
@@ -26,11 +25,10 @@
   display: grid;
   margin-bottom: 3.3rem;
   grid-template-columns: 1fr 1fr 1fr;
-  span {
+  > span {
     cursor: pointer;
+    &:first-child {
+      // border: 1px solid red !important;
+    }
   }
-}
-.img1 {
-  background: url(/images/illustration/culture/culture-1b.png);
-  background-size: 100% 100%;
 }
