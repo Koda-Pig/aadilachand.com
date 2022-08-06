@@ -26,7 +26,6 @@ export default function Navbar(elem) {
       className={`${style.burger} ${hamburgerOpen ? style.open : style.closed}`}
     />
   )
-  const hamburger = [burger, burger, burger]
 
   const toggleMinimised = () => {
     if (elem.element.current.scrollTop > 50) setMinimised(true)
@@ -43,7 +42,7 @@ export default function Navbar(elem) {
   return (
     <>
       <div className={style.hamburger} onClick={toggleHamburger}>
-        {hamburger}
+        {burger} {burger} {burger}
       </div>
       <nav
         className={`

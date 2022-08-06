@@ -33,8 +33,8 @@ const imageGallery = images.map((image, index) => {
       href={'https://www.instagram.com/p/' + image[1]}
     >
       <div className={style.galleryCaption}>
-        <BsInstagram />
-        <caption>more</caption>
+        <BsInstagram size={'1.5rem'} />
+        <span>more</span>
       </div>
       <Image
         alt=""
