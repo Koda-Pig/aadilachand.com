@@ -9,8 +9,6 @@ const imageGallery = images.map((image, index) => {
   return <Image key={index} src={image} quality={100} width={360} alt="" />
 })
 
-console.log(imageGallery)
-
 export default function Culture() {
   return (
     <div className={style.culture}>

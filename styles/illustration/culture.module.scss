@@ -28,7 +28,35 @@
   > span {
     cursor: pointer;
     &:first-child {
-      // border: 1px solid red !important;
+      border: 1px solid red !important;
+      &::before {
+        content: '';
+        background: url(/images/illustration/culture/culture-3a.png) center /
+          cover no-repeat;
+        background-size: 360px 360px;
+        opacity: 1;
+        width: 360px;
+        height: 360px;
+        display: block;
+        margin: 0 auto;
+        transition: opacity 0.3s ease;
+      }
     }
+    &:hover {
+      opacity: 0 !important;
+      animation: bounce 0.3s 1 cubic-bezier(0.76, 0.45, 0.19, 1.78);
+    }
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+  to {
+    transform: translateY(0rem);
   }
 }

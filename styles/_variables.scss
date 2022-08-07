@@ -52,11 +52,11 @@ $lightest: #848484;
     background-size: 17px 30px;
   }
   &:hover::before {
-    animation: rotation 0.3s 1 cubic-bezier(0.76, 0.45, 0.19, 1.78);
+    animation: bounce 0.3s 1 cubic-bezier(0.76, 0.45, 0.19, 1.78);
   }
 }
 
-@keyframes rotation {
+@keyframes bounce {
   from {
     transform: translateY(0);
   }
