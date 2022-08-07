@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import style from '../../styles/illustration/culture.module.scss'
-import cultureImg1 from '../../public/images/illustration/culture/culture-1a.png'
-import cultureImg2 from '../../public/images/illustration/culture/culture-2a.png'
-import cultureImg3 from '../../public/images/illustration/culture/culture-3a.png'
+import cultureImg1 from '../../public/images/illustration/culture/culture-1c.png'
+import cultureImg2 from '../../public/images/illustration/culture/culture-2c.png'
+import cultureImg3 from '../../public/images/illustration/culture/culture-3c.png'
 
 const images = [cultureImg1, cultureImg2, cultureImg3]
 const imageGallery = images.map((image, index) => {

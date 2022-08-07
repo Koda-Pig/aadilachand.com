@@ -25,38 +25,42 @@
   display: grid;
   margin-bottom: 3.3rem;
   grid-template-columns: 1fr 1fr 1fr;
+  // gallery images shown only on hover:
   > span {
     cursor: pointer;
-    &:first-child {
-      border: 1px solid red !important;
-      &::before {
-        content: '';
-        background: url(/images/illustration/culture/culture-3a.png) center /
-          cover no-repeat;
-        background-size: 360px 360px;
-        opacity: 1;
-        width: 360px;
-        height: 360px;
-        display: block;
-        margin: 0 auto;
-        transition: opacity 0.3s ease;
-      }
+    &::before,
+    &::after {
+      content: '';
+      width: 360px;
+      height: 360px;
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      transition: opacity 1.6s ease;
+      background: url(/images/favicon.ico) center / cover no-repeat;
     }
-    &:hover {
-      opacity: 0 !important;
-      animation: bounce 0.3s 1 cubic-bezier(0.76, 0.45, 0.19, 1.78);
+    &:hover::before,
+    &:hover::after {
+      opacity: 0;
+    }
+    &::before {
+      z-index: 1;
+    }
+    &::after {
+      top: 0;
+      transition-delay: 1s;
     }
   }
 }
 
-@keyframes bounce {
-  from {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-0.5rem);
-  }
-  to {
-    transform: translateY(0rem);
+// sets the background images for the gallery
+@for $i from 1 through 3 {
+  .gallery > span:nth-child(#{$i}) {
+    &::before {
+      background-image: url(/images/illustration/culture/culture-#{$i}a.png);
+    }
+    &::after {
+      background-image: url(/images/illustration/culture/culture-#{$i}b.png);
+    }
   }
 }
