@@ -10,7 +10,7 @@ export default function Work() {
     <div className={style.work} id="work">
       <div className={style.container}>
         <section className={style.section}>
-          <Link href="#" passHref>
+          <Link href="/ux-ui" passHref>
             <a>
               <Image
                 src={uxUiCircle}

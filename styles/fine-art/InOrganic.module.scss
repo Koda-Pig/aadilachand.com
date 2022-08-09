@@ -60,7 +60,8 @@
     position: absolute;
     transform: translate(-50%, -50%);
     span {
-      font-size: 2rem;
+      display: block;
+      font-size: 1rem;
     }
   }
 }

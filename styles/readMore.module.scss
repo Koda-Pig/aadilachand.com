@@ -1,12 +1,29 @@
+@use 'variables';
+
 .readMore {
   opacity: 1;
-  transition: margin 0.3s ease-in-out, opacity 0.4s ease-in-out;
+  display: block;
+  max-height: 100%;
+  margin-bottom: 2rem;
+  transition: max-height 0.8s ease-in-out, margin 0.3s ease-in-out,
+    opacity 0.2s ease-in-out;
   &Toggle {
     cursor: pointer;
+    position: relative;
+    color: variables.$link;
+    text-decoration: underline transparent;
+    transition: color 0.2s, text-decoration 0.25s;
+    &:hover {
+      text-decoration-color: variables.$light;
+      color: variables.$light;
+    }
   }
 }
 
 .hide {
   opacity: 0;
-  margin-top: -40%;
+  max-height: 0;
+  margin-bottom: 0 !important;
+  transition: max-height 0.4s cubic-bezier(0, 1, 0, 1), margin 0.3s ease-in-out,
+    opacity 0.2s ease-in-out;
 }
