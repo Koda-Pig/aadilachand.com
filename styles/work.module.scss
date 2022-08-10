@@ -1,12 +1,12 @@
 @use 'variables';
 
 .work {
-  @include variables.section;
+  @extend %section;
   background: url(/images/home/background.png) center / cover no-repeat;
 }
 
 .container {
-  @include variables.inner-container;
+  @extend %inner-container;
   gap: 2.5rem;
   padding: 0 5rem;
   max-width: 1176px;

@@ -1,12 +1,12 @@
 @use 'variables';
 
 .about {
-  @include variables.section;
+  @extend %section;
   background: url(/images/home/background-about.png) center / cover no-repeat;
 }
 
 .container {
-  @include variables.inner-container;
+  @extend %inner-container;
   gap: 2.5rem;
   max-width: 540px;
 }

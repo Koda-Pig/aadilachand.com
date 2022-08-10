@@ -1,27 +1,26 @@
+@use '../variables';
+
 .container {
-  padding: 0 2rem;
-  margin-top: 9rem;
+  min-height: 582px;
+  min-width: 782px;
+  margin-top: 7rem;
+  background: url(/images/ux-ui/iPhone.png) center left / contain no-repeat;
+  .writeup {
+    margin-left: 24rem;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 2rem;
+    }
+    a {
+      font-size: 18px;
+    }
+  }
 }
 
-.writeUp {
-  gap: 5rem;
-  display: flex;
-  max-width: 483px;
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-  }
-  p {
-    font-size: 18px;
-    margin-bottom: 2rem;
-  }
-  a {
-    font-size: 18px;
-  }
-}
-
-.gallery {
-  gap: 2rem;
-  display: grid;
-  margin-bottom: 3.3rem;
+.callToAction {
+  @extend %button;
 }

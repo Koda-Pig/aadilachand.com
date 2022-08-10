@@ -6,7 +6,7 @@ $lightest: #848484;
 $link: #48443a;
 
 // other stuff
-@mixin section {
+%section {
   height: 100vh;
   display: flex;
   place-items: center;
@@ -15,13 +15,13 @@ $link: #48443a;
   scroll-snap-align: center;
 }
 
-@mixin inner-container {
+%inner-container {
   width: 100%;
   display: flex;
   place-content: center;
 }
 
-@mixin page-heading {
+%page-heading {
   width: 100%;
   top: 2.5rem;
   font-size: 2.5rem;
@@ -30,6 +30,20 @@ $link: #48443a;
   padding-bottom: 1rem;
   border-bottom: 1px solid white;
   font-family: 'Bellefair', sans-serif;
+}
+
+%button {
+  font-size: 1rem;
+  border-radius: 3rem;
+  border: 1px solid white;
+  color: $darker;
+  display: inline-block;
+  padding: 0.7rem 2.5rem;
+  background: transparent;
+  transition: background-color 0.2s ease-in-out;
+  &:hover {
+    background-color: rgba(white, 0.2);
+  }
 }
 
 @mixin logo {

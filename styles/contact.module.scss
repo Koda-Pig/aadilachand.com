@@ -1,13 +1,13 @@
 @use 'variables';
 
 .contact {
-  @include variables.section;
+  @extend %section;
   background: url(/images/home/contact-highlight.png) center / contain no-repeat,
     url(/images/home/background.png) center / cover no-repeat;
 }
 
 .container {
-  @include variables.inner-container;
+  @extend %inner-container;
   gap: 3.875rem;
   padding: 0 5rem;
   max-width: 1200px;
@@ -69,17 +69,7 @@
 }
 
 .callToAction {
-  font-size: 1rem;
-  border-radius: 3rem;
-  border: 1px solid white;
-  color: variables.$darker;
-  display: inline-block;
-  padding: 0.7rem 2.5rem;
-  background: transparent;
-  transition: background-color 0.2s ease-in-out;
-  &:hover {
-    background-color: rgba(white, 0.2);
-  }
+  @extend %button;
 }
 
 @media (max-width: 768px) {

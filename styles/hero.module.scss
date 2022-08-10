@@ -1,7 +1,7 @@
 @use 'variables';
 
 .hero {
-  @include variables.section;
+  @extend %section;
   background: url(/images/home/background-home.png) center / cover no-repeat;
   &Text {
     width: 100%;

@@ -12,5 +12,5 @@
 }
 
 .pageHeading {
-  @include variables.page-heading;
+  @extend %page-heading;
 }
