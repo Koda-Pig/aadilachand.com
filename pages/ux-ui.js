@@ -1,9 +1,11 @@
-import Head from 'next/head'
 import { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import ScrollToTop from '../components/ScrollToTop'
 import Vaaib from '../components/ux-ui/Vaaib'
+import EarthDirt from '../components/ux-ui/EarthDirt'
+import StyleExploration from '../components/ux-ui/StyleExploration'
+import CustomHead from '../components/CustomHead'
+import ScrollToTop from '../components/ScrollToTop'
 import styles from '../styles/ux-ui/uxUi.module.scss'
 
 export default function UxUi() {
@@ -11,19 +13,14 @@ export default function UxUi() {
 
   return (
     <>
-      <Head>
-        <title>illustration | aadila chand - multidisciplinary artist</title>
-        <meta
-          name="description"
-          content="illustration | aadila chand | multidisciplinary artist"
-        />
-        <link rel="icon" href="/images/favicon.ico" />
-      </Head>
+      <CustomHead page="ux/ ui" />
       <Navbar element={container} />
       <div className={styles.container} ref={container}>
         <h1 className={styles.pageHeading}>ux/ui</h1>
         <main>
           <Vaaib />
+          <EarthDirt />
+          <StyleExploration />
         </main>
         <Footer element={container} />
       </div>

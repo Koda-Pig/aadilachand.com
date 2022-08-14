@@ -1,0 +1,35 @@
+@use '../variables';
+
+.container {
+  margin-top: 7rem;
+  .macbookImg {
+    margin-bottom: 1.5rem;
+  }
+  .writeup {
+    z-index: 1;
+    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2.6rem;
+    h2 {
+      display: flex;
+      font-size: 6rem;
+      min-width: 16rem;
+      justify-content: center;
+      font-family: 'RetroSignature';
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 241px;
+      margin-bottom: 1.5rem;
+      strong {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.callToAction {
+  @extend %button;
+}

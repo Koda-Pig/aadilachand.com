@@ -33,16 +33,20 @@ $link: #48443a;
 }
 
 %button {
-  font-size: 1rem;
+  color: black;
+  font-size: 1.2rem;
   border-radius: 3rem;
-  border: 1px solid white;
-  color: $darker;
   display: inline-block;
-  padding: 0.7rem 2.5rem;
+  padding: 0.75rem 2rem;
   background: transparent;
-  transition: background-color 0.2s ease-in-out;
+  border: 1px solid white;
+  transition: all 0.2s ease-in-out;
   &:hover {
-    background-color: rgba(white, 0.2);
+    border-color: black;
+    background-color: rgba(white, 0.4);
+  }
+  &:active {
+    border-color: white;
   }
 }
 

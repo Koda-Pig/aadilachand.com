@@ -1,7 +1,7 @@
-import Head from 'next/head'
 import { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import CustomHead from '../components/CustomHead'
 import ScrollToTop from '../components/ScrollToTop'
 import Culture from '../components/illustration/Culture'
 import AncientOrbit from '../components/illustration/AncientOrbit'
@@ -12,14 +12,7 @@ export default function Illustration() {
 
   return (
     <>
-      <Head>
-        <title>illustration | aadila chand - multidisciplinary artist</title>
-        <meta
-          name="description"
-          content="illustration | aadila chand | multidisciplinary artist"
-        />
-        <link rel="icon" href="/images/favicon.ico" />
-      </Head>
+      <CustomHead page="illustration" />
       <Navbar element={container} />
       <div className={styles.container} ref={container}>
         <h1 className={styles.pageHeading}>illustration</h1>

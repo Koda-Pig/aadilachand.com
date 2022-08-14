@@ -1,8 +1,8 @@
-import Head from 'next/head'
 import { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Site from '../components/fine-art/Site'
+import CustomHead from '../components/CustomHead'
 import ScrollToTop from '../components/ScrollToTop'
 import HoloScene from '../components/fine-art/HoloScene'
 import InOrganic from '../components/fine-art/InOrganic'
@@ -14,14 +14,7 @@ export default function FineArt() {
 
   return (
     <>
-      <Head>
-        <title>fine art | aadila chand - multidisciplinary artist</title>
-        <meta
-          name="description"
-          content="fine art | aadila chand | multidisciplinary artist"
-        />
-        <link rel="icon" href="/images/favicon.ico" />
-      </Head>
+      <CustomHead page="fine art" />
       <Navbar element={container} />
       <div className={styles.container} ref={container}>
         <h1 className={styles.pageHeading}>fine art</h1>

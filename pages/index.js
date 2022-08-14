@@ -1,11 +1,11 @@
 import { useRef } from 'react'
-import Head from 'next/head'
-import styles from '../styles/Home.module.scss'
 import Hero from '../components/Hero'
 import Work from '../components/Work'
 import About from '../components/About'
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
+import styles from '../styles/Home.module.scss'
+import CustomHead from '../components/CustomHead'
 import ScrollToTop from '../components/ScrollToTop'
 
 export default function Home() {
@@ -13,14 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>aadila chand - multidisciplinary artist</title>
-        <meta
-          name="description"
-          content="aadila chand | multidisciplinary artist"
-        />
-        <link rel="icon" href="/images/favicon.ico" />
-      </Head>
+      <CustomHead />
       <Navbar element={container} />
       <main ref={container} className={styles.container}>
         <Hero element={container} />
