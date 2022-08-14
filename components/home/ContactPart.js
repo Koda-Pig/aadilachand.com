@@ -1,10 +1,10 @@
-import style from '../styles/contact.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
-import profileImg from '../public/images/home/about-profile.png'
-import outerMandalaImg from '../public/images/home/outer-mandala.png'
-import innerMandalaImg from '../public/images/home/inner-mandala.png'
-import resumeTxt from '../public/images/home/resume.svg'
+import style from '../../styles/home/contact.module.scss'
+import resumeTxt from '../../public/images/home/resume.svg'
+import profileImg from '../../public/images/home/about-profile.png'
+import outerMandalaImg from '../../public/images/home/outer-mandala.png'
+import innerMandalaImg from '../../public/images/home/inner-mandala.png'
 
 export default function Contact() {
   return (

@@ -3,8 +3,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import CustomHead from '../components/CustomHead'
 import ScrollToTop from '../components/ScrollToTop'
-import Culture from '../components/illustration/Culture'
-import AncientOrbit from '../components/illustration/AncientOrbit'
+import CulturePart from '../components/illustration/CulturePart'
+import AncientOrbitPart from '../components/illustration/AncientOrbitPart'
 import styles from '../styles/illustration/illustration.module.scss'
 
 export default function Illustration() {
@@ -17,8 +17,8 @@ export default function Illustration() {
       <div className={styles.container} ref={container}>
         <h1 className={styles.pageHeading}>illustration</h1>
         <main>
-          <Culture />
-          <AncientOrbit />
+          <CulturePart />
+          <AncientOrbitPart />
         </main>
         <Footer element={container} />
       </div>

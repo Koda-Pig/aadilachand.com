@@ -1,6 +1,6 @@
-import style from '../styles/about.module.scss'
+import style from '../../styles/home/about.module.scss'
 
-export default function About() {
+export default function AboutPart() {
   return (
     <div className={style.about} id="about">
       <div className={style.container}>

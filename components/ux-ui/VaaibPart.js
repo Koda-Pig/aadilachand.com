@@ -4,7 +4,7 @@ import Image from 'next/image'
 import vaaibImg from '../../public/images/ux-ui/vaaib/vaaib.svg'
 import iPhoneImg from '../../public/images/ux-ui/vaaib/iPhone.png'
 
-export default function Vaiib() {
+export default function VaiibPart() {
   return (
     <div className={style.container}>
       <div className={style.iPhoneImg}>

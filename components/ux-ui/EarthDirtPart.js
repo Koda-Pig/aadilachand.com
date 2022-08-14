@@ -3,7 +3,7 @@ import Image from 'next/image'
 import style from '../../styles/ux-ui/earthDirt.module.scss'
 import macbookImg from '../../public/images/ux-ui/earthdirt/MacBook.png'
 
-export default function EarthDirt() {
+export default function EarthDirtPart() {
   return (
     <div className={style.container}>
       <div className={style.macbookImg}>

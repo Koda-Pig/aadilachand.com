@@ -3,7 +3,7 @@ import Image from 'next/image'
 import style from '../../styles/ux-ui/styleExploration.module.scss'
 import iPhoneImg from '../../public/images/ux-ui/style-exploration/iPhone.png'
 
-export default function StyleExploration() {
+export default function StyleExplorationPart() {
   return (
     <div className={style.container}>
       <div className={style.writeup}>
