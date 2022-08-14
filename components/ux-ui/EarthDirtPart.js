@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import style from '../../styles/ux-ui/earthDirt.module.scss'
+import style from '../../styles/ux-ui/earthdirt.module.scss'
 import macbookImg from '../../public/images/ux-ui/earthdirt/MacBook.png'
 
-export default function EarthDirtPart() {
+export default function EarthdirtPart() {
   return (
     <div className={style.container}>
       <div className={style.macbookImg}>
@@ -16,7 +16,7 @@ export default function EarthDirtPart() {
           <br />
           an online shop for a craft boutique.
         </p>
-        <Link href="#" passHref>
+        <Link href="/ux-ui/earthdirt" passHref>
           <a className={style.callToAction}>view project</a>
         </Link>
       </div>

@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import VaaibPart from '../components/ux-ui/VaaibPart'
-import EarthDirtPart from '../components/ux-ui/EarthDirtPart'
+import EarthdirtPart from '../components/ux-ui/EarthdirtPart'
 import StyleExplorationPart from '../components/ux-ui/StyleExplorationPart'
 import CustomHead from '../components/CustomHead'
 import ScrollToTop from '../components/ScrollToTop'
@@ -19,7 +19,7 @@ export default function UxUi() {
         <h1 className={styles.pageHeading}>ux/ui</h1>
         <main>
           <VaaibPart />
-          <EarthDirtPart />
+          <EarthdirtPart />
           <StyleExplorationPart />
         </main>
         <Footer element={container} />

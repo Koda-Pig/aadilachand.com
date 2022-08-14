@@ -6,7 +6,7 @@ import HeroPart from '../components/home/HeroPart'
 import WorkPart from '../components/home/WorkPart'
 import AboutPart from '../components/home/AboutPart'
 import ContactPart from '../components/home/ContactPart'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/home/Home.module.scss'
 
 export default function Home() {
   const container = useRef(null)

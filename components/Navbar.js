@@ -13,7 +13,7 @@ export default function Navbar(elem) {
     return (
       <div className={style.menuItem} key={index}>
         <Link href={'/#' + section} passHref>
-          <a className={style.link} onClick={toggleHamburger}>
+          <a className={style.link} onClick={toggleHamburger} title={section}>
             {section}
           </a>
         </Link>
@@ -57,6 +57,7 @@ export default function Navbar(elem) {
               <a
                 className={`${style.link} ${style.homelink}`}
                 onClick={toggleHamburger}
+                title="home"
               >
                 ac
               </a>

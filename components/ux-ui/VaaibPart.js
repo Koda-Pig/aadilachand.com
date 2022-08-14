@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import style from '../../styles/ux-ui/vaaib.module.scss'
 import Image from 'next/image'
+import style from '../../styles/ux-ui/vaaib.module.scss'
 import vaaibImg from '../../public/images/ux-ui/vaaib/vaaib.svg'
 import iPhoneImg from '../../public/images/ux-ui/vaaib/iPhone.png'
 

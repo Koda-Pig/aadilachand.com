@@ -21,6 +21,16 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Rafelya-Carrotin';
+  src: url(/fonts/Rafelya-Carrotin.ttf) format('truetype'),
+    url(/fonts/Rafelya-Carrotin.woff) format('woff'),
+    url(/fonts/Rafelya-Carrotin.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;

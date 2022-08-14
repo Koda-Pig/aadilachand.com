@@ -1,0 +1,42 @@
+@use '../variables';
+$colors: (#132306, #243d10, #748e5e, #9c917c, #f0f0f0);
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 7rem;
+  max-width: 57rem;
+  align-items: center;
+  justify-content: space-between;
+  .proto {
+    h2 {
+      font-size: 6.5rem;
+      margin-left: 0.3rem;
+      font-family: RetroSignature;
+    }
+    .circles {
+      gap: 0.5rem;
+      display: flex;
+      margin-bottom: 2.5rem;
+      i {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 3rem;
+        // an unnecessarily convoluted way to assign colors to each circle.
+        @for $i from 1 through length($colors) {
+          $color: nth($colors, $i);
+          &:nth-child(#{$i}) {
+            background: $color;
+          }
+        }
+      }
+    }
+  }
+  .writeup {
+    max-width: 50%;
+  }
+}
+
+.callToAction {
+  @extend %button;
+}

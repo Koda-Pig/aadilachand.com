@@ -1,0 +1,16 @@
+@use '../variables';
+
+.container {
+  height: 100vh;
+  display: grid;
+  overflow: auto;
+  place-items: center;
+  background: url(/images/background-latest.png) center / cover no-repeat fixed;
+  main > div {
+    margin-bottom: 9rem;
+  }
+}
+
+.pageHeading {
+  @extend %page-heading;
+}

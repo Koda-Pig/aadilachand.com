@@ -1,0 +1,23 @@
+@use '../variables';
+
+.container {
+  gap: 1.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  .styleguide {
+    > span {
+      margin-bottom: 2rem !important;
+    }
+    h3 {
+      color: white;
+      font-weight: 400;
+      font-size: 2.5rem;
+      font-family: Rafelya-Carrotin;
+      margin-bottom: 2.5rem;
+    }
+    .callToAction {
+      @extend %button;
+    }
+  }
+}
