@@ -14,47 +14,53 @@
 }
 
 .imageOverlap {
-  display: grid;
-  max-width: 487px;
-  align-content: center;
+  display: flex;
+  max-width: 100%;
+  min-width: 461px;
+  max-height: 440px;
+  position: relative;
+  place-items: center;
 }
 
-.aboutImgs {
-  max-width: 100%;
+.profile,
+.outerMandala,
+.innerMandala,
+.resumeTxt {
+  position: absolute;
+}
+
+.profile {
+  bottom: 0;
+  right: 0;
+}
+
+.outerMandala {
+  top: 0;
+  left: 0;
+}
+
+.innerMandala {
+  top: 65px;
+  left: 63px;
+  font-size: 0;
+  animation: rotation 240s infinite linear;
 }
 
 .resumeTxt {
-  margin: -32% 25%;
-  height: 120px;
-  width: 120px;
-  &Img {
+  bottom: 0;
+  right: 213px;
+  .img {
     cursor: pointer;
     transition: filter 0.2s ease;
-    filter: drop-shadow(0px 0px 0px white);
-    animation: rotation 10s infinite linear;
+    filter: drop-shadow(0 0 0 white);
     &:hover {
-      filter: drop-shadow(0px 0px 3px white);
+      filter: drop-shadow(0 0 3px white);
     }
   }
 }
 
-.img,
-.resumeTxtImg {
-  max-width: 100px;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-359deg);
-  }
-}
-
 .connect {
-  width: 50vw;
-  margin: auto 0;
+  max-width: 50%;
   h2 {
     margin-bottom: 2rem;
   }
@@ -63,7 +69,6 @@
     margin: 0 0.5rem 0 -1.7rem;
   }
   p {
-    line-height: normal;
     margin-bottom: 2.875rem;
   }
 }
@@ -72,14 +77,11 @@
   @extend %button;
 }
 
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
   }
-}
-
-@media (min-width: 1024px) {
-  .imageOverlap {
-    width: 90vw;
+  to {
+    transform: rotate(-360deg);
   }
 }

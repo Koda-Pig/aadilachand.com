@@ -1,7 +1,9 @@
 import style from '../styles/contact.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
-import aboutImgs from '../public/images/home/about-imgs.png'
+import profileImg from '../public/images/home/about-profile.png'
+import outerMandalaImg from '../public/images/home/outer-mandala.png'
+import innerMandalaImg from '../public/images/home/inner-mandala.png'
 import resumeTxt from '../public/images/home/resume.svg'
 
 export default function Contact() {
@@ -9,22 +11,21 @@ export default function Contact() {
     <div className={style.contact} id="contact">
       <div className={style.container}>
         <section className={style.imageOverlap}>
-          <div className={style.aboutImgs}>
-            <Image
-              quality={100}
-              className={style.img}
-              src={aboutImgs}
-              alt="ADD DESCRIPTION"
-            />
+          <div className={style.outerMandala}>
+            <Image src={outerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
+          </div>
+          <div className={style.innerMandala}>
+            <Image src={innerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
+          </div>
+          <div className={style.profile}>
+            <Image src={profileImg} quality={100} alt="ADD DESCRIPTION" />
           </div>
           <div className={style.resumeTxt}>
             <Image
-              quality={100}
               src={resumeTxt}
+              className={style.img}
+              quality={100}
               alt="ADD DESCRIPTION"
-              className={style.resumeTxtImg}
-              width={120}
-              height={120}
             />
           </div>
         </section>
