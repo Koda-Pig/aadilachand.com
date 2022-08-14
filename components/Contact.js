@@ -14,11 +14,11 @@ export default function Contact() {
           <div className={style.outerMandala}>
             <Image src={outerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
           </div>
-          <div className={style.innerMandala}>
-            <Image src={innerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
-          </div>
           <div className={style.profile}>
             <Image src={profileImg} quality={100} alt="ADD DESCRIPTION" />
+          </div>
+          <div className={style.innerMandala}>
+            <Image src={innerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
           </div>
           <div className={style.resumeTxt}>
             <Image
