@@ -27,6 +27,7 @@
 .innerMandala,
 .resumeTxt {
   position: absolute;
+  font-size: 0;
 }
 
 .profile {
@@ -40,10 +41,11 @@
 }
 
 .innerMandala {
-  top: 65px;
-  left: 63px;
-  font-size: 0;
-  animation: rotation 240s infinite linear;
+  top: 74px;
+  left: 72px;
+  // correction for off-center positioning
+  transform-origin: 49.8% 49.5%;
+  animation: rotation 90s infinite linear;
 }
 
 .resumeTxt {
