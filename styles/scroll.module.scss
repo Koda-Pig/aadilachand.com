@@ -1,18 +1,23 @@
 @use 'variables';
 
-.scrollIcon {
-  right: 0;
-  bottom: 0;
-  position: fixed;
-  font-size: 2rem;
+.backToTop {
+  gap: 10px;
+  left: 1rem;
+  bottom: 1rem;
+  display: flex;
   cursor: pointer;
-  margin: 0.8rem 1.4rem;
-  color: variables.$lightest;
+  position: fixed;
+  line-height: 1;
+  place-content: center;
+  flex-direction: column;
   transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out,
     transform 0.25s cubic-bezier(0.76, 0.45, 0.19, 1.78);
   &:hover {
+    transform: scale(1.1);
     color: variables.$dark;
-    transform: scale(1.2);
+  }
+  svg {
+    margin: 0 auto;
   }
 }
 

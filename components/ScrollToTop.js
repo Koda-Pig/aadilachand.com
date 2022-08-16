@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { BsFillArrowUpCircleFill } from 'react-icons/bs'
+import { BsArrowUp } from 'react-icons/bs'
 import style from '../styles/scroll.module.scss'
 
 export default function ScrollToTop(elem) {
@@ -26,13 +26,20 @@ export default function ScrollToTop(elem) {
 
   return (
     <>
-      <BsFillArrowUpCircleFill
+      <div
         title="back to top"
         onClick={scrollToTop}
-        className={`${style.scrollIcon} ${
+        className={`${style.backToTop} ${
           isVisible ? style.visible : style.invisible
         }`}
-      />
+      >
+        <BsArrowUp />
+        <span>
+          back
+          <br />
+          to top
+        </span>
+      </div>
     </>
   )
 }

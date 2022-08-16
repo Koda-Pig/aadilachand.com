@@ -73,20 +73,20 @@ a {
 }
 
 *::-webkit-scrollbar {
-  width: 12px;
+  width: 16px;
 }
 
 *::-webkit-scrollbar-track {
-  background: variables.$lightest;
+  background: rgb(variables.$lightest, 0.6);
 }
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: variables.$dark;
+  background-color: variables.$darker;
   border: 1px solid variables.$lightest;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: variables.$darker;
+  background-color: variables.$link;
   border: 1px solid variables.$light;
 }
