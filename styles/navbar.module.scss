@@ -72,8 +72,10 @@
     @media (min-width: 769px) {
       top: -5rem;
       padding-bottom: 2rem;
-      box-shadow: 0 0 10px rgb(0 0 0 / 20%);
-      background: url(/images/background-latest.png);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       cursor: pointer;
       &.minimised:hover {
         top: 0rem;
@@ -136,7 +138,7 @@
     align-items: start;
     backdrop-filter: blur(0.6rem);
     -webkit-backdrop-filter: blur(0.6rem);
-    background-color: rgb(228 228 228 / 50%);
+    background-color: rgb(228 228 228 / 40%);
     transition: transform 0.35s cubic-bezier(1, -0.23, 0.54, 0.61);
     &.closed {
       flex-direction: column;
