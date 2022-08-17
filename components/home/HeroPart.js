@@ -13,9 +13,10 @@ export default function Hero(elem) {
   }
 
   useEffect(() => {
-    elem.element.current.addEventListener('scroll', toggleVisbility)
+    const instance = elem.element.current
+    instance.addEventListener('scroll', toggleVisbility)
     return () => {
-      elem.element.current.removeEventListener('scroll', toggleVisbility)
+      instance.removeEventListener('scroll', toggleVisbility)
     }
   })
 

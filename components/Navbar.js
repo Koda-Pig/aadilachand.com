@@ -33,9 +33,10 @@ export default function Navbar(elem) {
   }
 
   useEffect(() => {
-    elem.element.current.addEventListener('scroll', toggleMinimised)
+    const instance = elem.element.current
+    instance.addEventListener('scroll', toggleMinimised)
     return () => {
-      elem.element.current.removeEventListener('scroll', toggleMinimised)
+      instance.removeEventListener('scroll', toggleMinimised)
     }
   })
 
