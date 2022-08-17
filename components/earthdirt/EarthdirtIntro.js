@@ -5,7 +5,7 @@ export default function EarthdirtIntro() {
   return (
     <div className={style.container}>
       <div className={style.proto}>
-        <h2>earth dirt</h2>
+        <h2>earthdirt</h2>
         <div className={style.circles}>
           <i />
           <i />
