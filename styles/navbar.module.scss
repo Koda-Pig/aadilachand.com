@@ -1,4 +1,4 @@
-@use 'variables';
+@use 'variables' as v;
 
 .hamburger {
   top: 1rem;
@@ -19,7 +19,7 @@
   border-radius: 10px;
   transform-origin: 1px;
   transition: all 0.3s linear;
-  background-color: variables.$dark;
+  background-color: v.$dark;
   &:first-child {
     &.open {
       transform: rotate(45deg);
@@ -84,6 +84,7 @@
     }
   }
 }
+
 .menu {
   display: flex;
   margin-top: -1.8rem;
@@ -103,9 +104,9 @@
   font-size: 1rem;
   padding: 0 1.25rem;
   margin-top: 1.2rem;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.1s ease-in-out;
   &:hover {
-    color: variables.$light;
+    color: v.$light;
   }
   &::before {
     content: '';
@@ -128,7 +129,7 @@
 
 .homelink {
   margin-top: -0.5rem;
-  @include variables.logo;
+  @extend %logo;
 }
 
 @media (max-width: 768px) {

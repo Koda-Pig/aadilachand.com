@@ -1,4 +1,4 @@
-@use 'variables';
+@use 'variables' as v;
 
 .readMore {
   opacity: 1;
@@ -10,12 +10,12 @@
   &Toggle {
     cursor: pointer;
     position: relative;
-    color: variables.$link;
+    color: v.$link;
     text-decoration: underline transparent;
     transition: color 0.2s, text-decoration 0.25s;
     &:hover {
-      text-decoration-color: variables.$light;
-      color: variables.$light;
+      text-decoration-color: v.$light;
+      color: v.$light;
     }
   }
 }

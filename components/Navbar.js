@@ -56,7 +56,7 @@ export default function Navbar(elem) {
           <div className={style.home}>
             <Link href="/#home" passHref>
               <a
-                className={`${style.link} ${style.homelink}`}
+                className={style.homelink}
                 onClick={toggleHamburger}
                 title="home"
               >

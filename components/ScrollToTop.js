@@ -27,19 +27,21 @@ export default function ScrollToTop(elem) {
 
   return (
     <>
-      <div
-        title="back to top"
-        onClick={scrollToTop}
-        className={`${style.backToTop} ${
-          isVisible ? style.visible : style.invisible
-        }`}
-      >
-        <BsArrowUp />
-        <span>
-          back
-          <br />
-          to top
-        </span>
+      <div className={style.container}>
+        <div
+          title="back to top"
+          onClick={scrollToTop}
+          className={`${style.backToTop} ${
+            isVisible ? style.visible : style.invisible
+          }`}
+        >
+          <BsArrowUp />
+          <span>
+            back
+            <br />
+            to top
+          </span>
+        </div>
       </div>
     </>
   )

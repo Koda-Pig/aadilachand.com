@@ -1,23 +1,33 @@
-@use 'variables';
+@use 'variables' as v;
+
+.container {
+  left: 50%;
+  width: 100%;
+  bottom: 1rem;
+  margin: 0 auto;
+  position: fixed;
+  pointer-events: none;
+  max-width: v.$footer-width;
+  transform: translateX(-50%);
+}
 
 .backToTop {
   gap: 10px;
-  left: 1rem;
-  bottom: 1rem;
   display: flex;
-  cursor: pointer;
-  position: fixed;
   line-height: 1;
+  cursor: pointer;
+  width: max-content;
+  pointer-events: all;
   place-content: center;
   flex-direction: column;
   transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out,
     transform 0.25s cubic-bezier(0.76, 0.45, 0.19, 1.78);
   &:hover {
     transform: scale(1.1);
-    color: variables.$dark;
+    color: v.$dark;
   }
   svg {
-    margin: 0 auto;
+    margin-left: 1rem;
   }
 }
 
