@@ -6,11 +6,20 @@
   overflow: auto;
   place-items: center;
   background: url(/images/background-latest.png) center / cover no-repeat fixed;
-  main > div {
-    margin-bottom: 9rem;
+  main {
+    margin-top: -1rem;
   }
 }
 
 .pageHeading {
   @extend %page-heading;
+  top: -1rem;
+  border-bottom: 0;
+  padding: 0.5rem 0;
+  font-size: 6.5rem;
+  font-family: 'RetroSignature';
+}
+
+.bannerImg {
+  margin-bottom: 7.6rem;
 }

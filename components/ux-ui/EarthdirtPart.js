@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import style from '../../styles/ux-ui/earthdirt.module.scss'
+import style from '../../styles/ux-ui/earthdirtPart.module.scss'
 import macbookImg from '../../public/images/ux-ui/earthdirt/MacBook.png'
 
 export default function EarthdirtPart() {

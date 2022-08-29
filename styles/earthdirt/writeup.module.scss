@@ -1,11 +1,24 @@
+@use '../variables';
+
 .container {
+  margin: 2.5rem auto;
+  max-width: 73rem;
+  position: relative;
+}
+
+.innerContainer {
   gap: 5rem;
   display: flex;
-  margin: 0 auto;
-  max-width: 73rem;
   h3 {
     font-weight: 500;
     font-family: Poppins;
     margin-bottom: 0.5rem;
   }
+}
+
+.callToAction {
+  @extend %button;
+  right: 0;
+  top: -4.6rem;
+  position: absolute;
 }
