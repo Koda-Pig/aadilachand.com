@@ -7,7 +7,7 @@
   margin: 0 auto;
   position: fixed;
   pointer-events: none;
-  max-width: v.$footer-width;
+  @extend %footer;
   transform: translateX(-50%);
 }
 

@@ -1,0 +1,45 @@
+@use '../variables' as v;
+
+.container {
+  padding: 0 2rem;
+  margin-top: 9rem;
+  max-width: 1144px;
+}
+
+.gallery {
+  display: grid;
+  margin: 0 auto;
+  grid-gap: 0.5rem;
+  margin-bottom: 3.3rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: calc(288px * 3 + 1rem);
+}
+
+.writeUp {
+  display: flex;
+  gap: 2.5rem;
+  h2 {
+    width: 302px;
+    height: 87px;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 2rem 0 0 2rem;
+    background: url(/images/home/about-decor.png) no-repeat left center;
+    background-size: contain;
+  }
+  p {
+    font-size: 19px;
+    margin-bottom: 2rem;
+    @extend %paragraph;
+  }
+  a {
+    display: block;
+    font-size: 19px;
+    margin-top: 2rem;
+    color: v.$link;
+    &:hover {
+      color: v.$dark;
+    }
+  }
+}

@@ -1,3 +1,5 @@
+@use '../variables' as v;
+
 .container {
   padding: 0 2rem;
   margin-top: 9rem;
@@ -6,7 +8,6 @@
 .writeUp {
   gap: 5rem;
   display: flex;
-  max-width: 483px;
   h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -14,6 +15,7 @@
   p {
     font-size: 18px;
     margin-bottom: 2rem;
+    @extend %paragraph;
   }
   a {
     font-size: 18px;
@@ -57,10 +59,14 @@
 @for $i from 1 through 3 {
   .gallery > span:nth-child(#{$i}) {
     &::before {
-      background-image: url(/images/illustration/culture/culture-#{$i}a.png);
+      background-image: url(/images/graphic-design/my-celium/my-celium-#{$i}a.png);
     }
     &::after {
-      background-image: url(/images/illustration/culture/culture-#{$i}b.png);
+      background-image: url(/images/graphic-design/my-celium/my-celium-#{$i}b.png);
     }
   }
+}
+
+.callToAction {
+  @extend %button;
 }

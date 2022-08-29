@@ -3,21 +3,21 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import CustomHead from '../components/CustomHead'
 import ScrollToTop from '../components/ScrollToTop'
-import CulturePart from '../components/illustration/CulturePart'
-import AncientOrbitPart from '../components/illustration/AncientOrbitPart'
-import styles from '../styles/illustration/illustration.module.scss'
+import MyCelium from '../components/graphic-design/MyCeliumPart'
+import AncientOrbitPart from '../components/graphic-design/AncientOrbitPart'
+import styles from '../styles/graphic-design/graphicDesign.module.scss'
 
-export default function Illustration() {
+export default function GraphicDesign() {
   const container = useRef(null)
 
   return (
     <>
-      <CustomHead page="illustration" />
+      <CustomHead page="graphic design" />
       <Navbar element={container} />
       <div className={styles.container} ref={container}>
-        <h1 className={styles.pageHeading}>illustration</h1>
+        <h1 className={styles.pageHeading}>graphic design</h1>
         <main>
-          <CulturePart />
+          <MyCelium />
           <AncientOrbitPart />
         </main>
         <Footer element={container} />

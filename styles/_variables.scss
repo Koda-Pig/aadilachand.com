@@ -39,6 +39,7 @@ $footer-width: 1253px;
 %button {
   color: black;
   font-size: 1.2rem;
+  width: max-content;
   border-radius: 3rem;
   display: inline-block;
   padding: 0.75rem 2rem;
@@ -77,6 +78,15 @@ $footer-width: 1253px;
   &:hover::before {
     animation: bounce 0.3s 1 cubic-bezier(0.76, 0.45, 0.19, 1.78);
   }
+}
+
+%footer {
+  width: 1253px;
+  max-width: calc(100vw - 100px);
+}
+
+%paragraph {
+  max-width: 60ch;
 }
 
 // animations

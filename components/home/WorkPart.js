@@ -3,7 +3,7 @@ import Image from 'next/image'
 import style from '../../styles/home/work.module.scss'
 import uxUiCircle from '../../public/images/home/ux-ui-circle.png'
 import fineArtCircle from '../../public/images/home/fine-art-circle.png'
-import illustrationCircle from '../../public/images/home/illustration-circle.png'
+import graphicDesignCircle from '../../public/images/home/graphic-design-circle.png'
 
 export default function Work() {
   return (
@@ -23,17 +23,17 @@ export default function Work() {
           <h2>ux/ ui</h2>
         </section>
         <section className={style.section}>
-          <Link href="/illustration" passHref>
+          <Link href="/graphic-design" passHref>
             <a>
               <Image
-                src={illustrationCircle}
+                src={graphicDesignCircle}
                 className={style.img}
                 quality={100}
                 alt=""
               />
             </a>
           </Link>
-          <h2>illustration</h2>
+          <h2>graphic design</h2>
         </section>
         <section className={style.section}>
           <Link href="/fine-art" passHref>
