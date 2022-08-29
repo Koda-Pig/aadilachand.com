@@ -1,5 +1,3 @@
-import Skeleton from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import style from '../../styles/home/work.module.scss'
@@ -14,14 +12,12 @@ export default function Work() {
         <section className={style.section}>
           <Link href="/ux-ui" passHref>
             <a>
-              {(
-                <Image
-                  src={uxUiCircle}
-                  className={style.img}
-                  quality={100}
-                  alt=""
-                />
-              ) || <Skeleton />}
+              <Image
+                src={uxUiCircle}
+                className={style.img}
+                quality={100}
+                alt=""
+              />
             </a>
           </Link>
           <h2>ux/ ui</h2>
@@ -29,14 +25,12 @@ export default function Work() {
         <section className={style.section}>
           <Link href="/graphic-design" passHref>
             <a>
-              {(
-                <Image
-                  src={graphicDesignCircle}
-                  className={style.img}
-                  quality={100}
-                  alt=""
-                />
-              ) || <Skeleton />}
+              <Image
+                src={graphicDesignCircle}
+                className={style.img}
+                quality={100}
+                alt=""
+              />
             </a>
           </Link>
           <h2>graphic design</h2>
@@ -44,14 +38,12 @@ export default function Work() {
         <section className={style.section}>
           <Link href="/fine-art" passHref>
             <a>
-              {(
-                <Image
-                  src={fineArtCircle}
-                  className={style.img}
-                  quality={100}
-                  alt=""
-                />
-              ) || <Skeleton />}
+              <Image
+                src={fineArtCircle}
+                className={style.img}
+                quality={100}
+                alt=""
+              />
             </a>
           </Link>
           <h2>fine art</h2>
