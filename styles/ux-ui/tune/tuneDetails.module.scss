@@ -1,0 +1,30 @@
+@use '../../variables' as v;
+
+.callToAction {
+  &Prototype {
+    display: block;
+    margin: 0 0 2rem auto;
+    @extend %button;
+  }
+  &FullFile {
+    @extend %button;
+  }
+}
+
+.container {
+  gap: 1.5rem;
+  display: flex;
+  margin-bottom: 6.25rem;
+  justify-content: center;
+  .writeUp {
+    max-width: 337px;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+  }
+  p {
+    margin-bottom: 4rem;
+  }
+}

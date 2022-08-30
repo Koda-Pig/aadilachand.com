@@ -1,4 +1,4 @@
-import style from '../../styles/earthdirt/writeup.module.scss'
+import style from '../../styles/ux-ui/earthdirt/writeup.module.scss'
 
 export default function EarthdirtWriteup() {
   return (

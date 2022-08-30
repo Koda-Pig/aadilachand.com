@@ -5,14 +5,6 @@ export default function Footer() {
   return (
     <footer className={style.footer}>
       <div className={style.innerFooter}>
-        <p></p>
-        <div className={style.logo}>
-          <Link href="/#home" passHref>
-            <a className={style.logoLink} title="home">
-              ac
-            </a>
-          </Link>
-        </div>
         <ul>
           <li>
             <Link href="/ux-ui" passHref>
@@ -30,6 +22,14 @@ export default function Footer() {
             </Link>
           </li>
         </ul>
+        <div className={style.logo}>
+          <Link href="/#home" passHref>
+            <a className={style.logoLink} title="home">
+              ac
+            </a>
+          </Link>
+        </div>
+        <p></p>
       </div>
     </footer>
   )

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import mockupImg from '../../public/images/ux-ui/earthdirt/Mockup.png'
 import styleguideImg from '../../public/images/ux-ui/earthdirt/StyleGuide.png'
-import style from '../../styles/earthdirt/details.module.scss'
+import style from '../../styles/ux-ui/earthdirt/details.module.scss'
 
 export default function EarthdirtDetails() {
   return (

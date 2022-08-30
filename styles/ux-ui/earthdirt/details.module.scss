@@ -1,4 +1,4 @@
-@use '../variables' as v;
+@use '../../variables' as v;
 
 .container {
   gap: 1.5rem;
@@ -14,7 +14,7 @@
       color: white;
       font-weight: 400;
       font-size: 2.5rem;
-      font-family: Rafelya-Carrotin;
+      font-family: 'Rafelya-Carrotin';
     }
   }
 }

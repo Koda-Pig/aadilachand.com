@@ -15,6 +15,14 @@ $link: #48443a;
   scroll-snap-align: center;
 }
 
+%container {
+  height: 100vh;
+  display: grid;
+  overflow: auto;
+  place-items: center;
+  background: url(/images/background-latest.png) center / cover no-repeat fixed;
+}
+
 %inner-container {
   width: 100%;
   display: flex;

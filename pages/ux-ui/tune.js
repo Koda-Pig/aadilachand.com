@@ -4,26 +4,27 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import CustomHead from '../../components/CustomHead'
 import ScrollToTop from '../../components/ScrollToTop'
-import EarthdirtWriteup from '../../components/earthdirt/EarthdirtWriteup'
-import EarthdirtDetails from '../../components/earthdirt/EarthdirtDetails'
-import styles from '../../styles/ux-ui/earthdirt/earthdirt.module.scss'
-import bannerImg from '../../public/images/ux-ui/earthdirt/Banner.png'
+import TuneDetails from '../../components/tune/TuneDetails'
+import styles from '../../styles/ux-ui/tune/tune.module.scss'
+import titleSVG from '../../public/images/ux-ui/tune/tune.svg'
+import bannerImg from '../../public/images/ux-ui/tune/tune-banner.png'
 
-export default function Earthdirt() {
+export default function Tune() {
   const container = useRef(null)
 
   return (
     <>
-      <CustomHead page="earthdirt" />
+      <CustomHead page="tune" />
       <Navbar element={container} />
       <div className={styles.container} ref={container}>
-        <h1 className={styles.pageHeading}>earthdirt</h1>
+        <h1 className={styles.pageHeading}>
+          <Image src={titleSVG} quality={100} alt="" />
+        </h1>
         <main>
           <div className={styles.bannerImg}>
             <Image src={bannerImg} quality={100} alt="" />
           </div>
-          <EarthdirtWriteup />
-          <EarthdirtDetails />
+          <TuneDetails />
         </main>
         <Footer element={container} />
       </div>

@@ -1,0 +1,16 @@
+@use '../../variables' as v;
+
+.container {
+  @extend %container;
+  main {
+    margin-top: 4rem;
+  }
+}
+
+.pageHeading {
+  @extend %page-heading;
+}
+
+.bannerImg {
+  margin-bottom: 7.6rem;
+}

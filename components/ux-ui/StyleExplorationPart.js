@@ -13,7 +13,7 @@ export default function StyleExplorationPart() {
           using an integration of styles to create a classic yet futuristic
           music library.
         </p>
-        <Link href="#" passHref>
+        <Link href="/ux-ui/tune" passHref>
           <a className={style.callToAction}>view project</a>
         </Link>
       </div>
