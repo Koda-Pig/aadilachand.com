@@ -2,12 +2,11 @@
 
 .container {
   left: 50%;
-  width: 100%;
   bottom: 1rem;
   margin: 0 auto;
   position: fixed;
-  pointer-events: none;
   @extend %footer;
+  pointer-events: none;
   transform: translateX(-50%);
 }
 
