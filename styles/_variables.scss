@@ -17,9 +17,10 @@ $link: #48443a;
 
 %container {
   height: 100vh;
-  display: grid;
+  display: flex;
   overflow: auto;
-  place-items: center;
+  align-items: center;
+  flex-direction: column;
   background: url(/images/background-latest.png) center / cover no-repeat fixed;
 }
 
@@ -31,7 +32,7 @@ $link: #48443a;
 
 %page-heading {
   width: 100%;
-  top: 2.5rem;
+  margin-top: 2.5rem;
   font-size: 2.5rem;
   position: relative;
   text-align: center;

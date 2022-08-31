@@ -10,3 +10,51 @@
 .pageHeading {
   @extend %page-heading;
 }
+
+.images,
+.writeups {
+  gap: 3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.images {
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 5.5rem;
+  .heading {
+    margin-bottom: 3rem;
+  }
+  .img {
+    font-size: 0;
+  }
+  .vaaib,
+  .tune {
+    margin-bottom: 1.3rem;
+  }
+}
+
+.earthdirt {
+  .heading {
+    font-size: 6rem;
+    font-family: 'RetroSignature';
+  }
+}
+
+.writeups {
+  max-width: 1144px;
+  margin-bottom: 8.5rem;
+  justify-content: space-between;
+  div {
+    max-width: 26ch;
+  }
+  p {
+    @extend %paragraph;
+    margin-bottom: 1rem;
+  }
+}
+
+.callToAction {
+  @extend %button;
+}
