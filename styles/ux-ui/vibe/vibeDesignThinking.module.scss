@@ -1,17 +1,184 @@
 @use '../../variables' as v;
 
+$container-width: 1166px;
+
 .container {
-  gap: 1.5rem;
+  gap: 2.5rem;
   display: flex;
   align-items: center;
+  flex-direction: column;
   margin-bottom: 6.25rem;
-  justify-content: center;
-  h2 {
-    width: 420px;
-    height: 123px;
+  .title {
+    width: 394px;
+    height: 127px;
     text-align: center;
+    font-size: 2.25rem;
     line-height: 8.6rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins';
     background: url(/images/home/about-decor.png) no-repeat left center;
+    background-position: 8px 8px;
   }
+}
+
+.circles {
+  display: flex;
+  gap: 2.4rem;
+  h3 {
+    display: flex;
+    width: 12.5rem;
+    height: 12.5rem;
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: relative;
+    align-items: center;
+    font-family: 'Poppins';
+    border-radius: 100vmax;
+    justify-content: center;
+    border: 1px solid black;
+    background: rgb(255 255 255 / 0.2);
+    &:not(:last-child):after {
+      content: '';
+      width: 20px;
+      height: 33px;
+      right: -28px;
+      position: absolute;
+      top: calc(50% - 15px);
+      background: url(/images/star.svg) center / cover;
+    }
+  }
+}
+
+.details {
+  display: flex;
+  gap: 1rem;
+  p {
+    max-width: 240px;
+    line-height: 24px;
+    font-size: 1.125rem;
+    font-family: 'Poppins';
+  }
+  .callToAction {
+    @extend %button;
+    margin-left: 4rem;
+    align-self: center;
+    width: max-content;
+  }
+}
+
+.colour {
+  max-width: $container-width;
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins';
+  }
+  .caption {
+    max-width: 535px;
+  }
+  &Container {
+    gap: 5.25rem;
+    display: flex;
+    .colourBlocks {
+      display: grid;
+      gap: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      grid-template-rows: repeat(2, 143px);
+      grid-template-columns: repeat(3, 200px);
+      > div {
+        display: flex;
+        color: white;
+        font-size: 1.2rem;
+        place-items: center;
+        border-radius: 1.5rem;
+        place-content: center;
+        &:nth-child(1) {
+          background: url(/images/ux-ui/vibe/sunrise-gradient.svg) center;
+        }
+        &:nth-child(2) {
+          background: linear-gradient(0deg, #7f6659 0%, #88776a 100%);
+        }
+        &:nth-child(3) {
+          background: #c4b9b3;
+          border: 1px solid #464646;
+        }
+        &:nth-child(4) {
+          background: url(/images/ux-ui/vibe/sunset-gradient.svg) center;
+        }
+        &:nth-child(5) {
+          background: #231f20;
+        }
+        &:nth-child(6) {
+          background: #464646;
+        }
+      }
+    }
+    p {
+      max-width: 457px;
+    }
+  }
+}
+
+.typography {
+  gap: 155px;
+  width: 100%;
+  display: flex;
+  max-width: $container-width;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  .description {
+    max-width: 393px;
+    h3 {
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      font-family: 'Poppins';
+    }
+    h4 {
+      font-size: 2rem;
+      font-weight: 300;
+      font-family: 'Lato';
+      margin-bottom: 1.5rem;
+    }
+  }
+  .examples {
+    h2,
+    h3,
+    h4 {
+      color: white;
+      position: relative;
+      font-family: 'Lato';
+      margin-bottom: 2rem;
+      &::before {
+        left: -66px;
+        content: 'H2';
+        position: absolute;
+      }
+    }
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    h3 {
+      font-weight: 400;
+      font-size: 1.75rem;
+      &::before {
+        content: 'H3';
+      }
+    }
+    h4 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      &::before {
+        content: 'H4';
+      }
+    }
+  }
+}
+
+.screenshots {
+  gap: 1rem;
+  display: flex;
+  margin-bottom: 5rem;
 }

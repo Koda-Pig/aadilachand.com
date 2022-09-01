@@ -17,5 +17,43 @@
 }
 
 .bannerImg {
+  display: flex;
+  width: 1744px;
+  max-width: 100%;
+  min-height: 688px;
   margin-bottom: 7.6rem;
+  justify-content: center;
+  background: url(/images/ux-ui/vibe/banner.png);
+  .inner {
+    display: flex;
+    margin-top: 5rem;
+    width: 100%;
+    max-width: 994px;
+    justify-content: space-between;
+    .intro {
+      h2,
+      h3,
+      p {
+        color: #e1e1e1;
+        font-family: 'Lato';
+      }
+      h2 {
+        color: #e1e1e1;
+        font-size: 3.5rem;
+      }
+      h3 {
+        font-size: 2rem;
+        color: rgb(225 225 225 / 80%);
+      }
+      p {
+        max-width: 379px;
+        font-size: 1.5rem;
+      }
+    }
+    a {
+      @extend %button;
+      color: white;
+      display: block;
+    }
+  }
 }

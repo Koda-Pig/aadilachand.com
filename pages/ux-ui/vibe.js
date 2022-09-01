@@ -6,8 +6,8 @@ import CustomHead from '../../components/CustomHead'
 import ScrollToTop from '../../components/ScrollToTop'
 import VibeIntro from '../../components/vibe/VibeIntro'
 import VibeDesignThinking from '../../components/vibe/VibeDesignThinking'
-import styles from '../../styles/ux-ui/earthdirt/earthdirt.module.scss'
-import bannerImg from '../../public/images/ux-ui/earthdirt/Banner.png'
+import styles from '../../styles/ux-ui/vibe/vibe.module.scss'
+import bannerImg from '../../public/images/ux-ui/vibe/banner.png'
 import vibeTxt from '../../public/images/ux-ui/vibe.svg'
 
 export default function Vibe() {
@@ -23,7 +23,20 @@ export default function Vibe() {
         </h1>
         <main>
           <div className={styles.bannerImg}>
-            <Image src={bannerImg} quality={100} alt="" />
+            <div className={styles.inner}>
+              <div className={styles.intro}>
+                <h2>vibe</h2>
+                <h3>/vʌɪb/noun</h3>
+                <p>
+                  the atmosphere of a place as communicated to and felt by
+                  others.
+                </p>
+              </div>
+
+              <a href="" className={styles.callToAction}>
+                full figma file
+              </a>
+            </div>
           </div>
           <VibeIntro />
           <VibeDesignThinking />
