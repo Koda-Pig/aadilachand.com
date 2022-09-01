@@ -1,0 +1,17 @@
+@use '../../variables' as v;
+
+.container {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6.25rem;
+  justify-content: center;
+  h2 {
+    width: 420px;
+    height: 123px;
+    text-align: center;
+    line-height: 8.6rem;
+    margin-bottom: 1.6rem;
+    background: url(/images/home/about-decor.png) no-repeat left center;
+  }
+}

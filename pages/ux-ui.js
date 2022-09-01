@@ -7,8 +7,8 @@ import Footer from '../components/Footer'
 import CustomHead from '../components/CustomHead'
 import ScrollToTop from '../components/ScrollToTop'
 import styles from '../styles/ux-ui/uxUi.module.scss'
-import vaaibImg from '../public/images/ux-ui/vibe-phone.png'
-import vaaibTxt from '../public/images/ux-ui/vaaib.svg'
+import vibeImg from '../public/images/ux-ui/vibe-phone.png'
+import vibeTxt from '../public/images/ux-ui/vibe.svg'
 import earthdirtImg from '../public/images/ux-ui/earthdirt-laptop.png'
 import tuneImg from '../public/images/ux-ui/tune-phone.png'
 import tuneTxt from '../public/images/ux-ui/tune.svg'
@@ -24,12 +24,12 @@ export default function UxUi() {
         <h1 className={styles.pageHeading}>ux/ui</h1>
         <main>
           <section className={styles.images}>
-            <div className={styles.vaaib}>
+            <div className={styles.vibe}>
               <div className={styles.heading}>
-                <Image src={vaaibTxt} quality={100} alt="" />
+                <Image src={vibeTxt} quality={100} alt="" />
               </div>
               <div className={styles.img}>
-                <Image src={vaaibImg} quality={100} alt="" />
+                <Image src={vibeImg} quality={100} alt="" />
               </div>
             </div>
             <div className={styles.earthdirt}>
@@ -48,13 +48,13 @@ export default function UxUi() {
             </div>
           </section>
           <section className={styles.writeups}>
-            <div className={styles.vaaib}>
+            <div className={styles.vibe}>
               <p>
                 <strong>case study</strong>
                 <br />A very small stage in a vast cosmic arena worldlets star
                 stuff harvesting star light
               </p>
-              <Link href="#" passHref>
+              <Link href="/ux-ui/vibe" passHref>
                 <a className={styles.callToAction}>view project</a>
               </Link>
             </div>

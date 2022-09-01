@@ -1,0 +1,24 @@
+@use '../../variables' as v;
+
+.container {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6.25rem;
+  justify-content: center;
+}
+
+.writeup {
+  max-width: 432px;
+  h2 {
+    margin-bottom: 2.5rem;
+    font-family: 'Poppins';
+  }
+  strong {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin-bottom: 2.5rem;
+  }
+}
