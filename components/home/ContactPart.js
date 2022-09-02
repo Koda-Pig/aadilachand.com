@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import style from '../../styles/home/contact.module.scss'
 import resumeTxt from '../../public/images/home/resume.svg'
+import Footer from '../Footer'
 import profileImg from '../../public/images/home/about-profile.png'
 import outerMandalaImg from '../../public/images/home/outer-mandala.png'
 import innerMandalaImg from '../../public/images/home/inner-mandala.png'
@@ -45,6 +46,9 @@ export default function Contact() {
             <a className={style.callToAction}>get in touch</a>
           </Link>
         </section>
+      </div>
+      <div className={style.footer}>
+        <Footer />
       </div>
     </div>
   )

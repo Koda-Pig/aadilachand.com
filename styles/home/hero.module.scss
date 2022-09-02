@@ -21,15 +21,16 @@
 }
 
 .star {
-  margin-bottom: -2.1rem;
   display: block;
+  margin-bottom: -2.1rem;
 }
 
 .chevron {
   opacity: 1;
-  bottom: 4rem;
+  right: 19%;
+  bottom: 6.8rem;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: absolute;
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   &:hover {

@@ -26,7 +26,7 @@ export default function Tune() {
           </div>
           <TuneDetails />
         </main>
-        <Footer element={container} />
+        <Footer />
       </div>
       <ScrollToTop element={container} />
     </>

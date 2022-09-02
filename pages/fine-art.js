@@ -24,7 +24,7 @@ export default function FineArt() {
           <SitePart className={styles.section} />
           <HumanNaturePart className={styles.section} />
         </main>
-        <Footer element={container} />
+        <Footer />
       </div>
       <ScrollToTop element={container} />
     </>

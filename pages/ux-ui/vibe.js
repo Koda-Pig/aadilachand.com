@@ -7,8 +7,8 @@ import ScrollToTop from '../../components/ScrollToTop'
 import VibeIntro from '../../components/vibe/VibeIntro'
 import VibeDesignThinking from '../../components/vibe/VibeDesignThinking'
 import styles from '../../styles/ux-ui/vibe/vibe.module.scss'
-import bannerImg from '../../public/images/ux-ui/vibe/banner.png'
 import vibeTxt from '../../public/images/ux-ui/vibe.svg'
+import vibeTxtSmol from '../../public/images/ux-ui/vibe/vaaib-smol.svg'
 
 export default function Vibe() {
   const container = useRef(null)
@@ -26,7 +26,9 @@ export default function Vibe() {
             <div className={styles.inner}>
               <div className={styles.intro}>
                 <h2>vibe</h2>
-                <h3>/vʌɪb/noun</h3>
+                <h3>
+                  <Image src={vibeTxtSmol} quality={100} alt="vaaib" />
+                </h3>
                 <p>
                   the atmosphere of a place as communicated to and felt by
                   others.
@@ -41,7 +43,7 @@ export default function Vibe() {
           <VibeIntro />
           <VibeDesignThinking />
         </main>
-        <Footer element={container} />
+        <Footer />
       </div>
       <ScrollToTop element={container} />
     </>

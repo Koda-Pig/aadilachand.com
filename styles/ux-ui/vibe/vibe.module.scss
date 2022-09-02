@@ -23,7 +23,7 @@
   min-height: 688px;
   margin-bottom: 7.6rem;
   justify-content: center;
-  background: url(/images/ux-ui/vibe/banner.png);
+  background: url(/images/ux-ui/vibe/banner.png) no-repeat center center;
   .inner {
     display: flex;
     margin-top: 5rem;
@@ -43,7 +43,7 @@
       }
       h3 {
         font-size: 2rem;
-        color: rgb(225 225 225 / 80%);
+        margin-bottom: 1.3rem;
       }
       p {
         max-width: 379px;
@@ -53,7 +53,7 @@
     a {
       @extend %button;
       color: white;
-      display: block;
+      padding: 1.1rem 2rem;
     }
   }
 }

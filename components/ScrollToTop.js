@@ -6,7 +6,7 @@ export default function ScrollToTop(elem) {
   const [isVisible, setVisible] = useState(false)
 
   const toggleVisbility = () => {
-    if (elem.element.current.scrollTop > 300) setVisible(true)
+    if (elem.element.current.scrollTop > 250) setVisible(true)
     else setVisible(false)
   }
 

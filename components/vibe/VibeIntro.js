@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import phoneImg from '../../public/images/ux-ui/vibe-phone.png'
+import phoneImg from '../../public/images/ux-ui/vibe/screen-labeled.png'
 import style from '../../styles/ux-ui/vibe/vibeIntro.module.scss'
 
 export default function VibeIntro() {

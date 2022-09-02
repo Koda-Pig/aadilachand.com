@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { BsChevronDown } from 'react-icons/bs'
+import { BsArrowDown } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
 import style from '../../styles/home/hero.module.scss'
 import star from '../../public/images/star.svg'
@@ -33,7 +33,7 @@ export default function Hero(elem) {
         <h1 className={style.heading}>aadila chand</h1>
         <h2 className={style.subheading}>conceptual design</h2>
       </div>
-      <BsChevronDown
+      <BsArrowDown
         onClick={scrollDown}
         className={`${style.chevron} ${
           isVisible ? style.visible : style.invisible

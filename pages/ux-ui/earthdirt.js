@@ -25,7 +25,7 @@ export default function Earthdirt() {
           <EarthdirtWriteup />
           <EarthdirtDetails />
         </main>
-        <Footer element={container} />
+        <Footer />
       </div>
       <ScrollToTop element={container} />
     </>

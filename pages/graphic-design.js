@@ -20,7 +20,7 @@ export default function GraphicDesign() {
           <MyCelium />
           <AncientOrbitPart />
         </main>
-        <Footer element={container} />
+        <Footer />
       </div>
       <ScrollToTop element={container} />
     </>

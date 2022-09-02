@@ -6,11 +6,18 @@
     url(/images/home/background.png) center / cover no-repeat;
 }
 
+.footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+
 .container {
   @extend %inner-container;
   gap: 3.875rem;
   padding: 0 5rem;
   max-width: 1200px;
+  margin-bottom: 6rem;
 }
 
 .imageOverlap {

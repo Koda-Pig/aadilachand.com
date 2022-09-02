@@ -4,9 +4,6 @@ export default function EarthdirtWriteup() {
   return (
     <>
       <div className={style.container}>
-        <a href="#" className={style.callToAction}>
-          prototype
-        </a>
         <div className={style.innerContainer}>
           <div>
             <h3>concept</h3>
@@ -30,6 +27,9 @@ export default function EarthdirtWriteup() {
             </p>
           </div>
         </div>
+        <a href="#" className={style.callToAction}>
+          prototype
+        </a>
       </div>
     </>
   )

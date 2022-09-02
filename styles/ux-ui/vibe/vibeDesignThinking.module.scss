@@ -3,7 +3,7 @@
 $container-width: 1166px;
 
 .container {
-  gap: 2.5rem;
+  gap: 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -14,7 +14,6 @@ $container-width: 1166px;
     text-align: center;
     font-size: 2.25rem;
     line-height: 8.6rem;
-    margin-bottom: 2rem;
     font-family: 'Poppins';
     background: url(/images/home/about-decor.png) no-repeat left center;
     background-position: 8px 8px;
@@ -22,8 +21,8 @@ $container-width: 1166px;
 }
 
 .circles {
-  display: flex;
   gap: 2.4rem;
+  display: flex;
   h3 {
     display: flex;
     width: 12.5rem;
@@ -51,8 +50,10 @@ $container-width: 1166px;
 }
 
 .details {
-  display: flex;
   gap: 1rem;
+  width: 100%;
+  display: flex;
+  max-width: $container-width;
   p {
     max-width: 240px;
     line-height: 24px;
@@ -61,14 +62,16 @@ $container-width: 1166px;
   }
   .callToAction {
     @extend %button;
-    margin-left: 4rem;
+    margin: 0 auto;
     align-self: center;
     width: max-content;
+    padding: 1.1rem 2rem;
   }
 }
 
 .colour {
   max-width: $container-width;
+  margin-bottom: 40px;
   h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -78,7 +81,7 @@ $container-width: 1166px;
     max-width: 535px;
   }
   &Container {
-    gap: 5.25rem;
+    gap: 84px;
     display: flex;
     .colourBlocks {
       display: grid;

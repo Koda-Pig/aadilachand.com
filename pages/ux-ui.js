@@ -80,7 +80,7 @@ export default function UxUi() {
             </div>
           </section>
         </main>
-        <Footer element={container} />
+        <Footer />
       </div>
       <ScrollToTop element={container} />
     </>
