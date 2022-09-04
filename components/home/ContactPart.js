@@ -10,6 +10,7 @@ import innerMandalaImg from '../../public/images/home/inner-mandala.png'
 export default function Contact() {
   return (
     <div className={style.contact} id="contact">
+      <p></p>
       <div className={style.container}>
         <section className={style.imageOverlap}>
           <div className={style.outerMandala}>

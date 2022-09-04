@@ -33,7 +33,7 @@ export default function TuneDetails() {
             stellar alchemy Sea of Tranquility muse about
           </p>
           <a href="" className={style.callToActionFullFile}>
-            full figma file
+            full project
           </a>
         </div>
       </div>

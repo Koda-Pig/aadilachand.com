@@ -1,7 +1,9 @@
+@use '../variables' as v;
+
 .container {
   padding: 0 2rem;
   max-width: 1000px;
-  margin-bottom: 73px;
+  margin-bottom: v.$section-spacing;
 }
 
 .writeUp {
@@ -29,7 +31,7 @@
   width: 880px;
   display: grid;
   grid-gap: 0.25rem;
-  margin-bottom: 2.8rem;
+  margin-bottom: v.$gap-xs;
   grid-template-columns: 1fr 1fr 1fr;
   &Link {
     font-size: 0;

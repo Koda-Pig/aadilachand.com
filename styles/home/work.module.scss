@@ -9,16 +9,16 @@
   @extend %inner-container;
   gap: 2.5rem;
   padding: 0 5rem;
-  max-width: 1176px;
+  max-width: 100%;
   align-items: center;
 }
 
 .section {
   max-width: 360px;
-  & a {
+  a {
     line-height: 0;
   }
-  & h2 {
+  h2 {
     margin-top: 2rem;
     text-align: center;
   }

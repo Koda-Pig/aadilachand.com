@@ -16,7 +16,6 @@ export default function EarthdirtDetails() {
         <a href="" className={style.callToAction}>
           full figma file
         </a>
-        <h3>embodied by earth</h3>
       </div>
     </div>
   )

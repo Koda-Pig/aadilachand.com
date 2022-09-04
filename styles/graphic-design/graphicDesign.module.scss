@@ -3,7 +3,10 @@
 .container {
   @extend %container;
   main > div {
-    margin-bottom: 102px;
+    margin-bottom: v.$section-spacing;
+    &:last-child {
+      margin-bottom: v.$gap-xl;
+    }
   }
 }
 

@@ -2,14 +2,13 @@
 
 .contact {
   @extend %section;
+  justify-content: space-between;
   background: url(/images/home/contact-highlight.png) center / contain no-repeat,
     url(/images/home/background.png) center / cover no-repeat;
 }
 
 .footer {
-  bottom: 0;
   width: 100%;
-  position: absolute;
 }
 
 .container {
@@ -17,7 +16,6 @@
   gap: 3.875rem;
   padding: 0 5rem;
   max-width: 1200px;
-  margin-bottom: 6rem;
 }
 
 .imageOverlap {
@@ -71,11 +69,14 @@
 .connect {
   max-width: 50%;
   h2 {
+    position: relative;
     margin-bottom: 2rem;
   }
   h2::before {
+    position: absolute;
     content: url(/images/home/white-star.svg);
-    margin: 0 0.5rem 0 -1.7rem;
+    top: 2px;
+    left: -24px;
   }
   p {
     margin-bottom: 2.875rem;

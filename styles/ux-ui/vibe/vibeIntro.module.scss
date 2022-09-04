@@ -3,9 +3,9 @@
 .container {
   gap: 1.5rem;
   display: flex;
-  max-width: 1355px;
   align-items: center;
-  margin: 0 auto 8.7rem auto;
+  max-width: v.$container-width;
+  margin: 0 auto v.$section-spacing auto;
   justify-content: space-between;
 }
 
@@ -19,7 +19,7 @@
     display: block;
     margin-bottom: 0.5rem;
   }
-  p {
+  p:not(:last-child) {
     margin-bottom: 2.5rem;
   }
 }

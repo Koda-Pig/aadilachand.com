@@ -3,13 +3,14 @@ import style from '../../styles/fine-art/site.module.scss'
 import site1 from '../../public/images/fine-art/site/site-1.png'
 import site2 from '../../public/images/fine-art/site/site-2.png'
 import site3 from '../../public/images/fine-art/site/site-3.png'
-import site4 from '../../public/images/fine-art/site/site-4.png'
-import site5 from '../../public/images/fine-art/site/site-5.png'
-import site6 from '../../public/images/fine-art/site/site-6.png'
 
-const images = [site1, site2, site3, site4, site5, site6]
+const images = [site1, site2, site3]
 const imageGallery = images.map((image, index) => {
-  return <Image key={index} src={image} quality={100} alt="" />
+  return (
+    <div key={index} className={style.img}>
+      <Image src={image} quality={100} alt="" />
+    </div>
+  )
 })
 
 export default function Site() {

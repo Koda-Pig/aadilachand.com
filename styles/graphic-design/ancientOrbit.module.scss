@@ -2,15 +2,15 @@
 
 .container {
   padding: 0 2rem;
-  margin-top: 9rem;
-  max-width: 1144px;
+  margin: 0 auto v.$gap-xl auto;
+  max-width: v.$container-width;
 }
 
 .gallery {
   display: grid;
   margin: 0 auto;
-  grid-gap: 0.5rem;
-  margin-bottom: 93px;
+  grid-gap: 8px;
+  margin-bottom: v.$gap-m;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
   max-width: calc(288px * 3 + 1rem);
@@ -30,16 +30,10 @@
   }
   p {
     font-size: 19px;
-    margin-bottom: 2rem;
     @extend %paragraph;
   }
   a {
-    display: block;
-    font-size: 19px;
-    margin-top: 2rem;
-    color: v.$link;
-    &:hover {
-      color: v.$dark;
-    }
+    @extend %button;
+    margin-top: v.$gap-s;
   }
 }

@@ -4,6 +4,9 @@
   @extend %container;
   main > div {
     margin-bottom: 9rem;
+    &:last-child {
+      margin-bottom: v.$gap-xl;
+    }
   }
 }
 
@@ -20,14 +23,10 @@
 }
 
 .images {
-  margin-top: 5rem;
   text-align: center;
-  margin-bottom: 5.5rem;
-  .heading {
-    margin-bottom: 3rem;
-  }
-  .img {
-    font-size: 0;
+  margin-bottom: v.$section-spacing;
+  > div {
+    cursor: pointer;
   }
   .vibe,
   .tune {
@@ -38,13 +37,14 @@
 .earthdirt {
   .heading {
     font-size: 6rem;
+    line-height: 0.8;
     font-family: 'RetroSignature';
   }
 }
 
 .writeups {
-  max-width: 1144px;
   margin-bottom: 8.5rem;
+  max-width: v.$container-width;
   justify-content: space-between;
   div {
     max-width: 26ch;

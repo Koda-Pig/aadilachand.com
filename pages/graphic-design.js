@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import CustomHead from '../components/CustomHead'
-import ScrollToTop from '../components/ScrollToTop'
+import ScrollUpDown from '../components/ScrollUpDown'
 import MyCelium from '../components/graphic-design/MyCeliumPart'
 import AncientOrbitPart from '../components/graphic-design/AncientOrbitPart'
 import styles from '../styles/graphic-design/graphicDesign.module.scss'
@@ -22,7 +22,7 @@ export default function GraphicDesign() {
         </main>
         <Footer />
       </div>
-      <ScrollToTop element={container} />
+      <ScrollUpDown element={container} />
     </>
   )
 }

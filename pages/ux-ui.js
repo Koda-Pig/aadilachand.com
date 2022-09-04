@@ -1,17 +1,16 @@
+import Link from 'next/link'
 import { useRef } from 'react'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
-import Link from 'next/link'
-
 import Footer from '../components/Footer'
 import CustomHead from '../components/CustomHead'
-import ScrollToTop from '../components/ScrollToTop'
+import ScrollUpDown from '../components/ScrollUpDown'
 import styles from '../styles/ux-ui/uxUi.module.scss'
-import vibeImg from '../public/images/ux-ui/vibe-phone.png'
 import vibeTxt from '../public/images/ux-ui/vibe.svg'
-import earthdirtImg from '../public/images/ux-ui/earthdirt-laptop.png'
-import tuneImg from '../public/images/ux-ui/tune-phone.png'
 import tuneTxt from '../public/images/ux-ui/tune.svg'
+import vibeImg from '../public/images/ux-ui/vibe-phone.png'
+import tuneImg from '../public/images/ux-ui/tune-phone.png'
+import earthdirtImg from '../public/images/ux-ui/earthdirt-laptop.png'
 
 export default function UxUi() {
   const container = useRef(null)
@@ -25,26 +24,19 @@ export default function UxUi() {
         <main>
           <section className={styles.images}>
             <div className={styles.vibe}>
-              <div className={styles.heading}>
-                <Image src={vibeTxt} quality={100} alt="" />
-              </div>
-              <div className={styles.img}>
+              <Link href="/ux-ui/vibe" passHref>
                 <Image src={vibeImg} quality={100} alt="" />
-              </div>
+              </Link>
             </div>
             <div className={styles.earthdirt}>
-              <h2 className={styles.heading}>earthdirt</h2>
-              <div className={styles.img}>
+              <Link href="/ux-ui/earthdirt" passHref>
                 <Image src={earthdirtImg} quality={100} alt="" />
-              </div>
+              </Link>
             </div>
             <div className={styles.tune}>
-              <div className={styles.heading}>
-                <Image src={tuneTxt} quality={100} alt="" />
-              </div>
-              <div className={styles.img}>
+              <Link href="/ux-ui/tune" passHref>
                 <Image src={tuneImg} quality={100} alt="" />
-              </div>
+              </Link>
             </div>
           </section>
           <section className={styles.writeups}>
@@ -82,7 +74,7 @@ export default function UxUi() {
         </main>
         <Footer />
       </div>
-      <ScrollToTop element={container} />
+      <ScrollUpDown element={container} />
     </>
   )
 }

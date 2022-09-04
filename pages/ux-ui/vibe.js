@@ -3,11 +3,11 @@ import Image from 'next/image'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import CustomHead from '../../components/CustomHead'
-import ScrollToTop from '../../components/ScrollToTop'
+import ScrollUpDown from '../../components/ScrollUpDown'
 import VibeIntro from '../../components/vibe/VibeIntro'
 import VibeDesignThinking from '../../components/vibe/VibeDesignThinking'
 import styles from '../../styles/ux-ui/vibe/vibe.module.scss'
-import vibeTxt from '../../public/images/ux-ui/vibe.svg'
+import vibeTxt from '../../public/images/ux-ui/vibe/vibe-text.svg'
 import vibeTxtSmol from '../../public/images/ux-ui/vibe/vaaib-smol.svg'
 
 export default function Vibe() {
@@ -34,9 +34,8 @@ export default function Vibe() {
                   others.
                 </p>
               </div>
-
               <a href="" className={styles.callToAction}>
-                full figma file
+                try protoype
               </a>
             </div>
           </div>
@@ -45,7 +44,7 @@ export default function Vibe() {
         </main>
         <Footer />
       </div>
-      <ScrollToTop element={container} />
+      <ScrollUpDown element={container} />
     </>
   )
 }

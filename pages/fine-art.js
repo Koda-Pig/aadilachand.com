@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import CustomHead from '../components/CustomHead'
 import Footer from '../components/Footer'
-import ScrollToTop from '../components/ScrollToTop'
+import ScrollUpDown from '../components/ScrollUpDown'
 import InOrganicPart from '../components/fine-art/InOrganicPart'
 import HoloScenePart from '../components/fine-art/HoloScenePart'
 import SitePart from '../components/fine-art/SitePart'
@@ -19,14 +19,14 @@ export default function FineArt() {
       <div className={styles.container} ref={container}>
         <h1 className={styles.pageHeading}>fine art</h1>
         <main>
-          <InOrganicPart className={styles.section} />
-          <HoloScenePart className={styles.section} />
-          <SitePart className={styles.section} />
-          <HumanNaturePart className={styles.section} />
+          <InOrganicPart />
+          <HoloScenePart />
+          <SitePart />
+          <HumanNaturePart />
         </main>
         <Footer />
       </div>
-      <ScrollToTop element={container} />
+      <ScrollUpDown element={container} />
     </>
   )
 }

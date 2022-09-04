@@ -1,20 +1,14 @@
 @use '../../variables' as v;
 
 .container {
-  gap: 1.5rem;
+  gap: v.$gap-xs;
   display: flex;
-  margin-bottom: 6.25rem;
+  margin-bottom: v.$gap-xl;
   justify-content: center;
   .styleguide {
     .callToAction {
-      margin: 4.3rem 0 4.3rem;
       @extend %button;
-    }
-    h3 {
-      color: white;
-      font-weight: 400;
-      font-size: 2.5rem;
-      font-family: 'Rafelya-Carrotin';
+      margin-top: v.$gap-m;
     }
   }
 }

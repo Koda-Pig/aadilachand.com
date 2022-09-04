@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import CustomHead from '../../components/CustomHead'
-import ScrollToTop from '../../components/ScrollToTop'
+import ScrollUpDown from '../../components/ScrollUpDown'
 import TuneDetails from '../../components/tune/TuneDetails'
 import styles from '../../styles/ux-ui/tune/tune.module.scss'
 import titleSVG from '../../public/images/ux-ui/tune/tune.svg'
@@ -28,7 +28,7 @@ export default function Tune() {
         </main>
         <Footer />
       </div>
-      <ScrollToTop element={container} />
+      <ScrollUpDown element={container} />
     </>
   )
 }

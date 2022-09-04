@@ -5,6 +5,17 @@ $light: #696666;
 $lightest: #848484;
 $link: #48443a;
 
+// widths
+$gap-xs: 24px;
+$gap-s: 36px;
+$gap-m: 48px;
+$gap-l: 64px;
+$gap-xl: 104px;
+
+$container-width: 1166px;
+$heading-spacing: $gap-l;
+$section-spacing: $gap-l;
+
 // placeholders
 %section {
   height: 100vh;
@@ -22,6 +33,9 @@ $link: #48443a;
   align-items: center;
   flex-direction: column;
   background: url(/images/background-latest.png) center / cover no-repeat fixed;
+  main {
+    margin-top: $heading-spacing;
+  }
 }
 
 %inner-container {
@@ -32,8 +46,8 @@ $link: #48443a;
 
 %page-heading {
   width: 100%;
+  margin-top: 34px;
   font-size: 2.5rem;
-  margin-top: 2.5rem;
   position: relative;
   text-align: center;
   padding-bottom: 1rem;

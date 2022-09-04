@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import CustomHead from '../../components/CustomHead'
-import ScrollToTop from '../../components/ScrollToTop'
+import ScrollUpDown from '../../components/ScrollUpDown'
 import EarthdirtWriteup from '../../components/earthdirt/EarthdirtWriteup'
 import EarthdirtDetails from '../../components/earthdirt/EarthdirtDetails'
 import styles from '../../styles/ux-ui/earthdirt/earthdirt.module.scss'
@@ -27,7 +27,7 @@ export default function Earthdirt() {
         </main>
         <Footer />
       </div>
-      <ScrollToTop element={container} />
+      <ScrollUpDown element={container} />
     </>
   )
 }

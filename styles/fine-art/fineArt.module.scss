@@ -1,13 +1,13 @@
 @use '../variables' as v;
 
 .container {
-  overflow: auto;
-  height: 100vh;
-  display: grid;
-  place-items: center;
+  @extend %container;
   background: url(/images/background-latest.png) center / cover no-repeat fixed;
   main > div {
-    margin-bottom: 24px;
+    margin-bottom: v.$gap-xs;
+    &:last-child {
+      margin-bottom: v.$gap-xl;
+    }
   }
 }
 

@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import CustomHead from '../components/CustomHead'
-import ScrollToTop from '../components/ScrollToTop'
+import ScrollUpDown from '../components/ScrollUpDown'
 import HeroPart from '../components/home/HeroPart'
 import WorkPart from '../components/home/WorkPart'
 import AboutPart from '../components/home/AboutPart'
@@ -16,12 +16,12 @@ export default function Home() {
       <CustomHead />
       <Navbar element={container} />
       <main ref={container} className={styles.container}>
-        <HeroPart element={container} />
+        <HeroPart />
         <WorkPart />
         <AboutPart />
         <ContactPart />
       </main>
-      <ScrollToTop element={container} />
+      <ScrollUpDown element={container} down={true} />
     </>
   )
 }

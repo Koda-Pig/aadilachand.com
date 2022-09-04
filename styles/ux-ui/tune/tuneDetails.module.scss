@@ -3,7 +3,7 @@
 .callToAction {
   &Prototype {
     display: block;
-    margin: 0 0 2rem auto;
+    margin: 0 0 v.$gap-s auto;
     @extend %button;
   }
   &FullFile {
@@ -12,10 +12,11 @@
 }
 
 .container {
-  gap: 1.5rem;
   display: flex;
-  margin-bottom: 6.25rem;
+  gap: v.$gap-xs;
+  margin-bottom: v.$gap-xl;
   justify-content: center;
+  max-width: v.$container-width;
   .writeUp {
     max-width: 337px;
   }
