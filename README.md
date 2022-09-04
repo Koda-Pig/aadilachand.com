@@ -30,7 +30,7 @@ padding:
    3. ~~link images to projects~~
    4. ~~below images margin to 64px~~
 4. graphic design
-   1. final hovers state must be original for first 3 images
+   1. ~~final hovers state must be original for first 3 images~~
    2. ~~writeup below padding is off~~
    3. ~~ancient orbit link should be a button~~
 5. fine art
@@ -44,7 +44,7 @@ padding:
 7. earth dirt
    1. ~~spacing above page title~~
    2. ~~banner to content padding: 48px~~
-   3. spacing between paragraphs and CTA must be 24px
-   4. cta align to left.
+   3. ~~spacing between paragraphs and CTA must be 24px~~
+   4. ~~cta align to left.~~
 8. tune
    1. ~~spacing above cta =~~

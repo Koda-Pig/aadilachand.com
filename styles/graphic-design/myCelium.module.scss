@@ -36,19 +36,19 @@
       max-width: 100%;
       max-height: 100%;
       position: absolute;
-      transition: opacity 1.6s ease;
       background: url(/images/favicon.ico) center / cover no-repeat;
-    }
-    &:hover::before,
-    &:hover::after {
-      opacity: 0;
-    }
-    &::before {
-      z-index: 1;
     }
     &::after {
       top: 0;
-      transition-delay: 1s;
+    }
+    &:hover::before {
+      animation: fadefirst 5s 1 ease;
+    }
+    &:hover::after {
+      animation: fadesecond 5s 1 ease;
+    }
+    &::before {
+      z-index: 1;
     }
   }
 }
@@ -67,4 +67,35 @@
 
 .callToAction {
   @extend %button;
+}
+
+// animations
+@keyframes fadefirst {
+  from {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadesecond {
+  from {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
 }
