@@ -1,4 +1,4 @@
-import style from '../../styles/fine-art/InOrganic.module.scss'
+import styles from '../../styles/fine-art/InOrganic.module.scss'
 import Image from 'next/image'
 import ReadMore from '../ReadMore'
 import { BsInstagram } from 'react-icons/bs'
@@ -29,10 +29,10 @@ const imageGallery = images.map((image, index) => {
       key={index}
       target="_blank"
       rel="noreferrer"
-      className={style.galleryLink}
+      className={styles.galleryLink}
       href={'https://www.instagram.com/p/' + image[1]}
     >
-      <div className={style.galleryCaption}>
+      <div className={styles.galleryCaption}>
         <BsInstagram size={'1.5rem'} />
         <span>more</span>
       </div>
@@ -41,7 +41,7 @@ const imageGallery = images.map((image, index) => {
         priority
         quality={100}
         src={image[0]}
-        className={style.img}
+        className={styles.img}
       />
     </a>
   )
@@ -49,15 +49,15 @@ const imageGallery = images.map((image, index) => {
 
 export default function InOrganic() {
   return (
-    <div className={style.inOrganic}>
-      <div className={style.container}>
-        <section className={style.gallerySection}>
-          <div className={style.gallery}>{imageGallery}</div>
-          <p className={style.caption}>
+    <div className={styles.inOrganic}>
+      <div className={styles.container}>
+        <section className={styles.gallerySection}>
+          <div className={styles.gallery}>{imageGallery}</div>
+          <p className={styles.caption}>
             Gallery in the Round Monument Building Makhanda
           </p>
         </section>
-        <section className={style.writeUp}>
+        <section className={styles.writeUp}>
           <h2>(in)organic</h2>
           <h3>installation</h3>
           <h4>2019</h4>

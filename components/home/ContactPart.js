@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import style from '../../styles/home/contact.module.scss'
+import styles from '../../styles/home/contact.module.scss'
 import resumeTxt from '../../public/images/home/resume.svg'
 import Footer from '../Footer'
 import profileImg from '../../public/images/home/about-profile.png'
@@ -9,29 +9,29 @@ import innerMandalaImg from '../../public/images/home/inner-mandala.png'
 
 export default function Contact() {
   return (
-    <div className={style.contact} id="contact">
+    <div className={styles.contact} id="contact">
       <p></p>
-      <div className={style.container}>
-        <section className={style.imageOverlap}>
-          <div className={style.outerMandala}>
+      <div className={styles.container}>
+        <section className={styles.imageOverlap}>
+          <div className={styles.outerMandala}>
             <Image src={outerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
           </div>
-          <div className={style.profile}>
+          <div className={styles.profile}>
             <Image src={profileImg} quality={100} alt="ADD DESCRIPTION" />
           </div>
-          <div className={style.innerMandala}>
+          <div className={styles.innerMandala}>
             <Image src={innerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
           </div>
-          <div className={style.resumeTxt}>
+          <div className={styles.resumeTxt}>
             <Image
               src={resumeTxt}
-              className={style.img}
+              className={styles.img}
               quality={100}
               alt="ADD DESCRIPTION"
             />
           </div>
         </section>
-        <section className={style.connect}>
+        <section className={styles.connect}>
           <h2>connect</h2>
           <p>
             As a patch of light tingling of the spine are creatures of the
@@ -44,11 +44,11 @@ export default function Contact() {
             coveralls and helmets are softly dancing.
           </p>
           <Link href="#" passHref>
-            <a className={style.callToAction}>get in touch</a>
+            <a className={styles.callToAction}>get in touch</a>
           </Link>
         </section>
       </div>
-      <div className={style.footer}>
+      <div className={styles.footer}>
         <Footer />
       </div>
     </div>

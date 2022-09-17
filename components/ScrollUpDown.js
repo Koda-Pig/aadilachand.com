@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { BsArrowUp, BsArrowDown } from 'react-icons/bs'
-import style from '../styles/scroll.module.scss'
+import styles from '../styles/scroll.module.scss'
 
 export default function ScrollUpDown(props) {
   const [isUpVisible, setUpVisible] = useState(false)
@@ -51,17 +51,17 @@ export default function ScrollUpDown(props) {
 
   return (
     <>
-      <div className={style.container}>
+      <div className={styles.container}>
         <BsArrowDown
           onClick={scrollDown}
-          className={`${style.scrollDown} ${
-            isDownVisible ? '' : style.invisible
+          className={`${styles.scrollDown} ${
+            isDownVisible ? '' : styles.invisible
           }`}
         />
         <div
           title="back to top"
           onClick={ScrollUpDown}
-          className={`${style.backToTop} ${isUpVisible ? style.visible : ''}`}
+          className={`${styles.backToTop} ${isUpVisible ? styles.visible : ''}`}
         >
           <BsArrowUp />
           <span>

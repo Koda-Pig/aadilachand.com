@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import style from '../styles/readMore.module.scss'
+import styles from '../styles/readMore.module.scss'
 
 export default function ReadMore({ children }) {
   const [isReadMore, setIsReadMore] = useState(true)
@@ -7,10 +7,10 @@ export default function ReadMore({ children }) {
 
   return (
     <>
-      <p className={`${style.readMore} ${isReadMore ? style.hide : ''}`}>
+      <p className={`${styles.readMore} ${isReadMore ? styles.hide : ''}`}>
         {children}
       </p>
-      <p onClick={toggleReadMore} className={style.readMoreToggle}>
+      <p onClick={toggleReadMore} className={styles.readMoreToggle}>
         {isReadMore ? 'read more...' : 'show less...'}
       </p>
     </>

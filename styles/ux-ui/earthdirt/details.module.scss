@@ -5,10 +5,8 @@
   display: flex;
   margin-bottom: v.$gap-xl;
   justify-content: center;
-  .styleguide {
-    .callToAction {
-      @extend %button;
-      margin-top: v.$gap-m;
-    }
+  .callToAction {
+    @extend %button;
+    margin-top: v.$gap-m;
   }
 }

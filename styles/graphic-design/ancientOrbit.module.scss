@@ -11,9 +11,8 @@
   margin: 0 auto;
   grid-gap: 8px;
   margin-bottom: v.$gap-m;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: repeat(3, 1fr);
   max-width: calc(288px * 3 + 1rem);
+  grid: repeat(2, 1fr) / repeat(3, 1fr);
 }
 
 .writeUp {

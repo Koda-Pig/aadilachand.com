@@ -37,8 +37,7 @@
   display: grid;
   grid-gap: 0.25rem;
   margin-bottom: 1rem;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid: repeat(3, 1fr) / repeat(3, 1fr);
   &Link {
     font-size: 0;
     position: relative;

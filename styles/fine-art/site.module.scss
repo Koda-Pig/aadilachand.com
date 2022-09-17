@@ -12,8 +12,8 @@
 }
 
 .writeUp {
-  display: flex;
   gap: 4rem;
+  display: flex;
   justify-content: center;
   h2 {
     font-size: 2rem;
@@ -34,9 +34,9 @@
 
 .gallery {
   gap: 8px;
-  width: 880px;
   display: flex;
   margin: 0 auto v.$gap-xs;
+  gap: calc((925px - 288px * 3) / 2);
   // gallery images shown only on hover:
   .img {
     font-size: 0;

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import style from '../../styles/home/work.module.scss'
+import styles from '../../styles/home/work.module.scss'
 import uxUiCircle from '../../public/images/home/ux-ui-circle.png'
 import fineArtCircle from '../../public/images/home/fine-art-circle.png'
 import graphicDesignCircle from '../../public/images/home/graphic-design-circle.png'
@@ -12,7 +12,7 @@ const list = [
 ]
 const items = list.map((item, index) => {
   return (
-    <section key={index} className={style.section}>
+    <section key={index} className={styles.section}>
       <Link href={item[1]} passHref>
         <a>
           <Image src={item[2]} quality={100} alt="" />
@@ -25,8 +25,8 @@ const items = list.map((item, index) => {
 
 export default function Work() {
   return (
-    <div className={style.work} id="work">
-      <div className={style.container}>{items}</div>
+    <div className={styles.work} id="work">
+      <div className={styles.container}>{items}</div>
     </div>
   )
 }

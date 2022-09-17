@@ -1,10 +1,10 @@
-import style from '../../styles/ux-ui/earthdirt/writeup.module.scss'
+import styles from '../../styles/ux-ui/earthdirt/writeup.module.scss'
 
 export default function EarthdirtWriteup() {
   return (
     <>
-      <div className={style.container}>
-        <div className={style.innerContainer}>
+      <div className={styles.container}>
+        <div className={styles.innerContainer}>
           <div>
             <h3>concept</h3>
             <p>
@@ -27,7 +27,7 @@ export default function EarthdirtWriteup() {
             </p>
           </div>
         </div>
-        <a href="#" className={style.callToAction}>
+        <a href="#" className={styles.callToAction}>
           prototype
         </a>
       </div>

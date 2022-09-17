@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/fine-art/humanNature.module.scss'
+import styles from '../../styles/fine-art/humanNature.module.scss'
 import humanNature1 from '../../public/images/fine-art/human-nature/human-nature-1.png'
 import humanNature2 from '../../public/images/fine-art/human-nature/human-nature-2.png'
 import humanNature3 from '../../public/images/fine-art/human-nature/human-nature-3.png'
@@ -12,24 +12,19 @@ const imageGallery = images.map((image, index) => {
 
 export default function HumanNature() {
   return (
-    <div className={style.holoScene}>
-      <div className={style.container}>
-        <section className={style.gallerySection}>
-          <div className={style.gallery}>{imageGallery}</div>
-        </section>
-        <section className={style.writeUp}>
-          <div>
-            <h2>human/nature</h2>
-            <h3>digital art</h3>
-            <h4>2019</h4>
-          </div>
-          <p>
-            As a patch of light tingling of the spine are creatures of the
-            cosmos stirred by starlight decipherment tendrils of gossamer
-            clouds?
-          </p>
-        </section>
-      </div>
+    <div className={styles.container}>
+      <div className={styles.gallery}>{imageGallery}</div>
+      <section className={styles.writeUp}>
+        <div>
+          <h2>human/nature</h2>
+          <h3>digital art</h3>
+          <h4>2019</h4>
+        </div>
+        <p>
+          As a patch of light tingling of the spine are creatures of the cosmos
+          stirred by starlight decipherment tendrils of gossamer clouds?
+        </p>
+      </section>
     </div>
   )
 }

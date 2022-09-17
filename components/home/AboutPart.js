@@ -1,10 +1,10 @@
-import style from '../../styles/home/about.module.scss'
+import styles from '../../styles/home/about.module.scss'
 
 export default function AboutPart() {
   return (
-    <div className={style.about} id="about">
-      <div className={style.container}>
-        <section className={style.section}>
+    <div className={styles.about} id="about">
+      <div className={styles.container}>
+        <section className={styles.section}>
           <h2>an intentional approach</h2>
           <p>
             Rig Veda rich in heavy atoms shores of the cosmic ocean

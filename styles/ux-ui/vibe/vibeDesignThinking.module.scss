@@ -85,8 +85,7 @@
       display: grid;
       gap: 1rem 1.5rem;
       margin-bottom: 1rem;
-      grid-template-rows: repeat(2, 143px);
-      grid-template-columns: repeat(3, 200px);
+      grid: repeat(2, 143px) / repeat(3, 200px);
       > div {
         display: flex;
         color: white;

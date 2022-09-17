@@ -14,21 +14,21 @@ const screenshots = images.map((image, index) => {
   )
 })
 
-import style from '../../styles/ux-ui/vibe/vibeDesignThinking.module.scss'
+import styles from '../../styles/ux-ui/vibe/vibeDesignThinking.module.scss'
 
 export default function VibeDesignThinking() {
   return (
     <>
-      <div className={style.container}>
-        <h2 className={style.title}>Design Thinking</h2>
-        <div className={style.circles}>
+      <div className={styles.container}>
+        <h2 className={styles.title}>Design Thinking</h2>
+        <div className={styles.circles}>
           <h3>empathize</h3>
           <h3>define</h3>
           <h3>ideate</h3>
           <h3>prototype</h3>
           <h3>test</h3>
         </div>
-        <div className={style.details}>
+        <div className={styles.details}>
           <p>
             Colonies two ghostly white figures in coveralls and helmets are
             softly dancing from which we spring Orion&apos;s sword explorations
@@ -44,14 +44,14 @@ export default function VibeDesignThinking() {
             softly dancing from which we spring Orion&apos;s sword explorations
             permanence of the stars.
           </p>
-          <a href="" className={style.callToAction}>
+          <a href="" className={styles.callToAction}>
             full figma file
           </a>
         </div>
-        <div className={style.colour}>
+        <div className={styles.colour}>
           <h3>colour</h3>
-          <div className={style.colourContainer}>
-            <div className={style.colourBlocks}>
+          <div className={styles.colourContainer}>
+            <div className={styles.colourBlocks}>
               <div>
                 sunrise/
                 <br />
@@ -75,13 +75,13 @@ export default function VibeDesignThinking() {
               Tranquility kindling
             </p>
           </div>
-          <p className={style.caption}>
+          <p className={styles.caption}>
             Permanence of the stars are creatures of the cosmos colonies
             hydrogen atoms extraplanetary?
           </p>
         </div>
-        <div className={style.typography}>
-          <div className={style.description}>
+        <div className={styles.typography}>
+          <div className={styles.description}>
             <h3>typography</h3>
             <h4>Lato</h4>
             <p>
@@ -89,13 +89,13 @@ export default function VibeDesignThinking() {
               evidence?
             </p>
           </div>
-          <div className={style.examples}>
+          <div className={styles.examples}>
             <h2>as communicated to and felt by others.</h2>
             <h3>as communicated to and felt by others.</h3>
             <h4>as communicated to and felt by others.</h4>
           </div>
         </div>
-        <div className={style.screenshots}>{screenshots}</div>
+        <div className={styles.screenshots}>{screenshots}</div>
       </div>
     </>
   )

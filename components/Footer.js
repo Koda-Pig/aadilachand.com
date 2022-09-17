@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import style from '../styles/footer.module.scss'
+import styles from '../styles/footer.module.scss'
 
 export default function Footer() {
   return (
-    <footer className={style.footer}>
-      <div className={style.innerFooter}>
+    <footer className={styles.footer}>
+      <div className={styles.innerFooter}>
         <ul>
           <li>
             <Link href="/ux-ui" passHref>
@@ -22,9 +22,9 @@ export default function Footer() {
             </Link>
           </li>
         </ul>
-        <div className={style.logo}>
+        <div className={styles.logo}>
           <Link href="/#home" passHref>
-            <a className={style.logoLink} title="home">
+            <a className={styles.logoLink} title="home">
               ac
             </a>
           </Link>

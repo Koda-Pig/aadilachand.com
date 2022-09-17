@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import phoneImg from '../../public/images/ux-ui/vibe/screen-labeled.png'
-import style from '../../styles/ux-ui/vibe/vibeIntro.module.scss'
+import styles from '../../styles/ux-ui/vibe/vibeIntro.module.scss'
 
 export default function VibeIntro() {
   return (
     <>
-      <div className={style.container}>
-        <div className={style.writeup}>
+      <div className={styles.container}>
+        <div className={styles.writeup}>
           <h2>
             Community &amp; <br />
             Connection
@@ -30,7 +30,7 @@ export default function VibeIntro() {
             muse about
           </p>
         </div>
-        <div className={style.img}>
+        <div className={styles.img}>
           <Image src={phoneImg} quality={100} alt="" />
         </div>
       </div>

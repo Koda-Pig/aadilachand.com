@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/fine-art/holoScene.module.scss'
+import styles from '../../styles/fine-art/holoScene.module.scss'
 import holoSceneImg1 from '../../public/images/fine-art/holoscene/holoscene-5.png'
 import holoSceneImg2 from '../../public/images/fine-art/holoscene/holoscene-2.png'
 import holoSceneImg3 from '../../public/images/fine-art/holoscene/holoscene-4.png'
@@ -7,7 +7,7 @@ import holoSceneImg3 from '../../public/images/fine-art/holoscene/holoscene-4.pn
 const images = [holoSceneImg1, holoSceneImg2, holoSceneImg3]
 const imageGallery = images.map((image, index) => {
   return (
-    <a key={index} className={style.galleryLink}>
+    <a key={index} className={styles.galleryLink}>
       <Image src={image} quality={100} alt="" />
     </a>
   )
@@ -15,12 +15,12 @@ const imageGallery = images.map((image, index) => {
 
 export default function HoloScene() {
   return (
-    <div className={style.holoScene}>
-      <div className={style.container}>
-        <section className={style.gallerySection}>
-          <div className={style.gallery}>{imageGallery}</div>
+    <div className={styles.holoScene}>
+      <div className={styles.container}>
+        <section className={styles.gallerySection}>
+          <div className={styles.gallery}>{imageGallery}</div>
         </section>
-        <section className={style.writeUp}>
+        <section className={styles.writeUp}>
           <div>
             <h2>holo.scene</h2>
             <h3>photography</h3>

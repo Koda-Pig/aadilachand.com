@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/fine-art/site.module.scss'
+import styles from '../../styles/fine-art/site.module.scss'
 import site1 from '../../public/images/fine-art/site/site-1.png'
 import site2 from '../../public/images/fine-art/site/site-2.png'
 import site3 from '../../public/images/fine-art/site/site-3.png'
@@ -7,7 +7,7 @@ import site3 from '../../public/images/fine-art/site/site-3.png'
 const images = [site1, site2, site3]
 const imageGallery = images.map((image, index) => {
   return (
-    <div key={index} className={style.img}>
+    <div key={index} className={styles.img}>
       <Image src={image} quality={100} alt="" />
     </div>
   )
@@ -15,12 +15,12 @@ const imageGallery = images.map((image, index) => {
 
 export default function Site() {
   return (
-    <div className={style.holoScene}>
-      <div className={style.container}>
-        <section className={style.gallerySection}>
-          <div className={style.gallery}>{imageGallery}</div>
+    <div className={styles.holoScene}>
+      <div className={styles.container}>
+        <section className={styles.gallerySection}>
+          <div className={styles.gallery}>{imageGallery}</div>
         </section>
-        <section className={style.writeUp}>
+        <section className={styles.writeUp}>
           <div>
             <h2>site</h2>
             <h3>SEM (photography)</h3>

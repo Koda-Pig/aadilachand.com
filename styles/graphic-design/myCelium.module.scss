@@ -24,7 +24,7 @@
   gap: 2rem;
   display: grid;
   margin-bottom: v.$gap-m;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid: 1fr / repeat(3, 1fr);
   // gallery images shown only on hover:
   > span {
     cursor: pointer;

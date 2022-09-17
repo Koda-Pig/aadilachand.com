@@ -5,6 +5,14 @@
   max-width: 1000px;
 }
 
+.gallery {
+  display: grid;
+  grid-gap: 0.25rem;
+  gap: calc((925px - 217px * 4) / 3);
+  margin: 0 auto v.$gap-xs;
+  grid: 1fr / repeat(4, 1fr);
+}
+
 .writeUp {
   display: flex;
   gap: 4rem;
@@ -23,17 +31,5 @@
   p {
     font-size: 18px;
     max-width: 417px;
-  }
-}
-
-.gallery {
-  width: 880px;
-  display: grid;
-  max-width: 100%;
-  grid-gap: 0.25rem;
-  margin: 0 auto v.$gap-xs;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  Link {
-    font-size: 0;
   }
 }

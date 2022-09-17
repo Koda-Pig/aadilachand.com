@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../styles/graphic-design/ancientOrbit.module.scss'
+import styles from '../../styles/graphic-design/ancientOrbit.module.scss'
 import ancientOrbit1 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-1.png'
 import ancientOrbit2 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-2.png'
 import ancientOrbit3 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-3.png'
@@ -21,15 +21,15 @@ const imageGallery = images.map((image, index) => {
 
 export default function AncientOrbit() {
   return (
-    <div className={style.container}>
-      <div className={style.gallery}>{imageGallery}</div>
-      <section className={style.writeUp}>
+    <div className={styles.container}>
+      <div className={styles.gallery}>{imageGallery}</div>
+      <section className={styles.writeUp}>
         <h2>ancient orbit</h2>
         <p>
           Rogue corpus callosum stirred by starlight two ghostly white figures
           in coveralls and helmets are softly dancing the sky calls to us invent
           the universe. <br />
-          <a className={style.callToAction} href="#">
+          <a className={styles.callToAction} href="#">
             opensea link
           </a>
         </p>

@@ -28,7 +28,7 @@ export default function Tune() {
         </main>
         <Footer />
       </div>
-      <ScrollUpDown element={container} />
+      <ScrollUpDown element={container} down={true} />
     </>
   )
 }

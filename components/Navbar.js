@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import style from '../styles/navbar.module.scss'
+import styles from '../styles/navbar.module.scss'
 import { useState, useEffect } from 'react'
 
 const sections = ['work', 'about', 'contact']
@@ -11,9 +11,9 @@ export default function Navbar(elem) {
 
   const menuItems = sections.map((section, index) => {
     return (
-      <div className={style.menuItem} key={index}>
+      <div className={styles.menuItem} key={index}>
         <Link href={'/#' + section} passHref>
-          <a className={style.link} onClick={toggleHamburger} title={section}>
+          <a className={styles.link} onClick={toggleHamburger} title={section}>
             {section}
           </a>
         </Link>
@@ -23,7 +23,9 @@ export default function Navbar(elem) {
 
   const burger = (
     <div
-      className={`${style.burger} ${hamburgerOpen ? style.open : style.closed}`}
+      className={`${styles.burger} ${
+        hamburgerOpen ? styles.open : styles.closed
+      }`}
     />
   )
 
@@ -42,21 +44,21 @@ export default function Navbar(elem) {
 
   return (
     <>
-      <div className={style.hamburger} onClick={toggleHamburger}>
+      <div className={styles.hamburger} onClick={toggleHamburger}>
         {burger} {burger} {burger}
       </div>
       <nav
         className={`
-          ${style.nav}
-          ${isMinimised ? style.minimised : ''}
-          ${hamburgerOpen ? style.open : style.closed}
+          ${styles.nav}
+          ${isMinimised ? styles.minimised : ''}
+          ${hamburgerOpen ? styles.open : styles.closed}
         `}
       >
-        <div className={style.navInner}>
-          <div className={style.home}>
+        <div className={styles.navInner}>
+          <div className={styles.home}>
             <Link href="/#home" passHref>
               <a
-                className={style.homelink}
+                className={styles.homelink}
                 onClick={toggleHamburger}
                 title="home"
               >
@@ -64,7 +66,7 @@ export default function Navbar(elem) {
               </a>
             </Link>
           </div>
-          <div className={style.menu}>{menuItems}</div>
+          <div className={styles.menu}>{menuItems}</div>
         </div>
       </nav>
     </>

@@ -1,16 +1,16 @@
 import Image from 'next/image'
-import style from '../../styles/home/hero.module.scss'
+import styles from '../../styles/home/hero.module.scss'
 import star from '../../public/images/star.svg'
 
 export default function Hero() {
   return (
-    <div className={style.hero} id="home">
-      <div className={style.heroText}>
-        <i className={style.star}>
+    <div className={styles.hero} id="home">
+      <div className={styles.heroText}>
+        <i className={styles.star}>
           <Image src={star} width={21} height={38} alt="" aria-hidden="true" />
         </i>
-        <h1 className={style.heading}>aadila chand</h1>
-        <h2 className={style.subheading}>conceptual design</h2>
+        <h1 className={styles.heading}>aadila chand</h1>
+        <h2 className={styles.subheading}>conceptual design</h2>
       </div>
     </div>
   )
