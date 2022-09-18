@@ -6,13 +6,13 @@ import myCelium3 from '../../public/images/graphic-design/my-celium/my-celium-3c
 
 const images = [myCelium1, myCelium2, myCelium3]
 const imageGallery = images.map((image, index) => {
-  return <Image key={index} src={image} quality={100} width={360} alt="" />
+  return <Image key={index} src={image} quality={100} alt="" />
 })
 
 export default function MyCelium() {
   return (
     <div className={styles.container}>
-      <section className={styles.gallerySection}>
+      <section>
         <div className={styles.gallery}>{imageGallery}</div>
       </section>
       <section className={styles.writeUp}>

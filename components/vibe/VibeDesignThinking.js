@@ -4,6 +4,7 @@ import screen2Img from '../../public/images/ux-ui/vibe/screen2.png'
 import screen3Img from '../../public/images/ux-ui/vibe/screen3.png'
 import screen4Img from '../../public/images/ux-ui/vibe/screen4.png'
 import screen5Img from '../../public/images/ux-ui/vibe/screen5.png'
+import styles from '../../styles/ux-ui/vibe/vibeDesignThinking.module.scss'
 
 const images = [screen1Img, screen2Img, screen3Img, screen4Img, screen5Img]
 const screenshots = images.map((image, index) => {
@@ -13,8 +14,6 @@ const screenshots = images.map((image, index) => {
     </div>
   )
 })
-
-import styles from '../../styles/ux-ui/vibe/vibeDesignThinking.module.scss'
 
 export default function VibeDesignThinking() {
   return (

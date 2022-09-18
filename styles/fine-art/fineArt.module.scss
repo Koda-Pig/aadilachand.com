@@ -4,7 +4,6 @@
   @extend %container;
   background: url(/images/background-latest.png) center / cover no-repeat fixed;
   main > div {
-    margin-bottom: v.$gap-xs;
     &:last-child {
       margin-bottom: v.$gap-xl;
     }

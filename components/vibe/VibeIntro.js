@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import phoneImg from '../../public/images/ux-ui/vibe/screen-labeled.png'
 import styles from '../../styles/ux-ui/vibe/vibeIntro.module.scss'
+import phoneImg from '../../public/images/ux-ui/vibe/screen-labeled.png'
 
 export default function VibeIntro() {
   return (
@@ -30,7 +30,7 @@ export default function VibeIntro() {
             muse about
           </p>
         </div>
-        <div className={styles.img}>
+        <div>
           <Image src={phoneImg} quality={100} alt="" />
         </div>
       </div>

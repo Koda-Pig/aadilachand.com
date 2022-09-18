@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { BsArrowUp, BsArrowDown } from 'react-icons/bs'
 import styles from '../styles/scroll.module.scss'
+import { BsArrowUp, BsArrowDown } from 'react-icons/bs'
 
 export default function ScrollUpDown(props) {
   const [isUpVisible, setUpVisible] = useState(false)

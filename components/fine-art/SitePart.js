@@ -15,24 +15,21 @@ const imageGallery = images.map((image, index) => {
 
 export default function Site() {
   return (
-    <div className={styles.holoScene}>
-      <div className={styles.container}>
-        <section className={styles.gallerySection}>
-          <div className={styles.gallery}>{imageGallery}</div>
-        </section>
-        <section className={styles.writeUp}>
-          <div>
-            <h2>site</h2>
-            <h3>SEM (photography)</h3>
-            <h4>2018</h4>
-          </div>
-          <p>
-            As a patch of light tingling of the spine are creatures of the
-            cosmos stirred by starlight decipherment tendrils of gossamer
-            clouds?
-          </p>
-        </section>
-      </div>
+    <div className={styles.container}>
+      <section>
+        <div className={styles.gallery}>{imageGallery}</div>
+      </section>
+      <section className={styles.writeUp}>
+        <div>
+          <h2>site</h2>
+          <h3>SEM (photography)</h3>
+          <h4>2018</h4>
+        </div>
+        <p>
+          As a patch of light tingling of the spine are creatures of the cosmos
+          stirred by starlight decipherment tendrils of gossamer clouds?
+        </p>
+      </section>
     </div>
   )
 }

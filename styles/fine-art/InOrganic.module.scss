@@ -5,31 +5,7 @@
   display: flex;
   padding: 0 2rem;
   max-width: 1000px;
-}
-
-.writeUp {
-  max-width: 381px;
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-  }
-  h3 {
-    font-size: 1rem;
-    margin-bottom: 0.25rem;
-  }
-  h4 {
-    font-size: 1rem;
-    margin-bottom: 2.4rem;
-  }
-  p {
-    font-size: 18px;
-    margin-bottom: 2rem;
-  }
-}
-
-.caption {
-  max-width: 173px;
-  font-size: 1rem;
+  margin-bottom: v.$gap-s;
 }
 
 .gallery {
@@ -61,5 +37,30 @@
       display: block;
       font-size: 1rem;
     }
+  }
+}
+
+.caption {
+  max-width: 173px;
+  font-size: 1rem;
+}
+
+.writeUp {
+  max-width: 381px;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 2.4rem;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 2rem;
   }
 }

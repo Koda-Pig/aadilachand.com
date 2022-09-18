@@ -4,22 +4,6 @@
   padding: 0 2rem;
 }
 
-.writeUp {
-  gap: 5rem;
-  display: flex;
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-  }
-  p {
-    font-size: 18px;
-    @extend %paragraph;
-  }
-  a {
-    font-size: 18px;
-  }
-}
-
 .gallery {
   gap: 2rem;
   display: grid;
@@ -28,6 +12,17 @@
   // gallery images shown only on hover:
   > span {
     cursor: pointer;
+    // sets the background images for the gallery
+    @for $i from 1 through 3 {
+      &:nth-child(#{$i}) {
+        &::before {
+          background-image: url(/images/graphic-design/my-celium/my-celium-#{$i}a.png);
+        }
+        &::after {
+          background-image: url(/images/graphic-design/my-celium/my-celium-#{$i}b.png);
+        }
+      }
+    }
     &::before,
     &::after {
       content: '';
@@ -53,20 +48,23 @@
   }
 }
 
-// sets the background images for the gallery
-@for $i from 1 through 3 {
-  .gallery > span:nth-child(#{$i}) {
-    &::before {
-      background-image: url(/images/graphic-design/my-celium/my-celium-#{$i}a.png);
-    }
-    &::after {
-      background-image: url(/images/graphic-design/my-celium/my-celium-#{$i}b.png);
-    }
+.writeUp {
+  gap: 5rem;
+  display: flex;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
   }
-}
-
-.callToAction {
-  @extend %button;
+  p {
+    font-size: 18px;
+    @extend %paragraph;
+  }
+  a {
+    font-size: 18px;
+  }
+  .callToAction {
+    @extend %button;
+  }
 }
 
 // animations

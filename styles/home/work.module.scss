@@ -3,27 +3,26 @@
 .work {
   @extend %section;
   background: url(/images/home/background.png) center / cover no-repeat;
-}
-
-.container {
-  @extend %inner-container;
-  gap: 2.5rem;
-  padding: 0 5rem;
-  max-width: 100%;
-  align-items: center;
-}
-
-.section {
-  max-width: 360px;
-  a {
-    line-height: 0;
+  .container {
+    @extend %inner-container;
+    gap: 2.5rem;
+    padding: 0 5rem;
+    max-width: 100%;
+    align-items: center;
   }
-  h2 {
-    margin-top: 2rem;
-    text-align: center;
+  section {
+    max-width: 360px;
+    a {
+      line-height: 0;
+    }
+    h2 {
+      margin-top: 2rem;
+      text-align: center;
+    }
   }
 }
 
+// responsive
 @media (max-width: 768px) {
   .container {
     flex-direction: column;

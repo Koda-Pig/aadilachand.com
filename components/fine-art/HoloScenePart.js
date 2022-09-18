@@ -15,24 +15,21 @@ const imageGallery = images.map((image, index) => {
 
 export default function HoloScene() {
   return (
-    <div className={styles.holoScene}>
-      <div className={styles.container}>
-        <section className={styles.gallerySection}>
-          <div className={styles.gallery}>{imageGallery}</div>
-        </section>
-        <section className={styles.writeUp}>
-          <div>
-            <h2>holo.scene</h2>
-            <h3>photography</h3>
-            <h4>2019</h4>
-          </div>
-          <p>
-            As a patch of light tingling of the spine are creatures of the
-            cosmos stirred by starlight decipherment tendrils of gossamer
-            clouds?
-          </p>
-        </section>
-      </div>
+    <div className={styles.container}>
+      <section>
+        <div className={styles.gallery}>{imageGallery}</div>
+      </section>
+      <section className={styles.writeUp}>
+        <div>
+          <h2>holo.scene</h2>
+          <h3>photography</h3>
+          <h4>2019</h4>
+        </div>
+        <p>
+          As a patch of light tingling of the spine are creatures of the cosmos
+          stirred by starlight decipherment tendrils of gossamer clouds?
+        </p>
+      </section>
     </div>
   )
 }

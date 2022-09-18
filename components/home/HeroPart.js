@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import styles from '../../styles/home/hero.module.scss'
 import star from '../../public/images/star.svg'
+import styles from '../../styles/home/hero.module.scss'
 
 export default function Hero() {
   return (

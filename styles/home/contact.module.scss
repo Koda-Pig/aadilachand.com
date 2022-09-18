@@ -7,10 +7,6 @@
     url(/images/home/background.png) center / cover no-repeat;
 }
 
-.footer {
-  width: 100%;
-}
-
 .container {
   @extend %inner-container;
   gap: 3.875rem;
@@ -25,43 +21,38 @@
   max-height: 440px;
   position: relative;
   place-items: center;
-}
-
-.profile,
-.outerMandala,
-.innerMandala,
-.resumeTxt {
-  position: absolute;
-  font-size: 0;
-}
-
-.profile {
-  bottom: 0;
-  right: 0;
-}
-
-.outerMandala {
-  top: 0;
-  left: 0;
-}
-
-.innerMandala {
-  top: 74px;
-  left: 72px;
-  // correction for off-center positioning
-  transform-origin: 49.8% 49.5%;
-  animation: rotation 90s infinite linear;
-}
-
-.resumeTxt {
-  bottom: 0;
-  right: 213px;
-  .img {
-    cursor: pointer;
-    transition: filter 0.2s ease;
-    filter: drop-shadow(0 0 0 white);
-    &:hover {
-      filter: drop-shadow(0 0 3px white);
+  .outerMandala,
+  .profile,
+  .innerMandala,
+  .resumeTxt {
+    position: absolute;
+    font-size: 0;
+  }
+  .outerMandala {
+    top: 0;
+    left: 0;
+  }
+  .profile {
+    bottom: 0;
+    right: 0;
+  }
+  .innerMandala {
+    top: 74px;
+    left: 72px;
+    // correction for off-center positioning
+    transform-origin: 49.8% 49.5%;
+    animation: rotation 90s infinite linear;
+  }
+  .resumeTxt {
+    bottom: 0;
+    right: 213px;
+    .img {
+      cursor: pointer;
+      transition: filter 0.2s ease;
+      filter: drop-shadow(0 0 0 white);
+      &:hover {
+        filter: drop-shadow(0 0 3px white);
+      }
     }
   }
 }
@@ -81,10 +72,13 @@
   p {
     margin-bottom: 2.875rem;
   }
+  .callToAction {
+    @extend %button;
+  }
 }
 
-.callToAction {
-  @extend %button;
+.footer {
+  width: 100%;
 }
 
 @keyframes rotation {
