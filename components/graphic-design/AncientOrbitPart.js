@@ -28,9 +28,9 @@ export default function AncientOrbit() {
         <p>
           Rogue corpus callosum stirred by starlight two ghostly white figures
           in coveralls and helmets are softly dancing the sky calls to us invent
-          the universe. <br />
-          <a href="#">opensea link</a>
+          the universe.
         </p>
+        <a href="#">opensea</a>
       </section>
     </div>
   )

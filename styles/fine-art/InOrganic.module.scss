@@ -3,9 +3,8 @@
 .container {
   gap: 2rem;
   display: flex;
-  padding: 0 2rem;
-  max-width: 1000px;
   margin-bottom: v.$gap-s;
+  max-width: v.$container_fine-art;
 }
 
 .gallery {

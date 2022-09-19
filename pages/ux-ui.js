@@ -21,17 +21,17 @@ export default function UxUi() {
         <h1 className={styles.pageHeading}>ux/ui</h1>
         <main>
           <section className={styles.images}>
-            <div className={styles.vibe}>
+            <div>
               <Link href="/ux-ui/vibe" passHref>
                 <Image src={vibeImg} quality={100} alt="" />
               </Link>
             </div>
-            <div className={styles.earthdirt}>
+            <div>
               <Link href="/ux-ui/earthdirt" passHref>
                 <Image src={earthdirtImg} quality={100} alt="" />
               </Link>
             </div>
-            <div className={styles.tune}>
+            <div>
               <Link href="/ux-ui/tune" passHref>
                 <Image src={tuneImg} quality={100} alt="" />
               </Link>

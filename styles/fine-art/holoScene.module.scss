@@ -1,15 +1,14 @@
 @use '../variables' as v;
 
 .container {
-  padding: 0 2rem;
-  max-width: 1000px;
+  max-width: v.$container_fine-art;
   margin-bottom: v.$section-spacing;
 }
 
 .writeUp {
+  gap: 55px;
   display: flex;
-  gap: 4rem;
-  justify-content: center;
+  justify-content: space-between;
   h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -23,7 +22,6 @@
   }
   p {
     font-size: 18px;
-    max-width: 592px;
   }
 }
 
@@ -31,7 +29,7 @@
   display: grid;
   margin-bottom: v.$gap-xs;
   grid: 1fr / repeat(3, 1fr);
-  gap: calc((925px - 289px * 3) / 2);
+  gap: 0.5rem;
   &Link {
     font-size: 0;
     cursor: pointer;

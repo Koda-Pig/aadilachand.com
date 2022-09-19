@@ -14,7 +14,7 @@ export default function EarthdirtDetails() {
           <Image src={styleguideImg} quality={100} alt="" />
         </div>
         <a href="" className={styles.callToAction}>
-          full figma file
+          full project
         </a>
       </div>
     </div>

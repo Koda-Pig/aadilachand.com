@@ -44,7 +44,7 @@ export default function VibeDesignThinking() {
             permanence of the stars.
           </p>
           <a href="" className={styles.callToAction}>
-            full figma file
+            full project
           </a>
         </div>
         <div className={styles.colour}>

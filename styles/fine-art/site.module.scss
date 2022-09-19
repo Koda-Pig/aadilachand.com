@@ -1,8 +1,7 @@
 @use '../variables' as v;
 
 .container {
-  padding: 0 2rem;
-  max-width: 1000px;
+  max-width: v.$container_fine-art;
   margin-bottom: v.$section-spacing;
 }
 
@@ -10,7 +9,6 @@
   gap: 8px;
   display: flex;
   margin: 0 auto v.$gap-xs;
-  gap: calc((925px - 288px * 3) / 2);
   // gallery images shown only on hover:
   .img {
     font-size: 0;
@@ -29,9 +27,9 @@
 }
 
 .writeUp {
-  gap: 4rem;
+  gap: 55px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -45,6 +43,5 @@
   }
   p {
     font-size: 18px;
-    max-width: 562px;
   }
 }

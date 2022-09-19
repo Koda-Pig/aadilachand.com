@@ -3,23 +3,22 @@
 .container {
   padding: 0 2rem;
   margin: 0 auto v.$gap-xl auto;
-  max-width: v.$container-width;
 }
 
 .gallery {
   display: grid;
-  margin: 0 auto;
   grid-gap: 8px;
+  margin: 0 auto;
   margin-bottom: v.$gap-m;
   max-width: calc(288px * 3 + 1rem);
   grid: repeat(2, 1fr) / repeat(3, 1fr);
 }
 
 .writeUp {
+  gap: 2rem;
   display: flex;
-  gap: 2.5rem;
+  max-width: 1144px;
   h2 {
-    width: 302px;
     height: 87px;
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -33,6 +32,6 @@
   }
   a {
     @extend %button;
-    margin-top: v.$gap-s;
+    margin-left: auto;
   }
 }

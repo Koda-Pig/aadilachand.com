@@ -17,8 +17,8 @@
 }
 
 .bannerImg {
-  display: flex;
   width: 100%;
+  display: flex;
   aspect-ratio: 48 / 17;
   justify-content: center;
   margin-bottom: v.$section-spacing;
@@ -26,6 +26,7 @@
   .inner {
     width: 100%;
     display: flex;
+    align-items: center;
     max-width: 994px;
     height: min-content;
     margin-top: v.$gap-l;
