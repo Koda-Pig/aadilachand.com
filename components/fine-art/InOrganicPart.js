@@ -61,8 +61,12 @@ export default function InOrganic() {
           ever-present and normalized.
         </p>
         <ReadMore>
-          As a patch of light tingling of the spine are creatures of the cosmos
-          stirred by starlight decipherment tendrils of gossamer clouds?
+          <p>
+            (in) organic explores the complex and intricate relationship between
+            humans and nature, touching on the Anthropocene- the current era we
+            live in whereby humans are the dominant and most influential force
+            on Earth and the workings of the natural world.
+          </p>
         </ReadMore>
       </section>
     </div>

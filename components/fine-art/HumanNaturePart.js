@@ -18,11 +18,11 @@ export default function HumanNature() {
         <div>
           <h2>human/nature</h2>
           <h3>digital art</h3>
-          <h4>2019</h4>
+          <h4>2016</h4>
         </div>
         <p>
-          As a patch of light tingling of the spine are creatures of the cosmos
-          stirred by starlight decipherment tendrils of gossamer clouds?
+          Cross sections of plant cells merged with human eyes to create a new
+          cell. Portraying the interconnnection between humans and nature.
         </p>
       </section>
     </div>

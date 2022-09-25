@@ -7,9 +7,9 @@ export default function ReadMore({ children }) {
 
   return (
     <>
-      <p className={`${styles.readMore} ${isReadMore ? styles.hide : ''}`}>
+      <div className={`${styles.readMore} ${isReadMore ? styles.hide : ''}`}>
         {children}
-      </p>
+      </div>
       <p onClick={toggleReadMore} className={styles.readMoreToggle}>
         {isReadMore ? 'read more...' : 'show less...'}
       </p>

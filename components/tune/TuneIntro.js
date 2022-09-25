@@ -12,16 +12,16 @@ export default function TuneIntro() {
         <div className={styles.writeUp}>
           <h3>concept</h3>
           <p>
-            Permanence of the stars circumnavigated consciousness the ash of
-            stellar alchemy Sea of Tranquility
+            Mock up of a music library with personalized recomendations and data
+            based on your listening habits
           </p>
           <h3>inspired by</h3>
           <p>
-            Permanence of the stars circumnavigated consciousness the ash of
-            stellar alchemy Sea of Tranquility muse
+            Vintage Vinyl; classic with a futuristic twist. Combining elements
+            of brutalism and glassmorphism
           </p>
           <h3>my role</h3>
-          <p>Permanence of the stars circumnavigated consciousness</p>
+          <p>user experience design; user interface design, graphic design</p>
           <a href="" className={styles.callToAction}>
             try prototype
           </a>

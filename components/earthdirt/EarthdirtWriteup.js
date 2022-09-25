@@ -8,22 +8,19 @@ export default function EarthdirtWriteup() {
           <div>
             <h3>concept</h3>
             <p>
-              Galaxies venture the carbon in our apple pies the only home
-              we&apos;ve ever harvesting star light laws of physics
+              An online shop mock-up of my passion project, earthdirt. Dainty
+              handmade jewellery and ceramics
             </p>
           </div>
           <div>
             <h3>inspired by</h3>
-            <p>
-              A billion trillion something incredible is waiting to be known as
-              a patch of light descended from astronomers one?
-            </p>
+            <p>Elements by nature.</p>
           </div>
           <div>
             <h3>my role</h3>
             <p>
-              bearable only through love invent the universe and billions upon
-              billions upon billions upon billions upon billions.
+              web design, brand development, social media marketing, product
+              design &amp; creation, product photography, product management
             </p>
           </div>
         </div>

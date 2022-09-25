@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import ReadMore from '../ReadMore'
 import styles from '../../styles/graphic-design/myCelium.module.scss'
 import myCelium1 from '../../public/images/graphic-design/my-celium/my-celium-1c.png'
 import myCelium2 from '../../public/images/graphic-design/my-celium/my-celium-2c.png'
@@ -19,10 +20,32 @@ export default function MyCelium() {
         <div>
           <h2>my.celium</h2>
         </div>
-        <p>
-          an intergration of science and tradition inspired by traditional
-          indian woodblock art and microbiology. <a href="#">(read more)</a>
-        </p>
+        <div>
+          <p>
+            An intergration of science and tradition inspired by traditional
+            indian woodblock art and microbiology.
+          </p>
+          <ReadMore>
+            <p>
+              A biomorphic intergration of art, science and tradition. Inspired
+              by traditional indian woodblock art and microbiology.
+            </p>
+            <p>
+              Weaving my heritage into my admiration for science to create my
+              very own culture of microscopic eco-systems. This is what i would
+              imagine the cells of my soul to look like.
+            </p>
+            <p>
+              Using hand-drawn, botanical mandalas as the base-line pattern,
+              this is but the first collection of an endless array of
+              possibilities.
+            </p>
+            <p>
+              My future vision for this project is to create biomorphic
+              generative works, coding them to life through collaboartion.
+            </p>
+          </ReadMore>
+        </div>
         <div>
           <a href="#" className={styles.callToAction}>
             full project

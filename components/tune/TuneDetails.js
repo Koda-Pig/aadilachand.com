@@ -10,17 +10,19 @@ export default function TuneDetails() {
         <div className={styles.writeUp}>
           <h3>key feature</h3>
           <p>
-            Permanence of the stars circumnavigated consciousness the ash of
-            stellar alchemy
+            What sets tune apart from other music libraries is the data card
+            selection. Tune collects and creates a visual display of your
+            listening habits.
           </p>
           <ReadMore>
             <p>
-              Permanence of the stars circumnavigated consciousness the ash of
-              stellar alchemy Sea of Tranquility muse about
+              This includes an option between weekly, monthly and yearly
+              overview of your top songs, albums, artists as well as a pie chart
+              of your favourite genres and a graph of your listening hours.
             </p>
             <p>
-              Permanence of the stars circumnavigated consciousness the ash of
-              stellar alchemy Sea of
+              While this feature isn&apos;t essential to listening, it does add
+              a personal dimesnsion to avid listeners and music connoisseurs.
             </p>
           </ReadMore>
           <a href="" className={styles.callToAction}>

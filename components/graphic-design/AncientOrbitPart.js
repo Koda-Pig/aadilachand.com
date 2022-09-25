@@ -26,9 +26,8 @@ export default function AncientOrbit() {
       <section className={styles.writeUp}>
         <h2>ancient orbit</h2>
         <p>
-          Rogue corpus callosum stirred by starlight two ghostly white figures
-          in coveralls and helmets are softly dancing the sky calls to us invent
-          the universe.
+          An archive of parculiar cosmic occurances transcending through time
+          and space. Available as nft&apos;s on opensea.
         </p>
         <a href="#">opensea</a>
       </section>

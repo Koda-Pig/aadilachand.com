@@ -26,8 +26,11 @@ export default function Site() {
           <h4>2018</h4>
         </div>
         <p>
-          As a patch of light tingling of the spine are creatures of the cosmos
-          stirred by starlight decipherment tendrils of gossamer clouds?
+          Challenging perspectives on the seemingly munndane. using site-specifc
+          common plant life collected in and around Makhanda. Photographed using
+          a Scanning Electron Microscope (SEM) exploring hidden microscopic
+          worlds, revealing tiny intricacies to show how our world extends
+          deeper than all that meets the eye. Hover to see the magnification.
         </p>
       </section>
     </div>
