@@ -2,9 +2,9 @@
 
 .container {
   display: flex;
-  gap: v.$gap-xl;
-  justify-content: center;
+  gap: v.$gap-l;
   margin-bottom: v.$gap-xl;
+  justify-content: center;
   max-width: v.$container-width;
   .writeUp {
     max-width: 337px;
@@ -14,9 +14,9 @@
       font-family: 'Poppins';
     }
     p {
-      margin-bottom: 1rem;
+      margin-bottom: v.$gap-m;
       &:last-of-type {
-        margin-bottom: 2rem;
+        margin-bottom: v.$gap-l;
       }
     }
     .callToAction {
