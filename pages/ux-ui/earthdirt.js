@@ -27,7 +27,7 @@ export default function Earthdirt() {
         </main>
         <Footer />
       </div>
-      <ScrollUpDown element={container} />
+      <ScrollUpDown element={container} down={true} />
     </>
   )
 }

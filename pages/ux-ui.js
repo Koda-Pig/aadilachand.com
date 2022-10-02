@@ -41,8 +41,8 @@ export default function UxUi() {
             <div className={styles.vibe}>
               <p>
                 <strong>case study</strong>
-                <br />A very small stage in a vast cosmic arena worldlets star
-                stuff harvesting star light
+                <br />
+                designing for diversity &amp; intergration
               </p>
               <Link href="/ux-ui/vibe" passHref>
                 <a className={styles.callToAction}>view project</a>
@@ -50,9 +50,9 @@ export default function UxUi() {
             </div>
             <div className={styles.earthdirt}>
               <p>
-                <strong>case study</strong>
-                <br />A very small stage in a vast cosmic arena worldlets star
-                stuff harvesting star light
+                <strong>brand + web design</strong>
+                <br />
+                an online shop for a craft botique.
               </p>
               <Link href="/ux-ui/earthdirt" passHref>
                 <a className={styles.callToAction}>view project</a>
@@ -60,9 +60,8 @@ export default function UxUi() {
             </div>
             <div className={styles.tune}>
               <p>
-                <strong>case study</strong>
-                <br />A very small stage in a vast cosmic arena worldlets star
-                stuff harvesting star light
+                <strong>mobile app design</strong>
+                <br />a classic yet futuristic music library.
               </p>
               <Link href="/ux-ui/tune" passHref>
                 <a className={styles.callToAction}>view project</a>

@@ -22,7 +22,12 @@ export default function TuneIntro() {
           </p>
           <h3>my role</h3>
           <p>user experience design; user interface design, graphic design</p>
-          <a href="" className={styles.callToAction}>
+          <a
+            href="https://www.figma.com/file/D0eKwPPaAtiAlZNGTc9B4f/tune?node-id=1032%3A4471"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.callToAction}
+          >
             try prototype
           </a>
         </div>

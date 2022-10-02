@@ -34,7 +34,12 @@ export default function Vibe() {
                   others.
                 </p>
               </div>
-              <a href="" className={styles.callToAction}>
+              <a
+                href="https://www.figma.com/file/4iMvRt0sYN0whHpvewqgtM/vibe?node-id=865%3A1436"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.callToAction}
+              >
                 try protoype
               </a>
             </div>

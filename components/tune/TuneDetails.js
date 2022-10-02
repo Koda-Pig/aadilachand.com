@@ -8,7 +8,7 @@ export default function TuneDetails() {
     <>
       <div className={styles.container}>
         <div className={styles.writeUp}>
-          <h3>key feature</h3>
+          <h3>key features</h3>
           <p>
             What sets tune apart from other music libraries is the data card
             selection. Tune collects and creates a visual display of your
@@ -25,7 +25,12 @@ export default function TuneDetails() {
               a personal dimesnsion to avid listeners and music connoisseurs.
             </p>
           </ReadMore>
-          <a href="" className={styles.callToAction}>
+          <a
+            href="https://www.figma.com/file/D0eKwPPaAtiAlZNGTc9B4f/tune?node-id=1032%3A4471"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.callToAction}
+          >
             full project
           </a>
         </div>

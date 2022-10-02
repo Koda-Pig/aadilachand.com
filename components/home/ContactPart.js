@@ -34,16 +34,14 @@ export default function Contact() {
         <section className={styles.connect}>
           <h2>connect</h2>
           <p>
-            As a patch of light tingling of the spine are creatures of the
-            cosmos stirred by starlight decipherment tendrils of gossamer
-            clouds? How far away the only home we&apos;ve ever known permanence
-            of the stars bits of moving fluff hydrogen atoms two ghostly white
-            figures in coveralls and helmets are softly dancing. Bits of moving
-            fluff not a sunrise but a galaxyrise vanquish the impossible the sky
-            calls to us emerged into consciousness two ghostly white figures in
-            coveralls and helmets are softly dancing.
+            Hi there! My name is Aadila and I am a curious learner. I have only
+            just begun my ux/ui journey with one year of self-studying and
+            practicing. I completed my honours in fine art at Rhodes University
+            in 2019. I am a detail driven individual with a natural knack for
+            conceptualizing and problem solving using interconnective,
+            intergrative thinking and empathy above all.
           </p>
-          <Link href="#" passHref>
+          <Link href="mailto:aadila.chand.ac@gmail.com" passHref>
             <a className={styles.callToAction}>get in touch</a>
           </Link>
         </section>

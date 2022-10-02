@@ -1,19 +1,7 @@
 import Image from 'next/image'
-import screen1Img from '../../public/images/ux-ui/vibe/screen1.png'
-import screen2Img from '../../public/images/ux-ui/vibe/screen2.png'
-import screen3Img from '../../public/images/ux-ui/vibe/screen3.png'
-import screen4Img from '../../public/images/ux-ui/vibe/screen4.png'
-import screen5Img from '../../public/images/ux-ui/vibe/screen5.png'
+import ReadMore from '../ReadMore'
+import screenshotsImg from '../../public/images/ux-ui/vibe/screenshots.png'
 import styles from '../../styles/ux-ui/vibe/vibeDesignThinking.module.scss'
-
-const images = [screen1Img, screen2Img, screen3Img, screen4Img, screen5Img]
-const screenshots = images.map((image, index) => {
-  return (
-    <div key={index}>
-      <Image src={image} quality={100} alt="" />
-    </div>
-  )
-})
 
 export default function VibeDesignThinking() {
   return (
@@ -28,60 +16,72 @@ export default function VibeDesignThinking() {
           <h3>test</h3>
         </div>
         <div className={styles.details}>
+          <div>
+            <p>
+              Certain groups find that social environments can be stressful,
+              overwhelming and draining making it hard to integrate in social
+              settings and thus isolate themselves.
+            </p>
+            <ReadMore>
+              <p>
+                Certain groups find that social environments can be stressful,
+                overwhelming and draining making it hard to integrate in social
+                settings and thus isolate themselves. They may resort to using
+                social media to find a sense of belonging- which is fundamental
+                to human nature, but that too has lasting negative effects
+              </p>
+            </ReadMore>
+          </div>
           <p>
-            Colonies two ghostly white figures in coveralls and helmets are
-            softly dancing from which we spring Orion&apos;s sword explorations
-            permanence of the stars.
+            Social media has negative side effects but it is currently one of
+            the few ways in which people can easily access relevant information
+            regarding interests and events.
           </p>
           <p>
-            Colonies two ghostly white figures in coveralls and helmets are
-            softly dancing from which we spring Orion&apos;s sword explorations
-            permanence of the stars.
+            People could benefit from having a platform where they can keep up
+            to date with happenings and shared interests but not be weighted by
+            the negative aspects of social media.
           </p>
-          <p>
-            Colonies two ghostly white figures in coveralls and helmets are
-            softly dancing from which we spring Orion&apos;s sword explorations
-            permanence of the stars.
-          </p>
-          <a href="" className={styles.callToAction}>
+          <a
+            href="https://www.figma.com/file/4iMvRt0sYN0whHpvewqgtM/vibe?node-id=865%3A1436"
+            className={styles.callToAction}
+            rel="noreferrer"
+            target="_blank"
+          >
             full project
           </a>
         </div>
         <div className={styles.colour}>
-          <h3>colour</h3>
+          <h2>colour</h2>
           <div className={styles.colourContainer}>
             <div className={styles.colourBlocks}>
-              <div>
-                sunrise/
-                <br />
-                light mode
-              </div>
               <div></div>
               <div></div>
-              <div>
-                sunset/
-                <br />
-                dark mode
-              </div>
+              <div></div>
+              <div></div>
               <div></div>
               <div></div>
             </div>
-            <p>
-              Galaxies ship of the imagination concept of the number one
-              Flatland Euclid globular star cluster. Something incredible is
-              waiting to be known shores of the cosmic ocean made in the
-              interiors of collapsing stars Sea of Tranquility Sea of
-              Tranquility kindling
-            </p>
+            <div>
+              <p>
+                Inspired by a summer&apos;s sunset to create a safe and soothing
+                environment. This familiar colour scheme evokes feelings of
+                nostalgia and ease geared towards making meaningful connections
+                comfortably. <br />
+                Like other browns, tan evokes warmth and security and gives a
+                sense of earthly stability while the hints of purple add
+                feelings of mystery and curiosity creating a sense of discovery.
+              </p>
+              <p>
+                The neutral tones make content easier to consume for those with
+                sensory processing disorders.
+              </p>
+            </div>
           </div>
-          <p className={styles.caption}>
-            Permanence of the stars are creatures of the cosmos colonies
-            hydrogen atoms extraplanetary?
-          </p>
         </div>
         <div className={styles.typography}>
           <div className={styles.description}>
-            <h3>typography</h3>
+            <h2>typography</h2>
             <h4>Lato</h4>
             <p>
               Venture rogue trillion emerged into consciousness vanquish claims
@@ -94,7 +94,55 @@ export default function VibeDesignThinking() {
             <h4>as communicated to and felt by others.</h4>
           </div>
         </div>
-        <div className={styles.screenshots}>{screenshots}</div>
+        <div className={styles.screenshots}>
+          <Image src={screenshotsImg} quality={100} alt="" />
+        </div>
+        <div className={styles.takeAway}>
+          <p>
+            <h2>take-away</h2>
+            <p>
+              I have only just scraped the surface, exploring a basic solution
+              for social integration and laying down the scaffolding of this
+              project. Here are some ways I would want to improve and expand on
+              this project:
+            </p>
+          </p>
+          <p>
+            <h2>&#8203;</h2>
+            <p>
+              The most important expansion would be to add more accessibility
+              features. This is seen on the settings page, I have not elaborated
+              on it. I would like this to be accessible on every page, found in
+              the dot settings menu on the top right corner. The features that
+              would be available here would be:
+            </p>
+            <p>
+              The option to change text style to a font more accommodating to
+              those with dyslexia.
+              <ol>
+                <li>The option to switch to light or dark mode. </li>
+                <li>A screen reader for those with visual impairments.</li>
+                <li>A microphone feature for those with motor impairments.</li>
+              </ol>
+            </p>
+            <ReadMore>
+              <p>
+                The next improvement I would consider is adding labels on the
+                navigation bars. While I tried to keep to a minimalist approach,
+                bearing in mind the potential cognitive overload; so as to not
+                overwhelm the user, since the app is densed with features. It is
+                important to consider whether this creates ambiguity and
+                confusion due to lack of clarity. It would be wrong to make the
+                assumption that everyone is familiar with the meaning of these
+                icons; however cognitive load is a very important consideration
+                when designing for neurodiversity. Perhaps an in-depth
+                onboarding with full explanations would be sufficient. Weighing
+                out the pro&apos;s and con&apos;s on clarity vs reduced
+                cognitive load can be resolved through a series of user testing.
+              </p>
+            </ReadMore>
+          </p>
+        </div>
       </div>
     </>
   )

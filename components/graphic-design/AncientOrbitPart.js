@@ -29,7 +29,13 @@ export default function AncientOrbit() {
           An archive of parculiar cosmic occurances transcending through time
           and space. Available as nft&apos;s on opensea.
         </p>
-        <a href="#">opensea</a>
+        <a
+          href="https://opensea.io/collection/ancientorbit"
+          target="_blank"
+          rel="noreferrer"
+        >
+          opensea
+        </a>
       </section>
     </div>
   )

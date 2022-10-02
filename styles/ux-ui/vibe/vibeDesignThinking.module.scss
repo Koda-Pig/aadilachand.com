@@ -62,8 +62,11 @@
   p {
     max-width: 240px;
     line-height: 24px;
-    font-size: 1.125rem;
+    margin-bottom: 1rem;
     font-family: 'Poppins';
+    p {
+      margin-top: 1rem;
+    }
   }
   .callToAction {
     @extend %button;
@@ -77,14 +80,17 @@
 .colour {
   margin-bottom: 12px;
   max-width: v.$container-width;
-  h3 {
-    font-size: 2rem;
+  h2 {
+    font-weight: 500;
     margin-bottom: 1rem;
     font-family: 'Poppins';
   }
   &Container {
     gap: 84px;
     display: flex;
+    p {
+      margin-bottom: 1rem;
+    }
   }
   &Blocks {
     display: grid;
@@ -122,9 +128,6 @@
   p {
     max-width: 457px;
   }
-  .caption {
-    max-width: 535px;
-  }
 }
 
 .typography {
@@ -136,9 +139,8 @@
   justify-content: space-between;
   .description {
     max-width: 393px;
-    h3 {
-      font-size: 2rem;
-      font-weight: 400;
+    h2 {
+      font-weight: 500;
       margin-bottom: 1rem;
       font-family: 'Poppins';
     }
@@ -185,7 +187,26 @@
 }
 
 .screenshots {
-  gap: 1rem;
-  display: flex;
   margin-bottom: 5rem;
+}
+
+.takeAway {
+  max-width: v.$container-width;
+  display: flex;
+  margin-bottom: v.$gap-l;
+  p:first-child p {
+    max-width: 320px;
+  }
+  h2 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-family: 'Poppins';
+  }
+  p {
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+  ol {
+    padding-left: 1rem;
+  }
 }

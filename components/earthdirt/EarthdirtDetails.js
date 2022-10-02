@@ -13,7 +13,12 @@ export default function EarthdirtDetails() {
         <div>
           <Image src={styleguideImg} quality={100} alt="" />
         </div>
-        <a href="" className={styles.callToAction}>
+        <a
+          href="https://www.figma.com/file/fBFBTL3piLExHjGTS5HBga/earthdirt?node-id=1101%3A1063"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.callToAction}
+        >
           full project
         </a>
       </div>

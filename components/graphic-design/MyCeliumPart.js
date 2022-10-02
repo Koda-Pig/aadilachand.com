@@ -47,7 +47,12 @@ export default function MyCelium() {
           </ReadMore>
         </div>
         <div>
-          <a href="#" className={styles.callToAction}>
+          <a
+            href="https://www.figma.com/file/ejRlzP6G4HsbxR4Zf2wH1r/Biomorphic-Design?node-id=0%3A1"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.callToAction}
+          >
             full project
           </a>
         </div>

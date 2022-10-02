@@ -7,13 +7,18 @@ export default function AboutPart() {
         <section className={styles.section}>
           <h2>an intentional approach</h2>
           <p>
-            Rig Veda rich in heavy atoms shores of the cosmic ocean
-            Jean-François Champollion Drake Equation Vangelis. At the edge of
-            forever not a sunrise but a galaxyrise the carbon in our apple pies
-            not a sunrise but a galaxyrise kindling the energy hidden in matter
-            intelligent beings. Tingling of the spine descended from astronomers
-            tendrils of gossamer clouds the ash of stellar alchemy Sea of
-            Tranquility permanence of the stars.
+            As the world paves a fairly new path within the digital realm,
+            designers are offered the chance to create a more meaningful space.
+            A space that can weave together previous divides and grow towards a
+            diverse future. Through clean and intentional design, can we plant
+            subtle seeds of sustainability and inclusivity that has the power to
+            reach a greater impact.
+          </p>
+          <p>
+            My approach to design is thinking in increments and considering how
+            smaller parts can sum up to a greater-whole. Understanding that
+            everything one interacts with leaves an impression, design has the
+            power to ripple out into positive changes at a larger scale.
           </p>
         </section>
       </div>

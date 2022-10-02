@@ -2,23 +2,44 @@
 
 .container {
   gap: 1.5rem;
-  display: flex;
   max-width: v.$container-width;
   margin: 0 auto v.$section-spacing auto;
   justify-content: space-between;
 }
 
 .writeup {
-  max-width: 432px;
+  gap: 208px;
+  display: flex;
+  margin-bottom: v.$gap-l;
   h2 {
-    margin-bottom: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
     font-family: 'Poppins';
   }
-  strong {
-    display: block;
-    margin-bottom: 0.5rem;
+  p {
+    flex: 1;
+    margin-bottom: 1rem;
   }
-  p:not(:last-child) {
-    margin-bottom: 2.5rem;
+}
+
+.mockup {
+  text-align: center;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: v.$gap-l;
+    font-family: 'Poppins';
+  }
+  .img {
+    display: block;
+    margin-bottom: v.$gap-l;
+  }
+  .role {
+    max-width: 431px;
+    text-align: left;
+    h3 {
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      font-family: 'Poppins';
+    }
   }
 }

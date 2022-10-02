@@ -26,11 +26,13 @@ export default function Site() {
           <h4>2018</h4>
         </div>
         <p>
-          Challenging perspectives on the seemingly munndane. using site-specifc
+          Challenging perspectives of the seemingly mundane using site-specific
           common plant life collected in and around Makhanda. Photographed using
           a Scanning Electron Microscope (SEM) exploring hidden microscopic
           worlds, revealing tiny intricacies to show how our world extends
-          deeper than all that meets the eye. Hover to see the magnification.
+          deeper than the surface level. Hover over images to see the
+          magnification of tree bark, spanish moss and usnea lichen
+          (respectively from the left).
         </p>
       </section>
     </div>

@@ -14,7 +14,11 @@ export default function EarthdirtWriteup() {
           </div>
           <div>
             <h3>inspired by</h3>
-            <p>Elements by nature.</p>
+            <p>
+              The process of pottery and its relation to the elements of nature.
+              Using earth (clay) and water to create something that is
+              solidified by fire and air.
+            </p>
           </div>
           <div>
             <h3>my role</h3>
@@ -24,7 +28,12 @@ export default function EarthdirtWriteup() {
             </p>
           </div>
         </div>
-        <a href="#" className={styles.callToAction}>
+        <a
+          href="https://www.figma.com/file/fBFBTL3piLExHjGTS5HBga/earthdirt?node-id=1101%3A1063"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.callToAction}
+        >
           prototype
         </a>
       </div>

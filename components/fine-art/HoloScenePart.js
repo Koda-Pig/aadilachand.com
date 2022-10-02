@@ -26,8 +26,12 @@ export default function HoloScene() {
           <h4>2019</h4>
         </div>
         <p>
-          As a patch of light tingling of the spine are creatures of the cosmos
-          stirred by starlight decipherment tendrils of gossamer clouds?
+          Imagines a post anthropocene world where life starts to reclaim the
+          scorched earth. A sub-working off in(organic), paying closer attention
+          to the meaning fabricated through medium and the process. The burnt
+          bottle cap represents how consumerism has played a fundamental role in
+          the anthropocene and degradation of the environment. (Hover over
+          images to see more)
         </p>
       </section>
     </div>
