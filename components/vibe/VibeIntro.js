@@ -11,18 +11,15 @@ export default function VibeIntro() {
           <p>
             <h2>problem</h2>
             <p>
-              Drawing from the documentary, the Social Dilemma (2020), Social
-              media is known to have negative effects on our mental health. It
-              is designed to harvest data that encourages addictive behaviors...
+              As illustrated in <em>The Social Dilemma</em> (2020), social media
+              is known to have negative effects on our mental health. It is
+              designed to harvest data that encourages addictive behaviors using
+              algorithms that create feedback loops.
             </p>
             <ReadMore>
               <p>
-                Drawing from the documentary, the Social Dilemma (2020), social
-                media is known to have negative effects on one&apos;s mental
-                health. It is designed to harvest data that encourages addictive
-                behaviors using algorithms that create feedback loops. This is
-                especially dangerous as it has the power to manipulate people
-                and spread misinformation. Over long periods of time this
+                This is especially dangerous as it has the power to manipulate
+                people and spread misinformation. Over long periods of time this
                 behavior becomes normalized but creates damage behind the scenes
                 of one&apos;s psyche.
               </p>
@@ -68,19 +65,33 @@ export default function VibeIntro() {
               </p>
               <p>
                 The home page allows for the user has more control over the
-                content they consume by having three options: to see all content
-                and updates from friends and communities. to see new content
-                that is similar to their current engagement and interests. the
-                option to completely streamline into only seeing content from
-                their communities.
+                content they consume by having three options:
+                <ol>
+                  <li>
+                    recent - to see all content and updates from friends and
+                    communities.
+                  </li>
+                  <li>
+                    explore - to see new content that is similar to their
+                    current engagement and interests.
+                  </li>
+                  <li>
+                    community - the option to completely streamline into only
+                    seeing content from their communities.
+                  </li>
+                </ol>
               </p>
               <p>
-                Computer scientist, Jaron Lainer sums it up very well, “I very
-                strongly feel that we can isolate the good parts of social media
-                which are very real and very true and just cut off and
-                incinerate the bad parts, and the bad parts can be described
-                very clearly as a manipulation engine… And that&apos;s the thing
-                that needs to be shut down.”
+                Computer scientist, Jaron Lanier sums it up very well; <br />
+                <quote>
+                  <em>
+                    “I very strongly feel that we can isolate the good parts of
+                    social media which are very real and very true and just cut
+                    off and incinerate the bad parts, and the bad parts can be
+                    described very clearly as a manipulation engine… And
+                    that&apos;s the thing that needs to be shut down.”
+                  </em>
+                </quote>
               </p>
             </ReadMore>
           </p>

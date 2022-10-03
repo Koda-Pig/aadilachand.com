@@ -48,3 +48,31 @@ padding:
    4. ~~cta align to left.~~
 8. tune
    1. ~~spacing above cta =~~
+
+# Full project links
+
+- vibe:
+- https://www.figma.com/file/4iMvRt0sYN0whHpvewqgtM/vibe?node-id=865%3A1436
+
+- tune:
+- https://www.figma.com/file/D0eKwPPaAtiAlZNGTc9B4f/tune?node-id=1032%3A4471
+
+- earthdirt:
+- https://www.figma.com/file/fBFBTL3piLExHjGTS5HBga/earthdirt?node-id=1101%3A1063
+
+- opensea:
+- https://opensea.io/collection/ancientorbit
+
+- my.celium/biomorphic
+- https://www.figma.com/file/ejRlzP6G4HsbxR4Zf2wH1r/Biomorphic-Design?node-id=0%3A1
+
+# Prototype links
+
+- tune:
+- https://www.figma.com/proto/D0eKwPPaAtiAlZNGTc9B4f/tune?page-id=99%3A585&node-id=1686%3A5092&viewport=814%2C2014%2C0.21&scaling=scale-down&starting-point-node-id=1723%3A4505&show-proto-sidebar=1
+
+- vibe:
+- https://www.figma.com/proto/4iMvRt0sYN0whHpvewqgtM/vibe?page-id=498%3A1421&node-id=1394%3A4970&viewport=432%2C837%2C0.37&scaling=scale-down&starting-point-node-id=1394%3A4970
+
+- ed:
+- https://www.figma.com/proto/fBFBTL3piLExHjGTS5HBga/earthdirt?page-id=513%3A181&node-id=824%3A589&viewport=3505%2C2026%2C0.14&scaling=scale-down&starting-point-node-id=824%3A589

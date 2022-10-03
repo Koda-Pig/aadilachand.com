@@ -27,11 +27,11 @@ export default function HoloScene() {
         </div>
         <p>
           Imagines a post anthropocene world where life starts to reclaim the
-          scorched earth. A sub-working off in(organic), paying closer attention
-          to the meaning fabricated through medium and the process. The burnt
-          bottle cap represents how consumerism has played a fundamental role in
-          the anthropocene and degradation of the environment. (Hover over
-          images to see more)
+          scorched earth. A sub-working off <em>in(organic)</em>, paying closer
+          attention to the meaning fabricated through medium and the process.
+          The burnt bottle cap represents how consumerism has played a
+          fundamental role in the anthropocene and degradation of the
+          environment. (Hover over images to see more)
         </p>
       </section>
     </div>

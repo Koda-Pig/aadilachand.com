@@ -42,7 +42,7 @@ export default function UxUi() {
               <p>
                 <strong>case study</strong>
                 <br />
-                designing for diversity &amp; intergration
+                designing for diversity &amp; integration
               </p>
               <Link href="/ux-ui/vibe" passHref>
                 <a className={styles.callToAction}>view project</a>
@@ -52,7 +52,7 @@ export default function UxUi() {
               <p>
                 <strong>brand + web design</strong>
                 <br />
-                an online shop for a craft botique.
+                an online shop for a craft boutique.
               </p>
               <Link href="/ux-ui/earthdirt" passHref>
                 <a className={styles.callToAction}>view project</a>

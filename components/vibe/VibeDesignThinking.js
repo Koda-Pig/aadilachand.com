@@ -24,11 +24,9 @@ export default function VibeDesignThinking() {
             </p>
             <ReadMore>
               <p>
-                Certain groups find that social environments can be stressful,
-                overwhelming and draining making it hard to integrate in social
-                settings and thus isolate themselves. They may resort to using
-                social media to find a sense of belonging- which is fundamental
-                to human nature, but that too has lasting negative effects
+                They may resort to using social media to find a sense of
+                belonging- which is fundamental to human nature, but that too
+                has lasting negative effects.
               </p>
             </ReadMore>
           </div>
@@ -55,10 +53,18 @@ export default function VibeDesignThinking() {
           <h2>colour</h2>
           <div className={styles.colourContainer}>
             <div className={styles.colourBlocks}>
+              <div>
+                sunrise/
+                <br />
+                light mode
+              </div>
               <div></div>
               <div></div>
-              <div></div>
-              <div></div>
+              <div>
+                sunset/
+                <br />
+                dark mode
+              </div>
               <div></div>
               <div></div>
             </div>
@@ -84,8 +90,8 @@ export default function VibeDesignThinking() {
             <h2>typography</h2>
             <h4>Lato</h4>
             <p>
-              Venture rogue trillion emerged into consciousness vanquish claims
-              evidence?
+              Legible and readable, making content accessible to a wide range of
+              users
             </p>
           </div>
           <div className={styles.examples}>
@@ -117,11 +123,16 @@ export default function VibeDesignThinking() {
               would be available here would be:
             </p>
             <p>
-              The option to change text style to a font more accommodating to
-              those with dyslexia.
               <ol>
                 <li>The option to switch to light or dark mode. </li>
-                <li>A screen reader for those with visual impairments.</li>
+                <li>
+                  The option to change text style to a font more accommodating
+                  to those with dyslexia.
+                </li>
+                <li>
+                  Improved accessibility for screen readers, for those with
+                  visual impairments.
+                </li>
                 <li>A microphone feature for those with motor impairments.</li>
               </ol>
             </p>
