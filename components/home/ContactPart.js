@@ -14,20 +14,20 @@ export default function Contact() {
       <div className={styles.container}>
         <section className={styles.imageOverlap}>
           <div className={styles.outerMandala}>
-            <Image src={outerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
+            <Image src={outerMandalaImg} quality={100} alt="" />
           </div>
           <div className={styles.profile}>
-            <Image src={profileImg} quality={100} alt="ADD DESCRIPTION" />
+            <Image src={profileImg} quality={100} alt="" />
           </div>
           <div className={styles.innerMandala}>
-            <Image src={innerMandalaImg} quality={100} alt="ADD DESCRIPTION" />
+            <Image src={innerMandalaImg} quality={100} alt="" />
           </div>
           <div className={styles.resumeTxt}>
             <Image
               src={resumeTxt}
               className={styles.img}
               quality={100}
-              alt="ADD DESCRIPTION"
+              alt=""
             />
           </div>
         </section>
