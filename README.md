@@ -29,7 +29,7 @@ padding:
    2. ~~padding top of page fix~~
    3. ~~link images to projects~~
    4. ~~below images margin to 64px~~
-4. graphic design
+4. digital art
    1. ~~final hovers state must be original for first 3 images~~
    2. ~~writeup below padding is off~~
    3. ~~ancient orbit link should be a button~~

@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import ReadMore from '../ReadMore'
-import styles from '../../styles/graphic-design/myCelium.module.scss'
-import myCelium1 from '../../public/images/graphic-design/my-celium/my-celium-1c.png'
-import myCelium2 from '../../public/images/graphic-design/my-celium/my-celium-2c.png'
-import myCelium3 from '../../public/images/graphic-design/my-celium/my-celium-3c.png'
+import styles from '../../styles/digital-art/myCelium.module.scss'
+import myCelium1 from '../../public/images/digital-art/my-celium/my-celium-1c.png'
+import myCelium2 from '../../public/images/digital-art/my-celium/my-celium-2c.png'
+import myCelium3 from '../../public/images/digital-art/my-celium/my-celium-3c.png'
 
 const images = [myCelium1, myCelium2, myCelium3]
 const imageGallery = images.map((image, index) => {

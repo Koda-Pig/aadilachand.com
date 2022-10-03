@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import styles from '../../styles/graphic-design/ancientOrbit.module.scss'
-import ancientOrbit1 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-1.png'
-import ancientOrbit2 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-2.png'
-import ancientOrbit3 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-3.png'
-import ancientOrbit4 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-4.png'
-import ancientOrbit5 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-5.png'
-import ancientOrbit6 from '../../public/images/graphic-design/ancient-orbit/ancient-orbit-6.png'
+import styles from '../../styles/digital-art/ancientOrbit.module.scss'
+import ancientOrbit1 from '../../public/images/digital-art/ancient-orbit/ancient-orbit-1.png'
+import ancientOrbit2 from '../../public/images/digital-art/ancient-orbit/ancient-orbit-2.png'
+import ancientOrbit3 from '../../public/images/digital-art/ancient-orbit/ancient-orbit-3.png'
+import ancientOrbit4 from '../../public/images/digital-art/ancient-orbit/ancient-orbit-4.png'
+import ancientOrbit5 from '../../public/images/digital-art/ancient-orbit/ancient-orbit-5.png'
+import ancientOrbit6 from '../../public/images/digital-art/ancient-orbit/ancient-orbit-6.png'
 
 const images = [
   ancientOrbit1,

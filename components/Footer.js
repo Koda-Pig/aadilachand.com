@@ -17,8 +17,8 @@ export default function Footer() {
             </Link>
           </li>
           <li>
-            <Link href="/graphic-design" passHref>
-              <a title="graphic design">graphic design</a>
+            <Link href="/digital-art" passHref>
+              <a title="digital art">digital art</a>
             </Link>
           </li>
         </ul>

@@ -11,6 +11,7 @@
   @extend %inner-container;
   gap: 3.875rem;
   padding: 0 5rem;
+  min-height: 440px;
   max-width: 1200px;
 }
 
@@ -59,6 +60,7 @@
 
 .connect {
   max-width: 50%;
+  align-self: center;
   h2 {
     font-size: 32px;
     position: relative;
