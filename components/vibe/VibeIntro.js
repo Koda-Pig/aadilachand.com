@@ -29,14 +29,11 @@ export default function VibeIntro() {
                 the positive attributes social media has. For example, certain
                 groups (such as those who are introverted, neurodiverse or
                 struggle with social anxiety) have difficulties in social
-                environments. They have a tendency to withdraw and isolate
-                because the pace of standard socializing can be draining and
-                overwhelming. They require time to process conversations in
-                order to respond authentically. In a study interviewing people
-                on the spectrum, people have reported that social media has
-                granted them the opportunity to integrate within society through
-                a virtual world. While they are able to do this, the underlying
-                negative effects of social media start to weigh in.
+                environments. An interview with people on the spectrum showed
+                that social media granted them the opportunity to integrate
+                within society through a virtual world. While they are able to
+                do this, the underlying negative effects of social media still
+                weigh in.
               </p>
             </ReadMore>
           </p>
@@ -50,36 +47,30 @@ export default function VibeIntro() {
             </p>
             <ReadMore>
               <p>
-                Vibe aims to be more of a tool/ resource instead of a social
-                media platform. A place to keep up with current interests
-                through shared community pages as well as find out about
-                relevant events and happenings within one&apos;s field of
-                interests.
-              </p>
-              <p>
-                In order to be more accommodating to the groups mentioned, there
-                is a personal dashboard feature that acts as a calendar and
-                personal archive. The calendar feature is especially useful
-                because it allows one an overview of events and obligations, so
-                as to not overcommit and feel burnt out by it.
-              </p>
-              <p>
                 The home page allows for the user has more control over the
                 content they consume by having three options:
                 <ol>
                   <li>
-                    recent - to see all content and updates from friends and
-                    communities.
+                    <strong>recent</strong> - to see all content and updates
+                    from friends and communities.
                   </li>
                   <li>
-                    explore - to see new content that is similar to their
-                    current engagement and interests.
+                    <strong>explore</strong> - to see new content that is
+                    similar to their current engagement and interests.
                   </li>
                   <li>
-                    community - the option to completely streamline into only
-                    seeing content from their communities.
+                    <strong>community</strong> - the option to completely
+                    streamline into only seeing content from their communities.
                   </li>
                 </ol>
+                <br />
+                <p>
+                  In order to be more accommodating, there is a personal
+                  dashboard feature that acts as a calendar and personal
+                  archive. The calendar feature is especially useful because it
+                  allows one an overview of events and obligations, so as to not
+                  overcommit and feel burnt out by it.
+                </p>
               </p>
               <p>
                 Computer scientist, Jaron Lanier sums it up very well; <br />
