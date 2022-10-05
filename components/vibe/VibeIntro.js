@@ -97,8 +97,8 @@ export default function VibeIntro() {
           <div className={styles.role}>
             <p>
               <h3>my role</h3>
-              user research, empathy mapping, user personas, site mapping/ basic
-              information architecture, wireframing, ui and ux design
+              user research, empathy mapping, creating user personas, site
+              mapping, wireframing, user experience and user interface design
             </p>
           </div>
         </div>
