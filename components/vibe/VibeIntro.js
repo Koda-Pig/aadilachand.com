@@ -29,11 +29,13 @@ export default function VibeIntro() {
                 the positive attributes social media has. For example, certain
                 groups (such as those who are introverted, neurodiverse or
                 struggle with social anxiety) have difficulties in social
-                environments. An interview with people on the spectrum showed
-                that social media granted them the opportunity to integrate
-                within society through a virtual world. While they are able to
-                do this, the underlying negative effects of social media still
-                weigh in.
+                environments.
+                <br />
+                <br />
+                An interview with people on the spectrum showed that social
+                media granted them the opportunity to integrate within society
+                through a virtual world. While they are able to do this, the
+                underlying negative effects of social media still weigh in.
               </p>
             </ReadMore>
           </p>

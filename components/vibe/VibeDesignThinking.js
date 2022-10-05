@@ -24,16 +24,16 @@ export default function VibeDesignThinking() {
             </p>
             <ReadMore>
               <p>
-                They may resort to using social media to find a sense of
-                belonging- which is fundamental to human nature, but that too
-                has lasting negative effects.
+                They require time to process conversations in order to respond
+                authentically and may resort to using social media to find a
+                sense of belonging- which is fundamental to human nature.
               </p>
             </ReadMore>
           </div>
           <p>
             Social media has negative side effects but it is currently one of
-            the few ways in which people can easily access relevant information
-            regarding interests and events.
+            the few ways in which people can virtually connect and access
+            relevant information.
           </p>
           <p>
             People could benefit from having a platform where they can keep up
@@ -116,8 +116,8 @@ export default function VibeDesignThinking() {
           <p>
             <h2>&#8203;</h2>
             <p>
-              To elaborate on it this project, I would make certain features
-              more accessible, found in the dot settings menu on the top right
+              To elaborate on this project, I would make certain features more
+              accessible, found in the dot settings menu on the top right
               corner. The features would include:
             </p>
             <p>
