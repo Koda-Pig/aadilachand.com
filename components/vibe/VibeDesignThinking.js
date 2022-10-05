@@ -116,11 +116,9 @@ export default function VibeDesignThinking() {
           <p>
             <h2>&#8203;</h2>
             <p>
-              The most important expansion would be to add more accessibility
-              features. This is seen on the settings page, I have not elaborated
-              on it. I would like this to be accessible on every page, found in
-              the dot settings menu on the top right corner. The features that
-              would be available here would be:
+              To elaborate on it this project, I would make certain features
+              more accessible, found in the dot settings menu on the top right
+              corner. The features would include:
             </p>
             <p>
               <ol>
