@@ -73,10 +73,10 @@ export default function VibeDesignThinking() {
                 Inspired by a summer&apos;s sunset to create a safe and soothing
                 environment. This familiar colour scheme evokes feelings of
                 nostalgia and ease geared towards making meaningful connections
-                comfortably. <br />
-                Like other browns, tan evokes warmth and security and gives a
-                sense of earthly stability while the hints of purple add
-                feelings of mystery and curiosity creating a sense of discovery.
+                comfortably. Like other browns, tan evokes warmth and security
+                and gives a sense of earthly stability while the hints of purple
+                add feelings of mystery and curiosity creating a sense of
+                discovery.
               </p>
               <p>
                 The neutral tones make content easier to consume for those with
