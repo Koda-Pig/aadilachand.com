@@ -21,6 +21,9 @@
   p {
     pointer-events: none;
   }
+  a {
+    pointer-events: all;
+  }
 }
 
 .hide {

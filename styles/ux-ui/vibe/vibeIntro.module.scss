@@ -11,6 +11,14 @@
   gap: 208px;
   display: flex;
   margin-bottom: v.$gap-l;
+  a {
+    font-size: inherit;
+    text-decoration: underline;
+    transition: color 0.15s ease;
+    &:hover {
+      color: v.$link;
+    }
+  }
   h2 {
     font-weight: 500;
     margin-bottom: 1rem;

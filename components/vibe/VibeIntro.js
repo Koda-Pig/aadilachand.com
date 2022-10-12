@@ -11,10 +11,17 @@ export default function VibeIntro() {
           <p>
             <h2>problem</h2>
             <p>
-              As illustrated in <em>The Social Dilemma</em> (2020), social media
-              is known to have negative effects on our mental health. It is
-              designed to harvest data that encourages addictive behaviors using
-              algorithms that create feedback loops.
+              As illustrated in&nbsp;
+              <a
+                href="https://www.thesocialdilemma.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <em>The Social Dilemma</em>
+              </a>
+              &nbsp;(2020), social media is known to have negative effects on
+              our mental health. It is designed to harvest data that encourages
+              addictive behaviors using algorithms that create feedback loops.
             </p>
             <ReadMore>
               <p>
@@ -32,10 +39,18 @@ export default function VibeIntro() {
                 environments.
                 <br />
                 <br />
-                An interview with people on the spectrum showed that social
-                media granted them the opportunity to integrate within society
-                through a virtual world. While they are able to do this, the
-                underlying negative effects of social media still weigh in.
+                An{' '}
+                <a
+                  href="https://www.autismspeaks.org/science-news/social-media-offers-benefits-autistic-community"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  interview
+                </a>{' '}
+                with people on the spectrum showed that social media granted
+                them the opportunity to integrate within society through a
+                virtual world. While they are able to do this, the underlying
+                negative effects of social media still weigh in.
               </p>
             </ReadMore>
           </p>
