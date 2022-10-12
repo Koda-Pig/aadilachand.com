@@ -21,7 +21,7 @@ export default function TuneIntro() {
             of brutalism and glassmorphism
           </p>
           <h3>my role</h3>
-          <p>user experience design; user interface design, digital art</p>
+          <p>user experience design; user interface design, graphic design</p>
           <a
             href="https://www.figma.com/file/D0eKwPPaAtiAlZNGTc9B4f/tune?node-id=1032%3A4471"
             target="_blank"
