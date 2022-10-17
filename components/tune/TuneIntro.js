@@ -23,7 +23,7 @@ export default function TuneIntro() {
           <h3>my role</h3>
           <p>user experience design; user interface design, graphic design</p>
           <a
-            href="https://www.figma.com/file/D0eKwPPaAtiAlZNGTc9B4f/tune?node-id=1032%3A4471"
+            href="https://www.figma.com/proto/D0eKwPPaAtiAlZNGTc9B4f/tune?page-id=99%3A585&node-id=1686%3A5092&viewport=814%2C2014%2C0.21&scaling=scale-down&starting-point-node-id=1723%3A4505&show-proto-sidebar=1"
             target="_blank"
             rel="noreferrer"
             className={styles.callToAction}

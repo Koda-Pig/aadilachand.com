@@ -35,12 +35,12 @@ export default function Vibe() {
                 </p>
               </div>
               <a
-                href="https://www.figma.com/file/4iMvRt0sYN0whHpvewqgtM/vibe?node-id=865%3A1436"
+                href="https://www.figma.com/proto/4iMvRt0sYN0whHpvewqgtM/vibe?page-id=498%3A1421&node-id=1394%3A4970&viewport=432%2C837%2C0.37&scaling=scale-down&starting-point-node-id=1394%3A4970"
                 target="_blank"
                 rel="noreferrer"
                 className={styles.callToAction}
               >
-                try protoype
+                try prototype
               </a>
             </div>
           </div>

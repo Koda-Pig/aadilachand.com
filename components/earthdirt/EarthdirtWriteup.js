@@ -29,7 +29,7 @@ export default function EarthdirtWriteup() {
           </div>
         </div>
         <a
-          href="https://www.figma.com/file/fBFBTL3piLExHjGTS5HBga/earthdirt?node-id=1101%3A1063"
+          href="https://www.figma.com/proto/fBFBTL3piLExHjGTS5HBga/earthdirt?page-id=513%3A181&node-id=824%3A589&viewport=3505%2C2026%2C0.14&scaling=scale-down&starting-point-node-id=824%3A589"
           target="_blank"
           rel="noreferrer"
           className={styles.callToAction}
