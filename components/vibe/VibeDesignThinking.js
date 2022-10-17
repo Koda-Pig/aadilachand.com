@@ -118,11 +118,7 @@ export default function VibeDesignThinking() {
           </p>
           <p>
             <h2>&#8203;</h2>
-            <p>
-              To elaborate on this project, I would make certain features more
-              accessible, found in the dot settings menu on the top right
-              corner. The features would include:
-            </p>
+
             <ul>
               <li>A more detailed onboarding with tool tips and guidelines</li>
               <li>
