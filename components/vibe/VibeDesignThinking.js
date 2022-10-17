@@ -112,9 +112,7 @@ export default function VibeDesignThinking() {
           <p>
             <h2>retrospect</h2>
             <p>
-              I have only just scraped the surface, exploring a basic solution
-              for social integration and laying down the scaffolding of this
-              project. Here are some ways I would want to improve and expand on
+              A take-away of ways in which I would want to expand and improve
               this project:
             </p>
           </p>
