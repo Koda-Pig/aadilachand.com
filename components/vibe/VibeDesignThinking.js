@@ -123,36 +123,43 @@ export default function VibeDesignThinking() {
               accessible, found in the dot settings menu on the top right
               corner. The features would include:
             </p>
-            <p>
-              <ol>
-                <li>The option to switch to light or dark mode. </li>
+            <ul>
+              <li>A more detailed onboarding with tool tips and guidelines</li>
+              <li>
+                Expanding on accessibility options to include customizable text
+                size and weight as well as an option to switch to a more
+                dyslexia-friendly font Thinking further ahead, the most
+                important consideration of all would be ways in which to
+                regulate the platform to ensure that it is safe. Adding labels
+                on the navigation bars. While I tried to keep to a minimalist
+                approach, bearing in mind the potential cognitive overload; so
+                as to not overwhelm the user, since the app is densed with
+                features. It is important to consider whether this creates
+                ambiguity and confusion due to lack of clarity. It would be
+                wrong to make the assumption that everyone is familiar with the
+                meaning of these icons; however cognitive load is a very
+                important consideration when designing for neurodiversity.
+                Weighing out the pro’s and con’s on clarity vs reduced cognitive
+                load could be resolved through a series of user testing.
+              </li>
+              <ReadMore>
                 <li>
-                  The option to change text style to a font more accommodating
-                  to those with dyslexia.
+                  The next improvement I would consider is adding labels on the
+                  navigation bars. While I tried to keep to a minimalist
+                  approach, bearing in mind the potential cognitive overload; so
+                  as to not overwhelm the user, since the app is densed with
+                  features. It is important to consider whether this creates
+                  ambiguity and confusion due to lack of clarity. It would be
+                  wrong to make the assumption that everyone is familiar with
+                  the meaning of these icons; however cognitive load is a very
+                  important consideration when designing for neurodiversity.
+                  Perhaps an in-depth onboarding with full explanations would be
+                  sufficient. Weighing out the pro&apos;s and con&apos;s on
+                  clarity vs reduced cognitive load can be resolved through a
+                  series of user testing.
                 </li>
-                <li>
-                  Improved accessibility for screen readers, for those with
-                  visual impairments.
-                </li>
-                <li>A microphone feature for those with motor impairments.</li>
-              </ol>
-            </p>
-            <ReadMore>
-              <p>
-                The next improvement I would consider is adding labels on the
-                navigation bars. While I tried to keep to a minimalist approach,
-                bearing in mind the potential cognitive overload; so as to not
-                overwhelm the user, since the app is densed with features. It is
-                important to consider whether this creates ambiguity and
-                confusion due to lack of clarity. It would be wrong to make the
-                assumption that everyone is familiar with the meaning of these
-                icons; however cognitive load is a very important consideration
-                when designing for neurodiversity. Perhaps an in-depth
-                onboarding with full explanations would be sufficient. Weighing
-                out the pro&apos;s and con&apos;s on clarity vs reduced
-                cognitive load can be resolved through a series of user testing.
-              </p>
-            </ReadMore>
+              </ReadMore>
+            </ul>
           </p>
         </div>
       </div>
