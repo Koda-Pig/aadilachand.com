@@ -108,9 +108,9 @@ export default function VibeDesignThinking() {
         <div className={styles.screenshots}>
           <Image src={screenshotsImg} quality={100} alt="" />
         </div>
-        <div className={styles.takeAway}>
+        <div className={styles.retrospect}>
           <p>
-            <h2>take-away</h2>
+            <h2>retrospect</h2>
             <p>
               I have only just scraped the surface, exploring a basic solution
               for social integration and laying down the scaffolding of this

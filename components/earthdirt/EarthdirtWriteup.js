@@ -34,7 +34,7 @@ export default function EarthdirtWriteup() {
           rel="noreferrer"
           className={styles.callToAction}
         >
-          prototype
+          try prototype
         </a>
       </div>
     </>
