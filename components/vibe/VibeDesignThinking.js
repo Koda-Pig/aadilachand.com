@@ -128,34 +128,26 @@ export default function VibeDesignThinking() {
               <li>
                 Expanding on accessibility options to include customizable text
                 size and weight as well as an option to switch to a more
-                dyslexia-friendly font Thinking further ahead, the most
-                important consideration of all would be ways in which to
-                regulate the platform to ensure that it is safe. Adding labels
-                on the navigation bars. While I tried to keep to a minimalist
-                approach, bearing in mind the potential cognitive overload; so
-                as to not overwhelm the user, since the app is densed with
-                features. It is important to consider whether this creates
-                ambiguity and confusion due to lack of clarity. It would be
-                wrong to make the assumption that everyone is familiar with the
-                meaning of these icons; however cognitive load is a very
-                important consideration when designing for neurodiversity.
-                Weighing out the pro’s and con’s on clarity vs reduced cognitive
-                load could be resolved through a series of user testing.
+                dyslexia-friendly font
               </li>
+              <li>
+                Thinking further ahead, the most important consideration of all
+                would be ways in which to regulate the platform to ensure that
+                it is safe.
+              </li>
+
               <ReadMore>
                 <li>
-                  The next improvement I would consider is adding labels on the
-                  navigation bars. While I tried to keep to a minimalist
-                  approach, bearing in mind the potential cognitive overload; so
-                  as to not overwhelm the user, since the app is densed with
-                  features. It is important to consider whether this creates
-                  ambiguity and confusion due to lack of clarity. It would be
-                  wrong to make the assumption that everyone is familiar with
-                  the meaning of these icons; however cognitive load is a very
-                  important consideration when designing for neurodiversity.
-                  Perhaps an in-depth onboarding with full explanations would be
-                  sufficient. Weighing out the pro&apos;s and con&apos;s on
-                  clarity vs reduced cognitive load can be resolved through a
+                  Adding labels on the navigation bars. While I tried to keep to
+                  a minimalist approach, bearing in mind the potential cognitive
+                  overload; so as to not overwhelm the user, since the app is
+                  densed with features. It is important to consider whether this
+                  creates ambiguity and confusion due to lack of clarity. It
+                  would be wrong to make the assumption that everyone is
+                  familiar with the meaning of these icons; however cognitive
+                  load is a very important consideration when designing for
+                  neurodiversity. Weighing out the pro&apos;s and con&apos;s on
+                  clarity vs reduced cognitive load could be resolved through a
                   series of user testing.
                 </li>
               </ReadMore>

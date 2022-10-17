@@ -206,8 +206,12 @@
     flex: 1;
     margin-bottom: 1rem;
   }
+  ul,
   ol {
     margin-top: 1rem;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
+    li {
+      margin-bottom: 4px;
+    }
   }
 }
