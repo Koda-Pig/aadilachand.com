@@ -35,7 +35,7 @@ export default function Vibe() {
                 </p>
               </div>
               <a
-                href="https://www.figma.com/proto/4iMvRt0sYN0whHpvewqgtM/vibe?page-id=498%3A1421&node-id=1394%3A4970&viewport=432%2C837%2C0.37&scaling=scale-down&starting-point-node-id=1394%3A4970"
+                href="https://www.figma.com/proto/7yrjsxptRh6sSD4du5PbH1/Vibe-Case-Study-%2B-Prototype?page-id=498%3A1421&node-id=1689%3A7758&viewport=-319%2C1062%2C0.21&scaling=scale-down&starting-point-node-id=1689%3A7758&show-proto-sidebar=1"
                 target="_blank"
                 rel="noreferrer"
                 className={styles.callToAction}

@@ -41,7 +41,7 @@ export default function VibeDesignThinking() {
             the negative aspects of social media.
           </p>
           <a
-            href="https://www.figma.com/file/4iMvRt0sYN0whHpvewqgtM/vibe?node-id=865%3A1436"
+            href="https://www.figma.com/file/7yrjsxptRh6sSD4du5PbH1/Vibe-Case-Study-%2B-Prototype?node-id=865%3A1436"
             className={styles.callToAction}
             rel="noreferrer"
             target="_blank"
