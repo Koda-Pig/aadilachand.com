@@ -128,8 +128,8 @@ export default function VibeDesignThinking() {
               </li>
               <li>
                 Thinking further ahead, the most important consideration of all
-                would be ways in which to regulate the platform to ensure that
-                it is safe.
+                would be ways to regulate the platform to ensure that it is
+                safe.
               </li>
 
               <ReadMore>
