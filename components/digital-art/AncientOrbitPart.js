@@ -13,7 +13,7 @@ const images = [
   ancientOrbit3,
   ancientOrbit4,
   ancientOrbit5,
-  ancientOrbit6
+  ancientOrbit6,
 ]
 const imageGallery = images.map((image, index) => {
   return <Image key={index} src={image} quality={100} alt="" />
@@ -26,7 +26,7 @@ export default function AncientOrbit() {
       <section className={styles.writeUp}>
         <h2>ancient orbit</h2>
         <p>
-          An archive of parculiar cosmic occurances transcending through time
+          An archive of peculiar cosmic occurrences transcending through time
           and space. Available as nft&apos;s on opensea.
         </p>
         <a
