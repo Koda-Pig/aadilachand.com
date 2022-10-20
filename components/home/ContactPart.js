@@ -23,12 +23,14 @@ export default function Contact() {
             <Image src={innerMandalaImg} quality={100} alt="" />
           </div>
           <div className={styles.resumeTxt}>
-            <Image
-              src={resumeTxt}
-              className={styles.img}
-              quality={100}
-              alt=""
-            />
+            <a href="../../AadilaResume.pdf" target="_blank" rel="noreferrer">
+              <Image
+                src={resumeTxt}
+                className={styles.img}
+                quality={100}
+                alt=""
+              />
+            </a>
           </div>
         </section>
         <section className={styles.connect}>
