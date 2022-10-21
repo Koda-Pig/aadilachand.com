@@ -71,8 +71,8 @@ export default function VibeIntro() {
                     friends and communities.
                   </li>
                   <li>
-                    <strong>explore</strong> - new content that is similar to
-                    their current engagement and interests.
+                    <strong>explore</strong> - new content; similar to their
+                    current engagement and interests.
                   </li>
                   <li>
                     <strong>community</strong> - the option to completely
