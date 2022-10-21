@@ -58,8 +58,8 @@ export default function VibeIntro() {
             <h2>solution</h2>
             <p>
               Vibe aims to be a user-centric resource rather than a social media
-              platform, focusing on keeping up-to-date with interests and
-              finding out about events.
+              platform, focused on keeping up-to-date with interests and finding
+              out about events.
             </p>
             <ReadMore>
               <p>
