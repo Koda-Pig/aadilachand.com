@@ -21,8 +21,8 @@ export default function HumanNature() {
           <h4>2016</h4>
         </div>
         <p>
-          Cross sections of plant cells merged with human eyes to create a new
-          cell. Portraying the interconnnection between humans and nature.
+          A visual depiction of our interconnection with nature using plant
+          cross-sections merged into human eyes.
         </p>
       </section>
     </div>

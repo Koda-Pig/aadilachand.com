@@ -26,13 +26,12 @@ export default function Site() {
           <h4>2018</h4>
         </div>
         <p>
-          Challenging perspectives of the seemingly mundane using site-specific
-          common plant life collected in and around Makhanda. Photographed using
-          a Scanning Electron Microscope (SEM) exploring hidden microscopic
-          worlds, revealing tiny intricacies to show how our world extends
-          deeper than the surface level. Hover over images to see the
-          magnification of tree bark, spanish moss and usnea lichen
-          (respectively from the left).
+          Using a Scanning Electron Microscope (SEM), these images reveal tiny
+          intricacies of how our world extends beyond the surface level. This
+          new vision challenges the perspective of the seemingly mundane by
+          using site-specific common plant life collected in and around
+          Makhanda. Hover over the images to see the magnification of tree bark,
+          Spanish moss, and usnea lichen (respectively from the left).
         </p>
       </section>
     </div>

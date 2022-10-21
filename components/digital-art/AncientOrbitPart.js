@@ -27,7 +27,7 @@ export default function AncientOrbit() {
         <h2>ancient orbit</h2>
         <p>
           An archive of peculiar cosmic occurrences transcending through time
-          and space. Available as nft&apos;s on opensea.
+          and space. Available as NFTs on opensea.
         </p>
         <a
           href="https://opensea.io/collection/ancientorbit"

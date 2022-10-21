@@ -8,17 +8,17 @@ export default function AboutPart() {
           <h2>an intentional approach</h2>
           <p>
             As the world paves a fairly new path within the digital realm,
-            designers are offered the chance to create a more meaningful space.
-            A space that can weave together previous divides and grow towards a
-            diverse future. Through clean and intentional design, can we plant
-            subtle seeds of sustainability and inclusivity that has the power to
-            reach a greater impact.
+            designers are offered the chance to create a meaningful space that
+            can weave together previous divides and grow towards a diverse
+            future.
           </p>
           <p>
-            My approach to design is thinking in increments and considering how
-            smaller parts can sum up to a greater-whole. Understanding that
+            My approach to design is to think in increments and consider how
+            smaller parts can sum up to a greater whole. Understanding that
             everything one interacts with leaves an impression, design has the
-            power to ripple out into positive changes at a larger scale.
+            power to ripple out into positive changes at a larger scale. Through
+            clean and intentional design, we can plant subtle seeds of
+            sustainability and inclusivity.
           </p>
         </section>
       </div>

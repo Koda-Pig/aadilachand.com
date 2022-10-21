@@ -21,15 +21,13 @@ export default function MyCelium() {
           <h2>my.celium</h2>
         </div>
         <div>
-          <p>
-            A biomorphic integration of art, science and tradition. Inspired by
-            traditional indian woodblock art and microbiology.
-          </p>
+          <p>A biomorphic integration of art, science and tradition.</p>
           <ReadMore>
             <p>
-              Weaving my heritage into my admiration for science to create my
-              very own culture of microscopic eco-systems. This is what I would
-              imagine the cells of my soul to look like.
+              Weaving my admiration for science into my inherent tradition, I
+              created my own culture of microscopic ecosystems. Inspired by the
+              mycelium network and translated through traditional Indian
+              woodblock pattern-work.
             </p>
             <p>
               Using hand-drawn, botanical mandalas as the base-line pattern,
@@ -38,7 +36,7 @@ export default function MyCelium() {
             </p>
             <p>
               My future vision for this project is to create biomorphic
-              generative works, coding them to life through collaboartion.
+              generative artworks, coding them to life through collaboration.
               (Hover over artworks to see more)
             </p>
           </ReadMore>
