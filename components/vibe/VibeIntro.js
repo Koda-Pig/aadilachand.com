@@ -57,23 +57,22 @@ export default function VibeIntro() {
           <p>
             <h2>solution</h2>
             <p>
-              Vibe aims to be a tool/ resource rather than a social media
-              platform. A place to keep up with current interests through shared
-              community pages as well as find out about relevant events and
-              happenings within one&apos;s field of interests.
+              Vibe aims to be a user-centric resource rather than a social media
+              platform, focusing on keeping up-to-date with interests and
+              finding out about events.
             </p>
             <ReadMore>
               <p>
-                The home page allows for the user has more control over the
+                The home page allows for the user to have more control over the
                 content they consume by having three options:
                 <ol>
                   <li>
-                    <strong>recent</strong> - to see all content and updates
-                    from friends and communities.
+                    <strong>recent</strong> - all content and updates from
+                    friends and communities.
                   </li>
                   <li>
-                    <strong>explore</strong> - to see new content that is
-                    similar to their current engagement and interests.
+                    <strong>explore</strong> - new content that is similar to
+                    their current engagement and interests.
                   </li>
                   <li>
                     <strong>community</strong> - the option to completely
@@ -82,11 +81,10 @@ export default function VibeIntro() {
                 </ol>
                 <br />
                 <p>
-                  In order to be more accommodating, there is a personal
-                  dashboard feature that acts as a calendar and personal
-                  archive. The calendar feature is especially useful because it
-                  allows one an overview of events and obligations, so as to not
-                  overcommit and feel burnt out by it.
+                  The app uses word tags and imagery for easier scanibility,
+                  reducing cognitive overload. The calendar feature in the
+                  personal dashboard provides an overview of events and
+                  obligations reducing forgetfulness and social burn-out.
                 </p>
               </p>
               <p>
