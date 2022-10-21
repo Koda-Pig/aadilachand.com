@@ -24,10 +24,10 @@ export default function MyCelium() {
           <p>A biomorphic integration of art, science and tradition.</p>
           <ReadMore>
             <p>
-              Weaving my admiration for science into my inherent tradition, I
-              created my own culture of microscopic ecosystems. Inspired by the
-              mycelium network and translated through traditional Indian
-              woodblock pattern-work.
+              Weaving my admiration for science into my heritage, I created my
+              own culture of microscopic ecosystems. Inspired by the mycelium
+              network and translated through traditional Indian woodblock
+              pattern-work.
             </p>
             <p>
               Using hand-drawn, botanical mandalas as the base-line pattern,
