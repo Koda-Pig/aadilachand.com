@@ -121,7 +121,7 @@ export default function VibeDesignThinking() {
               <li>A more detailed onboarding with tooltips and guidelines.</li>
               <li>
                 Expanding on accessibility options to include customizable text
-                size and weight and the option to switch to a more
+                size and weight with the option to switch to a more
                 dyslexia-friendly font.
               </li>
               <li>
