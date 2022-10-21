@@ -19,12 +19,12 @@ export default function VibeDesignThinking() {
           <div>
             <p>
               Certain groups find that social environments can be stressful,
-              overwhelming and draining making it hard to integrate in social
+              overwhelming, and draining making it hard to integrate into social
               settings and thus isolate themselves.
             </p>
             <ReadMore>
               <p>
-                They require time to process conversations in order to respond
+                They require time to process conversations to respond
                 authentically and may resort to using social media to find a
                 sense of belonging- which is fundamental to human nature.
               </p>
@@ -70,20 +70,18 @@ export default function VibeDesignThinking() {
             </div>
             <div>
               <p>
-                Inspired by a summer&apos;s sunset to create a safe and soothing
+                Inspired by a summer&apos;s sunset creating a safe and soothing
                 environment. This familiar colour scheme evokes feelings of
-                nostalgia and ease geared towards making meaningful connections
-                comfortably.
+                comfort, nostalgia and ease.
               </p>
               <ReadMore>
                 <p>
-                  Like other browns, tan evokes warmth and security and gives a
-                  sense of earthly stability while the hints of purple add
-                  feelings of mystery and curiosity creating a sense of
-                  discovery.
+                  Like other browns, tan evokes warmth, security and a sense of
+                  earthly stability, while the hints of purple add feelings of
+                  mystery and curiosity promoting the idea of discovery
                 </p>
                 <p>
-                  The neutral tones make content easier to consume for those
+                  The neutral tones make it easier to consume content for those
                   with sensory processing disorders.
                 </p>
               </ReadMore>
@@ -112,7 +110,7 @@ export default function VibeDesignThinking() {
           <p>
             <h2>retrospect</h2>
             <p>
-              A take-away of ways in which I would want to expand and improve
+              A takeaway of ways in which I would want to expand and improve
               this project:
             </p>
           </p>
@@ -120,31 +118,29 @@ export default function VibeDesignThinking() {
             <h2>&#8203;</h2>
 
             <ul>
-              <li>A more detailed onboarding with tool tips and guidelines</li>
+              <li>A more detailed onboarding with tooltips and guidelines.</li>
               <li>
                 Expanding on accessibility options to include customizable text
-                size and weight as well as an option to switch to a more
-                dyslexia-friendly font
+                size and weight and the option to switch to a more
+                dyslexia-friendly font.
               </li>
               <li>
-                Thinking further ahead, the most important consideration of all
-                would be ways to regulate the platform to ensure that it is
-                safe.
+                Thinking further ahead, the most important consideration would
+                be ways to regulate the platform to ensure it is safe.
               </li>
 
               <ReadMore>
                 <li>
-                  Adding labels on the navigation bars. While I tried to keep to
-                  a minimalist approach, bearing in mind the potential cognitive
-                  overload; so as to not overwhelm the user, since the app is
-                  densed with features. It is important to consider whether this
-                  creates ambiguity and confusion due to lack of clarity. It
-                  would be wrong to make the assumption that everyone is
-                  familiar with the meaning of these icons; however cognitive
-                  load is a very important consideration when designing for
-                  neurodiversity. Weighing out the pro&apos;s and con&apos;s on
-                  clarity vs reduced cognitive load could be resolved through a
-                  series of user testing.
+                  Adding labels on the navigation bars. I tried to keep to a
+                  minimalist approach, bearing in mind the potential cognitive
+                  overload; to not overwhelm the user, since the app is dense
+                  with features. It is important to consider whether this
+                  creates ambiguity and confusion due to a lack of clarity. It
+                  would be wrong to assume that everyone is familiar with the
+                  meaning of these icons; however cognitive load is an important
+                  consideration when designing for neurodiversity. Weighing out
+                  the pros and cons on clarity vs reduced cognitive load could
+                  be resolved through a series of user testing.
                 </li>
               </ReadMore>
             </ul>

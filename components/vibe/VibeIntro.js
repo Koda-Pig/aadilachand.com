@@ -25,18 +25,18 @@ export default function VibeIntro() {
             </p>
             <ReadMore>
               <p>
-                This is especially dangerous as it has the power to manipulate
-                people and spread misinformation. Over long periods of time this
-                behavior becomes normalized but creates damage behind the scenes
-                of one&apos;s psyche.
+                This has the dangerous power to manipulate people and spread
+                misinformation. Over extended periods, this behavior becomes
+                normalized but creates damage behind the scenes of one&apos;s
+                psyche.
               </p>
               <p>
-                While this aspect of social media is heavily ingrained in the
-                functioning of the platforms, it is also important to look at
-                the positive attributes social media has. For example, certain
-                groups (such as those who are introverted, neurodiverse or
-                struggle with social anxiety) have difficulties in social
-                environments.
+                While this fundamental aspect of social media is problematic, it
+                is also important to acknowledge the positive attributes of
+                social media. For example, certain groups (such as those who are
+                introverted, neurodiverse or struggle with social anxiety) have
+                difficulties in social environments but find a sense of
+                belonging on these platforms.
                 <br />
                 <br />
                 An{' '}
@@ -48,9 +48,9 @@ export default function VibeIntro() {
                   interview
                 </a>{' '}
                 with people on the spectrum showed that social media granted
-                them the opportunity to integrate within society through a
-                virtual world. While they are able to do this, the underlying
-                negative effects of social media still weigh in.
+                them the opportunity to integrate into society through a virtual
+                world. While this is a helpful tool for some, the underlying
+                adverse effects still weigh in.
               </p>
             </ReadMore>
           </p>

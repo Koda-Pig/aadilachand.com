@@ -12,8 +12,8 @@ export default function TuneIntro() {
         <div className={styles.writeUp}>
           <h3>concept</h3>
           <p>
-            Mock up of a music library with personalized recomendations and data
-            based on your listening habits
+            Mock-up of a music library with personalized recommendations and
+            data based on your listening habits
           </p>
           <h3>inspired by</h3>
           <p>

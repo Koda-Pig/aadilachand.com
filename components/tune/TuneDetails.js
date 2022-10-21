@@ -16,13 +16,14 @@ export default function TuneDetails() {
           </p>
           <ReadMore>
             <p>
-              This includes an option between weekly, monthly and yearly
-              overview of your top songs, albums, artists as well as a pie chart
-              of your favourite genres and a graph of your listening hours.
+              This includes an option between weekly, monthly, and yearly
+              overview of your top songs, albums, and artists as well as a pie
+              chart of your favourite genres and a graph of your listening
+              hours.
             </p>
             <p>
               While this feature isn&apos;t essential to listening, it does add
-              a personal dimesnsion to avid listeners and music connoisseurs.
+              a personal dimension to avid listeners and music connoisseurs.
             </p>
           </ReadMore>
           <a

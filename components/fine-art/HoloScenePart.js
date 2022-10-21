@@ -26,7 +26,7 @@ export default function HoloScene() {
           <h4>2019</h4>
         </div>
         <p>
-          This piece imagines a post-Anthropocene world where life starts to
+          This piece imagines a post-Anthropocenic world where life starts to
           reclaim the scorched earth, expanding on <em>in(organic)</em>, paying
           closer attention to the meaning fabricated through the medium and the
           process. The burnt bottle cap represents how consumerism has played a
