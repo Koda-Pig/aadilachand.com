@@ -131,16 +131,16 @@ export default function VibeDesignThinking() {
 
               <ReadMore>
                 <li>
-                  Adding labels on the navigation bars. I tried to keep to a
-                  minimalist approach, bearing in mind the potential cognitive
-                  overload; to not overwhelm the user, since the app is dense
-                  with features. It is important to consider whether this
-                  creates ambiguity and confusion due to a lack of clarity. It
-                  would be wrong to assume that everyone is familiar with the
-                  meaning of these icons; however cognitive load is an important
-                  consideration when designing for neurodiversity. Weighing out
-                  the pros and cons on clarity vs reduced cognitive load could
-                  be resolved through a series of user testing.
+                  Adding labels on the navigation bars. I kept to a minimalist
+                  approach, bearing in mind the potential cognitive overload; to
+                  not overwhelm the user, since the app is dense with features.
+                  It is important to consider whether this creates ambiguity and
+                  confusion due to a lack of clarity. It would be wrong to
+                  assume that everyone is familiar with the meaning of these
+                  icons; however cognitive load is an important consideration
+                  when designing for neurodiversity. Weighing out the pros and
+                  cons on clarity vs reduced cognitive load could be resolved
+                  through a series of user testing.
                 </li>
               </ReadMore>
             </ul>

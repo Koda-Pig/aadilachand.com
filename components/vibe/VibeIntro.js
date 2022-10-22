@@ -57,9 +57,9 @@ export default function VibeIntro() {
           <p>
             <h2>solution</h2>
             <p>
-              Vibe aims to be a resource rather than a social media platform,
-              focused on keeping up-to-date with interests and finding out about
-              events.
+              Vibe aims to be a resource platform geared towards social
+              integration, connecting people through fields of interest, events,
+              and other happenings.
             </p>
             <ReadMore>
               <p>
@@ -81,10 +81,10 @@ export default function VibeIntro() {
                 </ol>
                 <br />
                 <p>
-                  The app uses word tags and imagery for easier scanibility,
+                  The app uses word tags and imagery for easy scanability,
                   reducing cognitive overload. The calendar feature in the
                   personal dashboard provides an overview of events and
-                  obligations reducing forgetfulness and social burn-out.
+                  obligations to avoid forgetfulness and social burn-out.
                 </p>
               </p>
               <p>
