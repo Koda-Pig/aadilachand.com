@@ -103,7 +103,6 @@ export default function VibeIntro() {
           </p>
         </div>
         <div className={styles.mockup}>
-          <h2>Community &amp; Connection</h2>
           <div className={styles.img}>
             <Image src={phoneImg} quality={100} alt="" />
           </div>

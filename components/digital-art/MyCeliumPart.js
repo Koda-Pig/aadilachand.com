@@ -21,7 +21,7 @@ export default function MyCelium() {
           <h2>my.celium</h2>
         </div>
         <div>
-          <p>A biomorphic integration of art, science and tradition.</p>
+          <p>A biomorphic integration of art, science, and tradition.</p>
           <ReadMore>
             <p>
               Weaving my admiration for science into my heritage, I created my
@@ -30,9 +30,8 @@ export default function MyCelium() {
               pattern-work.
             </p>
             <p>
-              Using hand-drawn, botanical mandalas as the base-line pattern,
-              this is but the first collection of an endless array of
-              possibilities.
+              Using hand-drawn, botanical mandalas as the baseline pattern, this
+              is but the first collection of an endless array of possibilities.
             </p>
             <p>
               My future vision for this project is to create biomorphic

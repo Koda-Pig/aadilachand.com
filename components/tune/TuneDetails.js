@@ -17,9 +17,11 @@ export default function TuneDetails() {
           <ReadMore>
             <p>
               This includes an option between weekly, monthly, and yearly
-              overview of your top songs, albums, and artists as well as a pie
-              chart of your favourite genres and a graph of your listening
-              hours.
+              overviews of your top songs, albums, and artists. Tune also
+              displays your listening habits as a pie chart of your favourite
+              genres and a graph of your listening hours. This feature is
+              similar to Spotify Wrapped, except one can access it all year
+              round.
             </p>
             <p>
               While this feature isn&apos;t essential to listening, it does add

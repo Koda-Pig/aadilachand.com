@@ -9,7 +9,7 @@ export default function AboutPart() {
           <p>
             As the world paves a fairly new path within the digital realm,
             designers are offered the chance to create a meaningful space that
-            can weave together previous divides and grow towards a diverse
+            can weave together previous divides and grow toward a diverse
             future.
           </p>
           <p>
