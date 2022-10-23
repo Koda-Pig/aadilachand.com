@@ -20,7 +20,7 @@ export default function VibeIntro() {
                 <em>The Social Dilemma</em>
               </a>
               &nbsp;(2020), social media is known to have negative effects on
-              our mental health. It is designed to harvest data that encourages
+              our mental health. It is designed to harvest data and encourage
               addictive behaviors using algorithms that create feedback loops.
             </p>
             <ReadMore>
