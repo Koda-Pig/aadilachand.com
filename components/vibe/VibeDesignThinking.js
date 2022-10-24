@@ -12,7 +12,13 @@ export default function VibeDesignThinking() {
           <h3>empathize</h3>
           <h3>define</h3>
           <h3>ideate</h3>
-          <h3>prototype</h3>
+          <a
+            href="https://www.figma.com/proto/7yrjsxptRh6sSD4du5PbH1/Vibe-Case-Study-%2B-Prototype?page-id=498%3A1421&node-id=1689%3A7758&viewport=-319%2C1062%2C0.21&scaling=scale-down&starting-point-node-id=1689%3A7758&show-proto-sidebar=1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className={styles.prototype}>prototype</h3>
+          </a>
           <h3>test</h3>
         </div>
         <div className={styles.details}>
