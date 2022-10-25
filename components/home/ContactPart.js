@@ -36,11 +36,8 @@ export default function Contact() {
         <section className={styles.connect}>
           <h2>connect</h2>
           <p>
-            Hi there! My name is Aadila and I am a curious learner. I have only
-            just begun my UX/UI design journey with one year of self-studying
-            and practicing. I completed my honours in fine art at Rhodes
-            University in 2019. I am a detail-driven individual with a natural
-            knack for conceptualizing and problem-solving using interconnective,
+            I am a detail-driven designer with a natural knack for
+            conceptualizing and problem-solving using interconnective,
             integrative thinking and empathy above all.
           </p>
           <Link href="mailto:aadila.chand.ac@gmail.com" passHref>
