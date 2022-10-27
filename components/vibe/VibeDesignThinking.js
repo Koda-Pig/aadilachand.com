@@ -88,7 +88,7 @@ export default function VibeDesignThinking() {
                 </p>
                 <p>
                   The neutral tones make it easier to consume content for those
-                  with sensory processing disorders.
+                  with sensory processing differences.
                 </p>
               </ReadMore>
             </div>
