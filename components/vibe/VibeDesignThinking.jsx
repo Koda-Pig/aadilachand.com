@@ -46,14 +46,14 @@ export default function VibeDesignThinking() {
             to date with happenings and shared interests but not be weighted by
             the negative aspects of social media.
           </p>
-          <a
+          {/* <a
             href="https://www.figma.com/file/7yrjsxptRh6sSD4du5PbH1/Vibe-Case-Study-%2B-Prototype?node-id=865%3A1436"
             className={styles.callToAction}
             rel="noreferrer"
             target="_blank"
           >
             full project
-          </a>
+          </a> */}
         </div>
         <div className={styles.colour}>
           <h2>colour</h2>
@@ -122,7 +122,6 @@ export default function VibeDesignThinking() {
           </p>
           <p>
             <h2>&#8203;</h2>
-
             <ul>
               <li>A more detailed onboarding with tooltips and guidelines.</li>
               <li>
@@ -134,7 +133,6 @@ export default function VibeDesignThinking() {
                 Thinking further ahead, the most important consideration would
                 be ways to regulate the platform to ensure it is safe.
               </li>
-
               <ReadMore>
                 <li>
                   Adding labels on the navigation bars. I kept to a minimalist
