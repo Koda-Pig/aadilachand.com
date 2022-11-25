@@ -28,14 +28,14 @@ export default function TuneDetails() {
               a personal dimension to avid listeners and music connoisseurs.
             </p>
           </ReadMore>
-          <a
+          {/* <a
             href="https://www.figma.com/file/D0eKwPPaAtiAlZNGTc9B4f/tune?node-id=1032%3A4471"
             target="_blank"
             rel="noreferrer"
             className={styles.callToAction}
           >
             full project
-          </a>
+          </a> */}
         </div>
         <div>
           <Image src={tuneScreenshotImg} quality={100} alt="" />

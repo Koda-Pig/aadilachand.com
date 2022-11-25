@@ -41,14 +41,14 @@ export default function MyCelium() {
           </ReadMore>
         </div>
         <div>
-          <a
+          {/* <a
             href="https://www.figma.com/file/ejRlzP6G4HsbxR4Zf2wH1r/Biomorphic-Design?node-id=0%3A1"
             target="_blank"
             rel="noreferrer"
             className={styles.callToAction}
           >
             full project
-          </a>
+          </a> */}
         </div>
       </section>
     </div>
