@@ -31,12 +31,8 @@ export default function MyCelium() {
             </p>
             <p>
               Using hand-drawn, botanical mandalas as the baseline pattern, this
-              is but the first collection of an endless array of possibilities.
-            </p>
-            <p>
-              My future vision for this project is to create biomorphic
-              generative artworks, coding them to life through collaboration.
-              (Hover over artworks to see more)
+              is but the first collection of an endless array of
+              possibilities.(Hover over artworks to see more)
             </p>
           </ReadMore>
         </div>
