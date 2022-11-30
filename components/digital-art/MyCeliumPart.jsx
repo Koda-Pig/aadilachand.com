@@ -31,8 +31,8 @@ export default function MyCelium() {
             </p>
             <p>
               Using hand-drawn, botanical mandalas as the baseline pattern, this
-              is but the first collection of an endless array of
-              possibilities.(Hover over artworks to see more)
+              is but the first collection of an endless array of possibilities
+              (Hover over artworks to see more).
             </p>
           </ReadMore>
         </div>
