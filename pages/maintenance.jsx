@@ -3,7 +3,7 @@ export default function Maintenance() {
     <main
       style={{
         textAlign: 'center',
-        minHeight: '100vh',
+        minHeight: '100svh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
